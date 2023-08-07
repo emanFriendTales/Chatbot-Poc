@@ -1,0 +1,201 @@
+version: "2.0"
+nlu:
+- intent: insecure_mia
+  examples: |
+    - [apprehensive](insecure)
+    - [hesitant](insecure)
+    - [shaky](insecure)
+    - [touchy](insecure)
+    - [troubled](insecure)
+    - [Unsure](insecure)
+    - [loosely](insecure)
+    - [self doubting](insecure)
+    - [No one likes me](insecure)
+    - I want to talk about my [low self esteem](insecure)
+    - [Low self esteem](insecure) is bad
+    - I [have low self esteem](insecure)
+    - do you ever [feel useless](insecure)?
+    - i [don’t feel like i’ve done very much](insecure) in life
+    - [Unfortunately, that’s the issue](insecure).. I was born
+    - [I want to be Worthy of love](insecure)
+    - I [don't like myself](insecure)
+    - I think I [don't deserve nice things](insecure)
+    - I don’t feel safe at work and I sometimes feel like [no one really wants me](insecure) there
+    - People mostly ignore me except for some and my boss makes me [feel useless](insecure) and I’m questioning if I am
+    - I feel so [invisible in the world](insecure)
+    - I'm boring
+    - [I’m just a mistake](insecure)
+    - Sometimes I [feel like i can't do anything](insecure) right. Everything i do end up going badly, and i don't know how to make them right.
+    - [no one likes me](insecure)
+    - Cuz I [feel worthless](insecure)
+    - I [feel worthless](insecure)
+    - I’m [feeling worthless](insecure)
+    - When I'm myself [nobody likes me](insecure)
+    - i am [depressed about my weight](insecure)
+    - i am overweight and. [everyone bullies me](insecure)
+    - so from the beginning i was overweight but now as i grow older i am feeling more and more worried about it
+    - I just [don’t feel good about myself](insecure)
+    - I [am non existent](insecure)
+    - I [feel immaterial](insecure)
+    - And I'm [not good enough](insecure)
+    - [I'm not good enough](insecure)
+    - I feel like [I am not good enough](insecure)
+    - I [am not good enough](insecure)
+    - I feel like I'm not good enough
+    - I had a friend tell me I look slimmer so that means [she thought I was fat](insecure) right?
+    - I [am stupid](insecure)
+    - I [cant do anything right](insecure)
+    - [I’m fat](insecure)
+    - Whenever I think of what I look like, [I think I’m ugly](insecure), but when I look in the mirror, I don’t.
+    - I just feel like I’m constantly [not good enough](insecure)
+    - I’m [insecure about my looks](insecure).
+    - I’m [insecure](insecure).
+    - I [don’t like the way I look](insecure).
+    - I [get bullied for my looks](insecure).
+    - she is really pretty and nice to me but I [don’t know if she likes me](insecure)
+    - i just don’t like the way I act [i feel like im embarrassing](insecure)
+    - im just an [embarrassing person overall](insecure)
+    - because i [feel like im really embarrassing](insecure) and i just despise myself
+    - im trying so hard to fit in and i feel like it isn’t right but [im so embarrassing](insecure) that there’s no other solution
+    - Sometimes I feel like [I’m not good enough](insecure)
+    - Sometimes I feel like [I have no self worth](insecure)
+    - I feel like I'm [not enough](insecure)
+    - I [feel stupid](insecure)
+    - I just [felt worthless lately](insecure)
+    - [my insecurities](insecure) visit me lately
+    - [I'm ugly](insecure)
+    - It's just my friends. I don't really have much of anyone to talk to, and I [feel like I am a bother](insecure) when I try to hang out or talk to them.
+    - [nothing i do is right](insecure), i can’t do anything to bring happiness to myself. my brain is a decrepit waste land
+    - i feel like the guy i'm talking to hates me and that i'm only making him upset
+    - i [feel useless and annoying](insecure)
+    - I [FEEL USLESS](insecure) AND ANNOYING
+    - I [feel insecure and unimportant](insecure)
+    - [everyone hates](insecure) me
+    - Cause [I'm boring](insecure)
+    - I [feel pretty worthless](insecure) right now
+    - I am [not good at anything](insecure)
+    - I [can’t do anything in life](insecure)
+    - I just [haven't been feeling great about myself](insecure)
+    - [I’m gross](insecure)
+    - im [feeling self critical](insecure)!
+    - [Am fat](insecure)
+    - I [hate myself](insecure)
+    - I [hate my body](insecure)
+    - i’m [too fat](insecure)
+    - i [hate myself](insecure)
+    - I think I [am not living up to expectations](insecure)
+    - I [have a disability and I feel like a failure](insecure)
+    - I'm [insecure](insecure)
+    - I'm [insecure about my bf](insecure)
+    - im insecure
+    - im [insecure about my bf](insecure)
+    - i [have low self esteem](insecure)
+    - I’m really sad and I feel like I’m [just not good enough](insecure)
+    - [Mediocre](insecure)
+- intent: pressure_mia
+  examples: |
+    - [adversity](pressure)
+    - [burden](pressure)
+    - [constraint](pressure)
+    - [force](pressure)
+    - [hardship](pressure)
+    - [heat](pressure)
+    - [influence](pressure)
+    - power
+    - [strain](pressure)
+    - [stress](pressure)
+    - [tension](pressure)
+    - [trouble](pressure)
+    - [compel](pressure)
+    - [constrain](pressure)
+    - [insist](pressure)
+    - [press](pressure)
+    - [push](pressure)
+    - [Stressed](pressure)
+    - Just [stress](pressure)
+    - My family [doesn’t appreciate me](pressure)
+    - School has been a lot for me lately
+    - Just a [little stressed](pressure)
+    - I'm a [little stressed out](pressure)
+    - I have my first college bill coming up soon and I won't have enough money to pay for it
+    - I guess I'll just have to do everything I can to get the money
+    - well i am [stressed out about my future](pressure)
+    - Im just [stressed about the jorney](pressure) i have ahead of me. I have to drive all the way to Colorado from Reno
+    - stresse
+    - [Stress](pressure)
+    - [Stressed out](pressure) because the bar tender sucks
+    - [Stressed about college](pressure)
+    - I'm just [stressed out about school](pressure)
+    - I feel stressed
+    - I’m stressed
+    - I feel a little stressed about it because it makes me think that I'm gonna miss a stop.
+    - Ehh I'm [stressed right now](pressure)
+    - Stressed out.
+    - just stressed
+    - Been really [stressed for this past year](pressure)
+    - My boss tends to make a good job making me feel useless and I feel like lots of people want to control my life and not let me make my own choices
+    - [school is really stressful](pressure)
+    - i just dont think i can emotionally be in a relationship
+    - Family and relationship issues
+    - I’m [really stressed out](pressure)
+    - School is [very stressful to me](pressure)
+    - [family issues](pressure)
+    - I'm [stressing about family](pressure), and getting a job.
+    - That I might [loose controll of my mental health](pressure)
+    - Money [situation is stressful](pressure). I have to find a new place to live very soon and I dont think I am prepared.
+    - I've just been [dealing with a lot of mental stuff](pressure) I'm trying to not let her win by me stopping posting but it's hard
+    - Just [school stress](pressure)!! But christmas will make things better!
+    - Nothing much. Kind of stressed about school
+    - i [feel stressed](pressure)
+    - i am [stressed about school](pressure)
+    - Eh, Im [stressed about college](pressure) and I’m getting ready for a big snow storm
+    - Just [holding the weight of everything](pressure) and everyone on my shoulders. Constantly working, not getting enough sleep or free time as a result. Trying to make everyone happy is resulting in me being miserable
+    - I’m just stressed
+    - I mean I’m feeling pretty okay, but just stressed because I’m in college. No biggie
+    - i [feel stressed out](pressure)
+    - [stressed out](pressure)
+    - I’m stressed out
+    - im [stressed about school](pressure)
+    - I'm stressed out lucky
+    - I [can’t control my thoughts](pressure)
+    - Just a [lot of stressful things](pressure) going on and it's getting to me and I'm the type to hold everything in
+    - [Relationship problems](pressure)
+    - I am stressed about my exams
+    - I’m [stressed about work](pressure) and my home life.
+    - I am stressed
+    - I'm stressed
+    - I had [stress ad a fight](pressure) today
+    - [Stressed and annoyed](pressure) and fed up with the government.
+    - I'm fine, little stressed.
+    - I'm [stressed and I don't have a job](pressure)
+    - stressed
+    - i feel like everyone and everything is against me at times
+    - i’m feeling stressed
+    - Kinda [tired and stressed](pressure)
+    - I'm going to college soon and [its stressful to prepare](pressure)
+    - I’m [really stressed](pressure) about a lot of stuff
+    - I’m [stressed about the future](pressure)
+    - I’m a [little stressed out](pressure) :(
+    - A lot of family issues
+    - I’m [very stressed](pressure).
+    - Just stressed
+    - Today was a [bit stressful](pressure) but overall I'm doing better
+    - i am in stress.
+    - Burnt out, [over worked, stressed](pressure)
+    - i’m just very stressed
+    - School is stressful
+    - School is just very [stressful and my parents are fighting](pressure)
+    - i am [pretty stressed right now](pressure)
+    - i’m stressed
+    - I'm ok [just stressed](pressure)
+    - Stressed.
+    - IM STRESSED
+    - Just [a lot of stress](pressure).
+    - I’m a bit stressed.
+    - I'm okay, just [stressed about life](pressure)
+    - idk. the [stress from life](pressure)
+    - my [exams are terrifying](pressure)
+    - I just feel like [I can’t keep up with everything](pressure) and I’m failing everything
+    - im stressed
+    - I feel a little stressed
+

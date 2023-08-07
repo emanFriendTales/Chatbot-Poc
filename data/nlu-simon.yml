@@ -1,0 +1,600 @@
+version: "2.0"
+nlu:
+- intent: sad_simon
+  examples: |
+    - I [am sad](sad)
+    - [very bad](sad)
+    - [bad](sad)
+    - kinda sad
+    - [I’m sad](sad)
+    - [im sad](sad)
+    - [upset](sad)
+    - a bit [sad today](sad)
+    - [Terrible](sad)
+    - [Bad](sad)
+    - It was a [sad day](sad)
+    - I had a [really bad day](sad)
+    - I have [really bad depression](sad)
+    - I'm [depressed](sad)
+    - I’ve just [been depressed](sad)
+    - i [feel bad](sad)
+    - bruh i’m sad
+    - I [feel awful](sad)
+    - I [feel like crying](sad)
+    - I'm a [bit upset](sad)
+    - Just sad
+    - I [have depression](sad)
+    - I [feel horrible](sad)
+    - [depression](sad)
+    - i’m [mentally ill](sad)
+    - mentally ill
+    - I [feel like shit](sad)
+    - I [feel upset](sad).
+    - I [feel unhappy](sad)
+    - I’m really sad, and struggling to eat
+    - Lucky, [im depressed](sad)
+    - i am [sad](sad)
+    - very [sad](sad)
+    - i am [very sad](sad)
+    - terrible
+    - sobbing
+    - I [AM SAD](sad)
+    - i [want to cry](sad)
+    - I'm [feeling sad](sad)
+    - [I'm sad](sad)
+    - [feeling sad](sad)
+    - [sad](sad)
+    - [Sad](sad)
+    - I'm sad nigga
+    - I’m [um sad](sad)
+    - Upset
+    - Sad honestly
+    - I'm kinda [sad right now](sad)
+    - i feel [sad sometimes](sad)
+    - im sad
+    - Am sad
+    - I'm [depressed and can't do anything](sad) right
+    - I kinda feel like shit
+    - Depression
+    - Just depressed
+    - I’m [feeling sad](sad)
+    - I’m feeling kinda sad…
+    - feel sad
+    - I am [very sad today](sad)
+    - I’m really upset
+    - I'm depressed. I [want to scream](sad). I feel trapped in a box.
+    - i’m really sad
+    - I feel sad
+    - I feel [really depressed](sad).
+    - i'm sad
+    - Just [kinda sad](sad)
+    - I’m just really depressed lately
+    - i am a [little sad](sad)
+    - just getting out of a [depressive episode](sad)
+    - Just [dealing with depression](sad)
+    - [Shitty](sad)
+    - i'm [extremely depressed](sad)
+    - I am [sad all the time](sad)
+    - I’m a [little sad](sad)
+    - my [mental health is killed](sad).
+    - i’m sad
+    - I feel bad
+    - i feel [sad and defeated](sad)
+    - [Crying](sad)
+    - Having depression
+    - I have [anxiety and depression](sad)
+    - Kinda sad
+    - I feel sad.
+    - i feel sad
+    - Yo dude I'm sad
+    - [empty](sad)
+    - I’m [just depressed](sad)
+    - I [have depression](sad).
+    - Sad but not for any reason I am just depressed
+    - [Crappy](sad)
+    - i am [feeling sad](sad)
+    - [Very upset](sad)
+    - [upset](sad).
+    - [Pretty sad](sad)
+    - i’ve [been sad](sad)
+    - [Horrible](sad)
+    - I [feel pretty awful](sad)
+    - Lucky I’m sad
+    - Well, I think I’m depressed.
+    - [I’m depressed](sad)
+    - I feel really [empty right now](sad).
+    - [Depressed](sad)
+    - very [very sad](sad)
+    - I’m bad
+    - It’s just upset
+    - I'm so sad
+    - I [feel terrible](sad)
+    - i’m depressed
+    - I [have depression and ADHD](sad)
+    - I need help with my depression
+    - [Awful](sad)
+    - I [WANT TO CRY](sad)
+    - i’m [feeling sad](sad)
+    - I [feel mentally exhausted](sad)
+    - i [feel really sad](sad)
+    - I'm [doing terrible](sad)
+    - I feel [emotionally drained](sad).
+    - I’m [depressed right now](sad).
+    - [low key sad](sad)
+    - [crying](sad)
+    - [disappointed](sad)
+    - I [feel disappointed](sad)
+    - im depressed
+    - [BAD](sad)
+    - I’m in a [bad mood](sad)
+    - [cry](sad)
+    - I’m literally [always depressed or angry](sad) for no reason.
+    - [awful](sad)
+    - [hopeless helpless](sad)
+    - [lost](sad)
+    - I [feel bad](sad).
+    - I’m [so sad](sad)
+    - [depressed](sad)
+    - I'm [just sad](sad)
+    - im ig [kinda sad](sad)
+    - I’m having an [emotional breakdown](sad).
+    - [Kind of sad](sad)
+    - [sad](sad).
+    - I’m [mentally exhausted](sad)
+    - I’m [mentally tired](sad)
+    - I’m having a [mental breakdown](sad).
+    - i feel really depressed
+    - I’m [feeling depressed](sad)
+    - I am [depressed](sad) that's why i'm here
+    - i'm [just upset](sad)
+    - i [feel abandoned](sad)
+    - Im sad
+    - I'm [feeling very disassociated](sad)
+    - I'm [kinda sad](sad)
+    - [crying and sobbing](sad)
+    - i [am upset](sad)
+    - i’m [super sad](sad)
+    - well a [bit sad really](sad)
+    - I'm [terrible](sad)
+    - im [really sad](sad)
+    - I'm sad.
+    - I m [so sad right noww](sad)
+    - I [feel bad today](sad)
+    - I [feel kinda sad and numb](sad)
+    - A [little sad](sad)
+    - i’m [depressed tho](sad)
+    - [Horrible](sad).
+    - I'm horrible
+    - i [feel awful](sad)
+    - I [FEEL BAD](sad)
+    - i'm [depressed](sad)
+    - [Super duper sad](sad).
+    - [Sad](sad).
+    - Uhm.. [depressed](sad)
+    - [horrible](sad)
+    - [sad depressed](sad)
+    - I am sad because [my soul is tired](sad).
+    - I feel [terrible somedays](sad), somedays its ok.
+    - [Down](sad)
+    - a [little uspet](sad) because of a boy
+    - Bad I'm [crying a lot](sad)
+    - I feel like [life has no meaning](sad), and I'm sad
+    - I don't know what happened. I'm depressed
+    - I’m [kinda sad](sad)
+    - [Sadness](sad)
+    - Hi [I'm depressed](sad)
+    - Im [doing terrible](sad)
+    - I'm [gonna cry](sad)
+    - I’m [depressed again](sad)
+    - i feel depressed
+    - eh [I'm kinda depressed](sad)
+    - I’m [still depressed](sad)
+    - Honestly [I’m kind of sad right now](sad)
+    - I am upset
+    - I [am depressed](sad)
+    - I'm crying
+    - I am [feeling depressed](sad)
+    - [Nothing really just a bad day](sad)
+    - [Kind of down](sad)
+    - I feel a [little sad](sad)
+    - I had a [bad day](sad)
+    - i [can’t stop crying](sad)
+    - [Im depressed](sad)
+    - Everyday is depressing
+    - I'm feeling bad
+    - [Really bad](sad)
+    - [emotionally tired](sad)
+    - I'm [feeling really down](sad)
+    - just [hungry and sad](sad)
+    - Im okay I guess. Ive been [feeling really down](sad)
+    - Am depressed
+    - I feel [sad deep down](sad)
+    - well right now, i [feel kind of empty](sad).
+    - I [feel depressed](sad)
+    - Really sad
+    - I'm a [little sad](sad)
+    - I’m [really unwell](sad)
+    - I'm [doing horrible](sad)
+    - [Feeling down](sad)
+    - I [feel lost](sad)
+    - I feel sad an [lost an confused](sad)
+    - [Sad hungry depressed](sad) all those
+    - [sad an depressed](sad)
+    - i [feel sick and sad](sad)
+    - im [feeliing sad](sad)
+    - [am sad](sad)
+    - I am [feeling lost](sad)
+    - [Feeling sad](sad)
+    - [Very bad](sad)
+    - Im [upset](sad)
+    - I [feel depressed quite often](sad)
+    - [tired, physically and mentally](sad).
+    - Oh God, i feel depressed
+    - I’m sad.
+    - Well I'm kind of feeling sad
+    - I’m [feeling upset](sad)
+    - IM SAD
+    - SAD
+    - Very [very depressed](sad)
+    - I'm feeling a [little sad today](sad) 🥺
+    - im [kinda sad though](sad)
+    - i [feel hopeless](sad).
+    - [im okay but i feel kinda sad](sad)
+    - [i’m bad](sad)
+    - I’m [kinda tired and i just feel sad](sad) today
+    - I feel kinda sad
+    - I don't know I'm just [sad all the time](sad)
+    - A [little numb and sad](sad)
+    - I am [feeling down](sad) today
+    - i still get [depressed alot](sad) of days
+    - [im dep](sad)
+    - [having depression , anxiety alot](sad)
+    - [Tired, and depressed](sad)
+    - im feeling [super low](sad)
+    - hi im sad
+    - [depressed and sad](sad)
+    - I am [feeling Terrible](sad)
+    - I've been [feeling upset](sad)
+    - im [depressed now a days](sad)
+    - i am [just  sad](sad)
+    - I feel [empty, like nothing](sad)
+    - I'm upset
+    - i feel v [awful and left alone](sad)
+    - hello lucky [I am sad today](sad).
+    - im [really upset today](sad)
+    - im [depressed a little](sad)
+    - I have [nothing to do and feels awful](sad)
+    - [Pretty bad](sad)
+    - I want to [sleep and cry](sad)
+    - im feeling [depressed](sad)
+    - im [sad and dep](sad)
+    - I actually want to know if it's ok for me to [feel sad right now](sad)
+    - ok im [sad a bit](sad)
+    - I'm sad today
+    - I'm [really sad](sad)
+    - I m [depressed](sad)
+    - I am not [feeling good today](sad)
+    - I'm not [feeling good today](sad)
+    - I am [not feeling good](sad)
+    - I'm not feeling good
+    - I [don't feel good](sad)
+    - I [dont feel good](sad)
+    - [not great](sad)
+    - I’m [just not happy and I’m broken](sad)
+    - I am [not good](sad)
+    - not good
+    - I am [not great](sad)
+    - [Not good](sad)
+    - I’m [not feeling so good](sad)
+    - I am [not ok](sad)
+    - I am [not okay](sad)
+    - I'm [not happy](sad).
+    - I'm [not happy](sad)
+    - I’m [not doing the best](sad)
+    - I’m [not good](sad).
+    - Not so good.
+    - [im not good](sad)
+    - I [don’t feel so good](sad)
+    - [Not too good](sad)
+    - [Not great](sad)
+    - I'm [not doing too well](sad)
+    - i’m [not happy](sad)
+    - [Not so well](sad)
+    - Not so good
+    - [not the best](sad)
+    - [I could be better](sad)
+    - [Not doing great](sad)
+    - i don't feel good
+    - [Not okay](sad)
+    - Not good...
+    - [Not the best](sad)
+    - [Not great](sad) honestly
+    - I'm not good
+    - I’m [not fine](sad) .
+    - not well
+    - I [could be better](sad) though
+    - [could be better](sad)
+    - [not very good](sad)
+    - [Not well](sad).
+    - I’m [not doing good](sad)
+    - [not so good tho](sad)
+    - I’m [not doing too great](sad)
+    - I’m [not so good](sad)
+    - Actually [I’m not good](sad)
+    - I [could be doing better](sad)
+    - i’m [not doing good](sad)
+    - I’m just not happy
+    - I’m [not happy](sad)
+    - [I’m not great](sad)
+    - Not very great
+    - I’m [not doing too well](sad)
+    - [Not to good](sad)
+    - [good but also not good](sad)
+    - not feeling very well
+    - not feeling so well
+    - I'm not doing so well
+    - i’ve been better to be honest
+    - I’m not doing well
+    - [not feeling well](sad)
+    - I just not feeling well
+    - im [not doing well](sad)
+    - I’m not feeling so well
+    - not so good
+    - [Not so great](sad)..
+    - Could be better
+    - i’m [not the best right now but i’m not sad](sad). kinda in the middle
+    - Not well
+    - [not too good](sad)
+    - I'm okay, [but could be better](sad).
+    - Not to well
+    - I'm not feeling well
+    - I [feel iffy](sad)
+    - [I'm not fine](sad)
+    - I m [not okay right now](sad)
+    - I feel fine but at the same time l [am not fine](sad)
+    - [I am fine but at the same time I am not fine](sad)
+    - I’m [not ok](sad)
+    - I'm not okay
+    - Not doing good
+    - I'm not doing well
+    - [i'm not good](sad)
+    - I am not feeling good that much now a days
+    - [Not happy](sad)
+    - I [don’t feel good](sad)
+    - [Not so great](sad)
+    - im [not doing good](sad)
+    - My feeling today is I'm not happy
+    - I’m not so great
+    - good! [Bit down](sad), but I'm okay!
+    - I'm [not doing too great](sad)
+    - i [dont feel well](sad)
+    - i [dont feel really good](sad)
+    - [I'm almost alright](sad)
+    - Im not doing good
+    - Im [not happy](sad)
+    - Well [at the moment not great](sad)
+    - I'm [not feeling fine](sad)
+    - I  am not feeling well
+    - I’m [not good](sad)
+    - I'm not doing well, I'm [falling behind in school](sad)
+    - [Good but not good](sad)
+    - I'm [fine and not fine](sad)
+    - not ok
+    - I'm [feeling not ok](sad)
+    - im not feeling great
+    - I'm [doing not good](sad)
+    - I’m [not doing okay](sad)
+    - [he slapped me](reason)
+    - he is [not treating me well](reason)
+    - my friend [is not giving me time](reason) properly
+    - [she should be sorry](reason)
+    - he [call me ugy](reason)
+    - [he was mean](reason) to me
+    - [My wife divorced me](reason)
+    - my [friends are making me sad](reason)
+    - my [boyfriend argued](reason) with me
+    - My mom [yelled at me](reason)
+    - My [boyfriend is mean](reason)
+    - He [yells at me sometimes](reason) when I’m sad
+    - No one is interested in helping me out.
+    - [my parents divorced](reason)
+    - Me and my [fiance got into an argument](reason)
+    - My fiance [thinks I’m cheating on him but I’m not](reason)
+    - he [yelled at me](reason)
+    - My [boyfriend isn't answering](reason) me
+    - I [got kicked out of my house](reason)
+    - I’m [homeless](reason)
+    - My [dad kicked me out](reason)
+    - My mom [is yelling at me](reason)
+    - [divorce](reason)
+    - He [was mean to me](reason)
+    - the family of my boyfriend is being problematic
+    - I was [beaten by my father](reason)
+    - My [mom shout at me](reason).
+    - My friend that I actually wanna talk to kinda ignores me in a way
+    - My [parents hits me](reason)
+    - I’m [going through love troubles](reason)
+    - I think my [boyfriend is ignoring me](reason)
+    - [failed an interview](reason)
+    - i failed an interview
+    - [Family issues](reason)
+    - My mom and my dad are getting a divorce
+    - my [friend left me](reason)
+    - Bc my friend [William is mean to me](reason)
+    - just feeling a bit down thats all
+    - my [teacher is being mean](reason)
+    - well sometimes my [dad is mean](reason)😩
+    - I [failed my test](reason)
+    - Parents yelled at me
+    - [Relationship problems](reason)
+    - my friend [stopped being my friend](reason)
+    - Well my family won’t talk to me and I’m very depressed
+    - Because my old job let me go
+    - [my mom and dad had a fight](reason)
+    - My boyfriend doesn’t love me anymore
+    - my mom said no to going to my friends house
+    - My [family abandoned me](reason)
+    - Most of my family abandoned me.
+    - Failing my midterm is bad and makes me feel upset
+    - I am [feeling upset because I failed](reason) my midterm
+    - I [failed my midterm](reason)
+    - My friend left me
+    - My family and my friend leaving me
+    - I'm [falling behind in school](reason) as well
+    - My friends hate me
+    - My [friends don't like ne](reason)
+    - he’s mean to me
+    - my [mom is scolding me](reason)
+    - my brother left me
+    - muy [mom slapped me](reason)
+    - my [mom scolds me](reason) alot
+    - I have friends but they won't respond to me
+    - my father is not listening to me. I am asking for permission to trip
+    - my mom fought with me
+    - Feel like I don't see or talk to my bf as much as I use to and it kind of hurts
+    - i didn’t get to go outside today
+    - I [feel under appreciated](reason)
+    - I [have a quarrel with my Mom](reason)
+    - [I hate school](reason)
+    - I don't feel like I feel emotion. It's just a numb void.
+    - I am sad about my grades in school
+    - I [got fired](reason)
+    - I [got kicked out of my work](reason)
+    - I recently [got into a fight with a friend](reason).
+    - I am just so depressed. I don't know how much longer I can do this
+    - I don’t clean my room. I don’t do anything. I feel so ashamed.
+    - I had a friend completely leave my life very suddenly. I [wasn’t expecting it and it’s hard to cope](reason).
+    - I [lost my job and can’t afford to pay my bills](reason)
+    - I [had fight at school](reason)
+    - I [talked to my fiancé about how I feel sad and like he doesn’t care](reason), and he didn’t say anything, just sat there.
+    - i [miss my grandama](reason)
+    - I feel upset. I mean I feel like [I'm just living everyday the same and that I've lost my purpose](reason)
+    - I [have no job, no friends, just my home and my dog](reason)
+    - I have been very busy and haven’t taken enough time for myself. It’s been having a negative effect on my mental state
+    - I [am going homeless](reason)
+    - I fell down
+    - I [got in a fight with my mom](reason)
+    - I [was screwed over](reason)
+    - I [feel so down lately](reason)
+    - i [don’t have any happiness](reason) left
+    - i really want to go do something but no one wants to do it
+    - I don't feel like people mean what they say
+    - i am kinda [struggling mentally and i dont have anyone to talk to](reason)
+    - i [miss my homies](reason)
+    - I [had a bad birthday](reason)
+    - I [lost my taco](reason)
+    - I just don't feel like I have the energy to talk anymore
+    - I [lost all of my friends](reason)
+    - i am Missing having friends but at the same time those friends were not good people
+    - I feel like [I have no purpose in life](reason)
+    - I feel like [she’s never gonna love me the way I love her](reason)
+    - I [feel like I’ve lost friends](reason)
+    - I [miss my old friends](reason)
+    - I miss my friends
+    - i [want to go with my grandma but she said no](reason)
+    - I feel like life is pointless
+    - I Was just [given bad news](reason)
+    - i dont like school
+    - I feel like [nobody understands me](reason)
+    - I don’t want to go to work
+    - i just feel lost and like if I talk to someone about it, they get irritated or think I am crazy
+    - i’ve been having a lot of conflicting feelings recently. i actually got broken up with this past week, and that definitely wasn’t fun. it was honestly probably for the best though. it still just sucks.
+    - [We were fighting](reason)
+    - i [am effected by daily work](reason)
+    - I'm [dreading going into work in 2 hours](reason)
+    - I'm upset. I just found out that I'm a non-graduate even though I got good grades in summer school.
+    - i just [miss my old best friend](reason).
+    - I feel like [im gonna mess up my relationship](reason)  with a guy im crushing kn
+    - I moved away to go to college
+    - I [moved away from my family](reason)
+    - I [haven’t seen him in a few days](reason) :(
+    - I [cheated on my boyfriend](reason)
+    - [don’t feel like my dad loves me](reason)
+    - [dad don’t love me](reason)
+    - i [have no time for me and i’m constantly on the go](reason)
+    - I [failed my science project](reason)
+    - i keep thinking about the things i went through as a child and I keep having flashbacks.
+    - [sxhool was horrible](reason)
+    - I'm [having some health problems](reason)
+    - [i have no friends](reason)
+    - [Bad grade](reason)
+    - [Everything is sadness](reason) nowadays.
+    - I have a crush on a boy. But he doesn't feel the same
+    - My [mom was yelling at me for things](reason) I can’t control
+    - Nothing happened specifically. [I’m just tired of being a person](reason).
+    - [i got fired](reason)
+    - [I miss someone I loved](reason)
+    - i [had a bad day at school](reason)
+    - [people made fun of me](reason)
+    - I just [had a fight with my friend](reason)
+    - The [past couple of days have been kind of rough](reason)
+    - [People are harsh](reason)
+    - I [miss my girlfriend](reason)
+    - i feel like im [constantly pretending im okay](reason)
+    - well my family and [i had a fight](reason)
+    - [People are mean](reason)
+    - I feel [my job is draining](reason) and I feel unappreciated and isolated
+    - Well its just [I had to move away from all my friends](reason)
+    - I'm finding it difficult to talk to this girl I like
+    - I'm [having trouble talking to a girl](reason) I like
+    - I [don't know how to tell this girl that I like her](reason)
+    - i [miss my boyfriend when he is away](reason)
+    - I watched la la land and [now I feel empty](reason)
+    - I [have never been loved before](reason)
+    - I [can’t to basic tasks](reason)
+    - My [mental health gets in the way of everyday tasks](reason)
+    - I feel like [I don’t belong at home](reason)
+    - [my life is bad](reason)
+    - i just [lost my gf](reason)
+    - My [grandma is in the hospital](reason)
+    - I [don’t get enough attention](reason) from my partner
+    - Most of my friends moved to a different school
+    - Welll my dad He kinda [messed up my life](reason)
+    - [Life is just so bad](reason)
+    - My [life just sucks](reason) man
+    - my [boyfriend is sad and it makes me sad](reason)
+    - Just [been a quarrel](reason) with my Grandma
+    - my [friends are gonna leave](reason) soon
+    - my [friends are rude](reason)
+    - my [friends are mean](reason)
+    - my [friends aren’t nice](reason)
+    - I moved far away from everything and [now I have nothing](reason)
+    - [My life sucks](reason)
+    - My mental health is kinda bad
+    - my [cat is missing](reason)
+    - I'm just struggling
+    - Life [has been pretty crappy](reason) lately.
+    - The [last few days have been really tough](reason)
+    - The last [few days have been bad](reason)
+    - my [mental health is declining](reason) rapidly
+    - Lately I [haven’t been feeling like myself](reason)
+    - [My sister is mean](reason)
+    - My family [yells at me alot](reason)
+    - i [had a rough day](reason)
+    - alot of [hard stuff going on](reason) rn for me
+    - i dont have a lot of friends and [life gets lonely sometimes](reason)
+    - i feel like [my family doesnt care about me](reason) sometimes
+    - I [got a bad grade on a test](reason) and it’s making me sad
+    - I just [had a fight with my girlfriend](reason). can you help?
+    - i missed my exam and super feeling bad
+    - i [miss my ex](reason)
+    - im [mad at my mum](reason) sometimes
+    - people keep using me for their advantage
+    - i had extremely [past bad experiences](reason)
+    - I [had an accident](reason) and broke my leg
+    - I [feel terrible today because of my family](reason)
+    - I [feel terrible](reason) because of my parents fight
+    - im [crying alot](reason)
+    - i have [lost my imp documents](reason)
+    - I had been [going through a depressive episode](reason) for the past few days
+    - I [failed in maths](reason)
+    - I [score very less in my exam](reason)
+    - my [mother hates me](reason)
+    - im generally [not feeling good due to my health](reason)
+    - I feel like I’m not sure where my life is going and it’s kinda sad but it’s kinda meh at the same time
+    - I [lost my best friend](reason) because of how she treated me
+    - i had a fight with my friend yesterday
+    - i [had a fight](reason)
+    - i [argued with my friend](reason)
+
+

@@ -1,0 +1,144 @@
+version: "2.0"
+nlu:
+- intent: panicked_anna
+  examples: |
+    - I feel like I’m having a [panic attack](panicked)
+    - My [heart is racing](panicked)
+    - It’s [hard to breathe](panicked)
+    - I [am panicked](panicked)
+    - I [am freaking out](panicked)
+    - I just feel like I make everyone annoyed. And the smallest thing makes me cry
+    - [Absolutely horrified](panicked).
+    - I’m [having a panic attack](panicked)
+    - I [can’t breathe](panicked)
+    - My [chest hurts](panicked)
+    - He has cancer and that [made me panic](panicked) and think I might have cancer
+    - I am [feeling tensed because of studies](panicked)
+    - I [cannot breathe](panicked)
+    - Well I [had a panic attack](panicked) in the bathroom
+    - [terrified](panicked)
+    - I’m having [flashbacks of trauma](panicked)
+    - Pretty good, but I’m [worried](panicked) about my sister
+    - Well had a [panic attack](panicked)
+    - i [can't breathe](panicked)
+    - I’m [not breathing](panicked)
+    - I'm [panicked](panicked)
+    - I'm [panicking](panicked)
+    - I am [panicking](panicked)
+    - I had a [panic attack and couldent breathe](panicked)
+- intent: nervous_anna
+  examples: |
+    - I am [nervous](nervous) about what is going to happen
+    - I am [concerned](nervous) for my best friend
+    - I am [nervous](nervous) to share my secret
+    - I'm feeling [nervous](nervous)
+    - I'm [nervous](nervous)
+    - feeling [nervous](nervous)
+    - [nervous](nervous)
+    - I feel [nervous](nervous)
+    - I get very [nervous](nervous) around people
+    - [Nervous](nervous)
+    - I get very [nervous](nervous)
+    - I started crying and got really [nervous](nervous) and I ran out
+    - Well I'm a little [nervous](nervous)
+    - I feel [overwhelmed](nervous)
+    - i’m ok. i’m having some really bad [anxiety](nervous)
+    - i’m really [anxious](nervous)
+    - i’m super [anxious](nervous). i feel dizzy and tired and my body is so itchy
+    - i feel [overwhelmed](nervous)
+    - I have social [anxiety](nervous)
+    - I just don't want to work, but i'm also [nervous](nervous) about how people will think of me
+    - I'm [nervous](nervous) that people won't like me
+    - I am [overwhelmed](nervous)
+    - im [overwhelmeed](nervous)
+    - I have [anxiety](nervous)
+    - it makes me [overwhelmed](nervous)
+    - I’ve been really [anxious](nervous) lately
+    - [Overwhelmed](nervous)
+    - I’m [nervous](nervous)
+    - I’m a little [anxious](nervous) today
+    - i have [anxiety](nervous)
+    - Dealing with [anxiety](nervous)
+    - I’m okay a little [indecisive](nervous) but okay
+    - [anxiety](nervous)
+    - I’m [worried](nervous) about something
+    - I'm feeling [anxious](nervous)
+    - I'm [anxious](nervous)
+    - feeling [anxious](nervous)
+    - [anxious](nervous)
+    - Im [anxious](nervous) all the time and its tiring
+    - Im [anxious](nervous)
+    - [Anxious](nervous)
+    - Its my first year and I'm [anxious](nervous)
+    - I’m [anxious](nervous).
+    - i'm [anxious](nervous)
+    - I’m feeling [anxious](nervous)
+    - I’m [anxious](nervous)
+    - i have [anxiety](nervous) sometimes
+    - [Overwhelmed](nervous) mostly
+    - I'm about to go into work, I feel a little [anxious](nervous) though
+    - I feel [anxiety](nervous)
+    - I am feeling [anxiety](nervous)
+    - I'm feeling [anxiety](nervous)
+    - I am a bit [anxious](nervous).
+    - Feeling [overwhelmed](nervous).
+    - i’ve been really [anxious](nervous) lately
+    - I’m just riding in a car and the weather is bad and I have ptsd from car accidents so [I’m anxious](nervous)
+    - Feeling super [anxious](nervous)
+    - Just [anxious](nervous)
+    - i have [anxiety](nervous) around new people
+    - i am just having some [anxiety](nervous)
+    - i am [worried](nervous)
+    - I feel a bit [on edge](nervous) today
+    - I feel [anxious](nervous)
+    - Well I had an audition today for a musical and I'm [anxious](nervous) I won't get a good role
+    - I feel [anxious](nervous) of not achieve all my goals in my life
+    - well I have [anxiety](nervous) so I felt sick
+    - I had [anxiety](nervous) and felt sick
+    - I’m okay I guess but something is [worrying](nervous) me
+    - I’m super [anxious](nervous)
+    - I feel kind of [trapped](nervous).
+    - A little [anxious](nervous) honestly, I had my first panic attack last night out of nowhere.
+    - well, im [worried](nervous) about my friend
+    - I’m [overwhelmed](nervous).
+    - Today was [overwhelming](nervous).
+    - My [anxiety](nervous) is really bad
+    - I feel [unmotivated and anxious](nervous)
+    - Yes, I get [overwhelmed](nervous)…
+    - i just havnt been feeling normal and have really [bad anxiety](nervous)
+    - i have [bad anxiety](nervous)
+    - I’m [worried](nervous)
+    - Just been [feelin overwhelmed](nervous) nd stressed..Been crying alot also so yea...
+    - I’ve been feeling [anxious](nervous)
+    - I’m [anxious](nervous) :((
+    - kinda [anxious](nervous)
+    - definitely feeling a little stressed out and [overwhelmed](nervous)
+    - I'm just a bit [anxious](nervous) right now.
+    - Im just [nervous](nervous) about my date tonight
+    - I feel [anxious](nervous) and bored
+    - [Anxious](nervous).
+    - [Nervous](nervous).
+    - I’m [anxious](nervous) about tomorrow
+    - Depressed and [anxious](nervous)
+    - bit [anxious](nervous)
+    - im tired, depressed and [anxious](nervous)
+    - [overwhelmed](nervous)
+    - I feel kind of [anxious](nervous)
+    - [nervous](nervous) i suppose
+    - I’m ok. A bit [nervous](nervous).
+    - I feel [anxious](nervous) and depressed
+    - I think I might have [anxiety](nervous) and ocd
+    - I'm [anxious](nervous) that I'm not good enough
+    - I always feel [anxious](nervous)
+    - On edge and [anxious](nervous)
+    - I feel a bit [overwhelmed](nervous).
+    - I'm really [anxious](nervous)
+    - Im having bad [anxiety](nervous) right now.
+    - excited but [nervous](nervous)
+    - Still having [anxiety](nervous)
+    - Hey Lucky- I have been struggling with [Anxiety](nervous)
+    - I get really [nervous](nervous) in a room full of people and loud noises
+    - I got really [nervous](nervous) and started shaking- I then started scratching my arm
+    - im [nervous](nervous) about my tomorrow exam
+    - im concerned and [nervous](nervous)
+    - Um... I feel tired, a little bit [anxious](nervous), and my mind is always racing

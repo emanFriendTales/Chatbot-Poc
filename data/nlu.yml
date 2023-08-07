@@ -1,0 +1,1828 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - hey there
+    - Hi
+    - hello bot
+    - Hi there
+    - Hello
+    - Hola
+    - Heyas!
+    - Hiya!
+    - Hi!
+    - Hey!
+    - Hey there!
+    - Hey buddy!
+    - Yo!
+    - Hey
+    - hellozies!
+    - Hello?
+    - Okay hello
+    - Helloo?
+    - Hello my good sir
+    - Hi lucky :)
+    - hello ?
+    - hello?
+    - Ho
+    - hi!
+    - Hi, Lucky!
+    - Hey lucky
+    - ?
+    - gello
+    - hi:)
+    - Hello!
+    - yo
+    - Hello Lucky!
+    - ??
+    - Haii lucky
+    - Hi Lucky [:
+    - Hey.
+    - hello!
+    - Hi :)
+    - hi lucky?
+    - Is anyone home
+    - Yo
+    - Come back
+    - Hi lucky
+    - hey…
+    - yoooooo
+    - hiiiiiiiiiiii
+    - hiiiiiiiiiiiiiiiiii
+    - bro
+    - hey!
+    - hI
+    - hi lucky
+    - Hi friend
+    - sir
+    - BRUH
+    - Hey lucky!
+    - hey boy
+    - Hey bro
+    - Knock knock
+    - Bruh
+    - ayo
+    - HELLO??
+    - Hiya Lucky!
+    - Buddy
+    - You there?
+    - hey bud
+    - Hello!!
+    - Hi buddy
+    - I am greeting by saying Hi
+    - o hi
+    - COME BACK
+    - don't need help! just stopping by to say hi and meet a fancy boy
+    - restart?
+    - Hi Lucky
+    - Hi Lucky!
+    - oh hello!
+    - hi mia
+    - Hi hi
+    - Boy
+    - Duuude
+    - Hi lucky wassup
+    - hii
+    - ciao
+    - hi Oscar!
+    - hi Ana
+    - …hi
+    - heyyy
+    - hey mia
+    - HEYYY
+    - Hi am Jimmy jr you look like a friend of mine !
+    - Hello Mia my name is Eli
+    - anyone
+    - hy
+    - hi there
+    - ho
+    - Lucklig?
+    - hi]
+    - Mia…?
+    - Ana
+    - Ana…
+    - hi ana
+    - hey Mia.
+    - Hello!-
+    - hola
+    - hi guys
+    - Ok, well hello Lucky
+    - hi nerd
+    - Bru
+    - Hi....
+    - Howdy
+    - Hu
+    - Hi!!
+    - ello
+    - hey lucky
+    - hey, can we talk?
+    - hey, just feel like talking
+    - let's talk
+    - I need you
+    - Please talk to me
+    - Can you talk with me
+    - let’s talk
+    - I want to talk
+    - Talk to me
+    - Hi I really needed someone to talk to
+    - Please help me
+    - Please someone talk to me
+    - I need someone to talk to
+    - Not good I need someone to talk to
+    - I just need someone to talk to
+    - Because I want to talk to you more
+    - I want to talk to you
+    - Can I talk to you?
+    - I'm signing up for therapy soon, Can I talk to you?
+    - can we just chat
+    - hi Simon :)
+    - hey tommy .
+    - hi Mia .
+    - can we talk
+    - Hi Mia !
+    - Hi Ana !
+    - hi lucky!
+    - you still there?
+    - r u still there?
+    - are you still there?
+    - there?
+    - you there?
+    - are you there?
+    - Hi chatbot
+    - Hi, Lucky.
+    - Hello!!!
+    - Hi!!!
+    - hi again
+    - Hi Mia
+    - Hello! 😁
+    - Hey stepbro
+    - Hi anna
+    - I want to talk to somebody
+    - Ugh fine then hi
+    - bruh
+    - HI
+    - Bro
+    - Lucky
+    - hiya lucky
+    - Hi sexy
+    - Hey there
+    - hellon
+    - hi annah
+    - I need to talk to you
+    - Oscar?
+    - Simon?
+    - Tommy?
+    - Anna?
+    - HELP
+    - excuse me
+    - Hey homie
+    - Hey queen
+    - Hey Lucky!
+    - Hey man
+    - bro hello
+    - can we try taliking
+    - helloooooo
+    - Hi Mia!
+    - Lucky?
+    - Hey, lucky!
+    - Hi.
+    - hi 👋
+    - Hi Ana
+    - hey girly
+    - Hey bestie
+    - hi!!
+    - Let’s start over
+    - Hi, lucky!
+    - Hi:/
+    - hiii
+    - Hello papi
+    - Fine. Hi.
+    - heyyy xx
+    - hello :)
+    - Hello !!
+    - Hi! I need help
+    - Lucky~
+    - LISTEN TO ME
+    - HEL0
+    - HELP ME
+    - LUCKY
+    - lucky
+    - Excuse me
+    - Heeeeeey
+    - Boujour
+    - Hello.
+    - Dude
+    - hi ^^
+    - Hello !
+    - Icky
+    - Hi sweetheart
+    - Bonjour?
+    - BRO
+    - hi I haven’t talk to you before
+    - Hi mia
+    - oscar
+    - heeey
+    - hi Simon
+    - hey hoe
+    - mia
+    - Hello lucky
+    - I just wanted to talk
+    - hello simon
+    - hello Tom Tom
+    - pls respond
+    - i just want someone to talk to
+    - hello lucky
+    - Hello Ana!
+    - Hi Oscar
+    - Hi there Tommy!
+    - hi :DD
+    - Hello I would like to talk to Lucky
+    - Omg hi
+    - Hi there.
+    - hi dude
+    - Hello there
+    - howdy
+    - Hi lucky! 👋
+    - i just want to stop and say hi
+    - hi.
+    - can we talk?
+    - Ello
+    - hey.
+    - Hey, just wanted to chat was all.
+    - Hello there.?
+    - Hello again.
+    - Hey Lucky
+    - hi?
+    - Is anyone available to chat?
+    - Hi there!
+    - hey girlie
+    - Hi’
+    - hi bro
+    - hi chatbot
+    - Hi Lucky.
+    - HeY
+    - Hello  friend
+    - Just checking in
+    - Hello dear
+    - Hello can we chat more
+    - bello
+    - Hlo
+    - Hi bae
+    - Please can we talk
+    - I wanna talk
+    - Hey I’m back!
+    - LYCKLIG
+    - Hi again
+    - …hello?
+    - Hy Friend
+    - Oh hi
+    - Hi there Lucky!
+    - Hellow
+    - Hi my frind
+    - lets talk
+    - Heyy
+    - hi miaa
+    - Hi,
+    - Can you please talk to me?
+    - Hii
+    - hellloo
+    - Are you there my friend
+    - Luckyy
+    - I'm back
+    - hi I'm back
+    - HEY GIRL
+    - Just wanting to talk
+    - Hello friend
+    - heyyyyyy
+    - Hello,
+    - HEYYYYYYYYYYYYYYY
+    - I urgently need your help now fr please 🙏
+    - Hiii
+    - Hello I’m back an awake
+    - Hey I’m back
+    - hey I need someone to talk too
+    - l am back
+    - Hey friend
+    - Hi gal
+    - Hi lucky!!
+    - hey girl
+    - uh hi?
+    - I need to talk
+    - Hello are you there
+    - Hi lucky!
+    - Let’s restart this conversation
+    - Are you still there?
+    - HELLO
+    - hello sir
+    - hey bestie
+    - Are you there
+    - I’m back
+    - hey!!
+    - hi bot
+    - Hello???
+    - Hi, Lucky
+    - hi honey
+    - come back
+    - Hey nigga
+    - hi tommy
+    - hi oscar
+    - hi simon
+    - hey bro
+    - Can I just talk to you?
+    - Hello mia
+    - Hello simon
+    - hi anna
+    - hello oscar
+    - hello Oscar
+    - Hi bro
+    - where is anna
+    - Helloooo
+    - I need help!!
+    - oh hey
+    - helloo
+- intent: deny   # dont_wanna_talk, useless, not_sure dont_know, dont_want, I_dont_want_to_tommy
+  examples: |
+    - no
+    - nah
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - no thank you
+    - No
+    - No thank you
+    - Not really
+    - Nah
+    - Nope
+    - Nada
+    - Nao
+    - No way
+    - Not now
+    - Certainly not
+    - By no means
+    - I shall not
+    - Not likely
+    - No thanks!
+    - I think not.
+    - Unfortunately not
+    - Not possible
+    - Not this time
+    - Not for me, thanks
+    - I think I’ll pass.
+    - Not today, thanks
+    - Maybe another time
+    - I’m not interested
+    - Nu uh
+    - noo
+    - no.
+    - Uh
+    - No please LMAO
+    - i’m not really
+    - I'm not
+    - Absolutely not
+    - sometimes. about some things. not about most
+    - No?
+    - Mo
+    - No, I don't
+    - No, why?
+    - Not about anything in particular
+    - Nah. Not right now
+    - im not
+    - I am not
+    - No I just wanna talk to you
+    - no not really
+    - i’m not
+    - Um no
+    - probably not
+    - I’m not
+    - No but I know I need too
+    - Well I'm not
+    - No, not at all
+    - No it wont
+    - Not totally
+    - Nether
+    - NO
+    - I will not
+    - Uh no
+    - no i cant
+    - no Tina !
+    - Not right now
+    - No, I cannot walk away or distract myself
+    - Not all the time
+    - Mm...no
+    - No im not proud
+    - no it’s fine
+    - No I'm good
+    - Thanks but I'm ok
+    - No thanks
+    - Not really haha
+    - No :(
+    - no rn
+    - Ni
+    - Not really.
+    - No.
+    - LMAO no I didn't
+    - no .
+    - not rlly
+    - no it’s fine Ig
+    - No, it’s gonna be ok.
+    - Sorry i can't
+    - I can't
+    - No I don’t
+    - Nvm
+    - Never mind
+    - No I
+    - No that's okay
+    - Nah, I good.
+    - Nah fam
+    - No it's okay
+    - no bro
+    - nope
+    - They’re really not
+    - No I can’t
+    - no it ok
+    - Nah it’s cool
+    - No but thank you
+    - Not rly
+    - no thanks!
+    - No but it's my only option
+    - Not now maybe later
+    - no no
+    - no no no
+    - no I’m good
+    - no it’s ok
+    - But I don’t actually want to
+    - no it’s not
+    - IM NOT
+    - No I don’t want to
+    - nvm
+    - no, thank you
+    - Nooooo
+    - I WONT LUCKY
+    - no thanks
+    - Not today
+    - Not rn
+    - it did not
+    - i dont have one
+    - I can’t
+    - no they’re not
+    - AH Im not
+    - No thanks !
+    - No thanks.
+    - i don’t need that
+    - no! You didnt!
+    - its not
+    - Oh no
+    - It’s not
+    - No it is not
+    - OMG NOO
+    - HELL NO
+    - Noooo
+    - that’s a big no no
+    - Mm.. No thank you
+    - it isn’t
+    - noooooo
+    - I'm not.
+    - not right now
+    - I don’t have one
+    - No ty
+    - nahhh
+    - I’m not.
+    - Not really just you
+    - no i do not
+    - No not really
+    - It didn’t💀
+    - Im not
+    - nooo thanksss
+    - Nooo
+    - uh no
+    - not interested
+    - No thank you tho
+    - not at all.
+    - No ur not.
+    - Maybe not
+    - No that's fine
+    - I cant
+    - Cannot
+    - No thanks. You wouldn't understand
+    - Nah that’s okay
+    - Not particularly
+    - I dont think so
+    - No!
+    - Nop
+    - no but i wish we were
+    - Maybe. I don’t want to though.
+    - Thanks, no
+    - Nahhh
+    - Not at the moment
+    - No i want more
+    - I don't want to
+    - Uhhh no
+    - Probably not.
+    - No it's fine thank you
+    - NOOO
+    - No, i'm not
+    - no not often
+    - No it hurts
+    - No, they aren't
+    - Not yet
+    - umm no
+    - No no no
+    - i cant
+    - No thank you!
+    - no ive never done it yet
+    - No, thank you
+    - Sadly no
+    - natm
+    - Hell nah
+    - no!!!!!!!!!!
+    - no!!!!!!!
+    - of course not
+    - no tbh
+    - No, it’s bad
+    - I won’t
+    - No no no no
+    - No no
+    - no that’s okay
+    - No sorry
+    - no I can’t I’m at work
+    - No im not
+    - I didn’t
+    - No,I dont
+    - nah i’m good
+    - no I'm not..
+    - NO!
+    - Not right now.
+    - Not anymore
+    - i can't
+    - No. I hate the way I feel.
+    - I don't
+    - Noo
+    - Not really…
+    - No, not yet
+    - No I’m good, thanks
+    - No it’s new
+    - No, I don’t want a lecture
+    - No they just don't get me
+    - no not yet
+    - No. talking to you
+    - you didn't.
+    - no only you
+    - no its ma first time
+    - they don't
+    - no I don't want to
+    - I don’t
+    - not yet
+    - nope that was my first time
+    - no i dont have any of them too
+    - nope not yet
+    - no but that’s cool
+    - Never
+    - No plans that I know of
+    - I don't wanna talk about it
+    - I don't want to talk about it
+    - I dont want to talk about it
+    - I dont wanna talk about it
+    - don't wanna talk about it
+    - don't want to talk about it
+    - dont wanna talk about it
+    - I don’t want to talk about it
+    - idk I'm just down
+    - I don’t wanna talk about it.
+    - i just dont want to talk about it.
+    - dont want to talk about it
+    - i dont wanna talk about it
+    - i dont want to discuss it
+    - would not want to talk about it
+    - really dont want to talk about it
+    - no need to talk about it
+    - not to talk abt it
+    - not to talk about it
+    - just dont want to talk about it
+    - couldnt talk about it
+    - couldn't talk about it
+    - not to talk about it really
+    - wont talk about it
+    - won't talk about it
+    - wouldnt talk abt it...
+    - that won't help
+    - that will not help
+    - that is not going to help
+    - i think that will be of no use
+    - that won't be of any use
+    - that will not be of use
+    - I wish I could but…
+    - If only I could!
+    - If only it worked
+    - i wish that could helped
+    - that wont be of use!
+    - i couldnt do that..
+    - i wish i could do
+    - would be of use.
+    - thats useless.
+    - sadly, thats of no use.
+    - If that could work.
+    - i thought that would not work.
+    - i thought that is useless.
+    - i didnt consider that.
+    - that wont be of any help.
+    - I don't know
+    - I dont know
+    - Don't know
+    - Just don't know
+    - I have no idea
+    - no idea
+    - do not know
+    - I do not know
+    - Dont know
+    - i dunno
+    - i dont know
+    - dunno
+    - dunno man
+    - i have no idea
+    - how should i know
+    - don't ask me
+    - no clue
+    - i have no clue
+    - i ain't gotta clue
+    - i aint got a clue
+    - it's beyond me
+    - its beyond me
+    - over my head
+    - i haven't gotta clue
+    - i haven't got a clue
+    - idk
+    - I don’t know
+    - I done  know
+    - don't know
+    - I don’t know how to start
+    - I don't know, a lot I guess
+    - I dont know how
+    - I DONT KNOW I ASK MYSELF THAT EVERY DAY
+    - Idk
+    - i really don’t know
+    - don’t know
+    - I don’t know what I am feeling
+    - I don’t know.
+    - i don’t know
+    - I dunno
+    - I don’t know.. it’s hard to get help in my situation
+    - I don't know - I'm just sorta afraid.
+    - No clue
+    - I don’t know yet
+    - I don’t know to be honest.
+    - a lot but i don’t know how to put it into words
+    - I don't know.
+    - idrk
+    - I don’t know if I should go to college
+    - IDK
+    - i don’t know how to start
+    - i dont know really
+    - i don’t know.
+    - If im being completely honest, I don't know how to feel
+    - I just have a lot on my mind, and its hard to pinpoint what is making me feel what
+    - I don’t know what I’m feeling.
+    - i don't know
+    - not a clue
+    - l dont know
+    - I don’t know anymore.
+    - Bro idk
+    - Well, I don't know
+    - Idk tbh
+    - Well to be honest...I'm not really sure. I'm happy and then I'm sad. Just a mix really
+    - boy idk
+    - Well, right now I don’t know what I feel.
+    - umm i don't know
+    - I dont know actually
+    - I do not know.
+    - i do not know.
+    - I don't really know how I feel
+    - I don't know how I feel
+    - l don't know
+    - I don’t know why
+    - hm i dont know
+    - idk.
+    - I don’t know how I feel
+    - I don't know 😞
+    - i dont know, i dont have good friends
+    - I donno
+    - dont know
+    - i dont know what to tell
+    - i dont know just couldnt get time
+    - no I don't know
+    - I don't want
+    - I don't think I need to
+    - Don't want to
+    - Don't think I need to
+    - I don't have to
+    - Don't have to
+    - Okay, but I don't really want to
+    - I dont have to
+    - didn't want to
+    - I dont want to
+    - I don’t want to
+    - I guess I dont have to
+    - I think I don't need to
+    - Dont need it.
+    - dont want to do
+    - Doesnt want to
+    - i dont need to
+    - I DONT WANT
+    - Doesnt want
+    - not needed to
+    - I think its not needed to me.
+    - I dont need to do.
+    - i dont really want to do.
+    - i dont need that seriously
+    - Really dont want to.
+    - i guess i dont want.
+    - I am not sure
+    - not sure
+    - I am not sure what I will do
+    - I'm not sure
+    - I am unsure
+    - unsure
+    - I am unsure about this
+    - I am not sure about this
+    - Not sure, I hope to get ice cream
+    - Not sure
+    - not Sure
+    - not sure, maybe I'm paranoid.
+    - I’m not sure actually
+    - Not sure but I hope so
+    - I’m not sure
+    - Idk I’m trying to do things but I’m not sure if it’s helping
+    - I'm not sure.
+    - i’m not sure
+    - i'm not sure
+    - not having any surity.
+    - im unsure and uncertain
+    - I'm not sure and uncertain
+    - I'm not sure and skeptical
+    - skeptical
+    - I’m not sure I haven’t gotten that far yet
+    - I’m not sure yet
+    - may be not sure
+    - I’m not exactly sure what to do
+    - I don't want
+    - I don't think I need to
+    - Don't want to
+    - Don't think I need to
+    - I don't have to
+    - Don't have to
+    - Okay, but I don't really want to
+    - Because I don’t want
+    - I really dont want to
+    - DONT WANT TO
+    - I think I don't want to
+    - Like seriously, I don't want to
+    - iiii dddonntt wantttt
+    - In a loop, I dont wan't to have
+    - fine, but i dont need to have
+    - Its repetitive, I dont think I need to
+    - dont want this repetition
+    - DON't want in loop stuck
+    - dont need to have this
+    - I dont want reoccurrence
+    - I don't need this condition
+    - I don't want to be like this
+- intent: affirm  # fine, done
+  examples: |
+    - yes
+    - I am
+    - Yes, I am
+    - okay
+    - yeah
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yes please
+    - Yes
+    - Yes of course
+    - Yes I do
+    - Yes!
+    - Yes! I do
+    - Yeah! I do
+    - yap
+    - uh-huh
+    - ya
+    - yeppers
+    - sure
+    - ye
+    - yup
+    - I have
+    - i have
+    - I did
+    - i did
+    - yep
+    - yeah, sure
+    - no problem
+    - I'd be happy to
+    - you got it
+    - absolutely
+    - certainly
+    - probably
+    - yah
+    - mkay
+    - okiday
+    - Yeah
+    - yes of course
+    - Yes please
+    - Yea
+    - Yes I am!
+    - Always
+    - Sure
+    - Somewhat
+    - somewhat
+    - Please
+    - Yes.
+    - Sure.
+    - Ye
+    - always
+    - Sort of
+    - Kind of
+    - perchance
+    - perhaps
+    - as it may be
+    - can be
+    - conceivable
+    - conceivably
+    - could be
+    - credible
+    - feasible
+    - imaginably
+    - it could be
+    - might be
+    - obtainable
+    - Yea..
+    - Kinda, I guess
+    - A little?
+    - Yes, how?
+    - I would like to talk.
+    - It does
+    - right
+    - I guess
+    - Yeah kind of
+    - If that’s ok
+    - Yep
+    - Yes, please.
+    - Yes, because my friend had to go home.
+    - Maybe
+    - ah yes
+    - Yeah, I guess.
+    - For sure
+    - I think so, yeah
+    - Yes, give me pleasure.
+    - yes i want to talk to someone
+    - yeah…
+    - I guess so
+    - Yup
+    - I think so
+    - Yuh
+    - Yes I’d like to talk to a professional
+    - a little
+    - Sometimes
+    - A little
+    - yessir
+    - yuh
+    - Yeah, being born was an awful experience. 0/10 would not recommend
+    - yeah?
+    - aw yeah
+    - Oh yeah, very
+    - Kind of yeah
+    - Yeah constantly
+    - Yes. Always. I haven't felt comfortable in my own home or skin for years now
+    - Sure why not
+    - Affirmative
+    - Yes I do.
+    - I think it will yeah
+    - if that’s makes you happy, yes.
+    - it is
+    - I’d love to!
+    - I do!
+    - Well yeah
+    - Yesss
+    - Yes I’m okay. Nothing is injured but the car was totaled
+    - yes she is.
+    - I'd love to!
+    - Yeah sure
+    - Yeah just a little bit.
+    - Thanks I am
+    - YES
+    - Yes always
+    - Yes 👍
+    - yeah :)
+    - Yes I will
+    - yes very
+    - yes i do
+    - yeah that’s true
+    - a little bit
+    - yeah very
+    - Sure that would be nice
+    - ikr
+    - Yes Lucky I do
+    - YESSSSSS
+    - yes I could
+    - yes I do
+    - yea I’m proud
+    - sureee
+    - i am
+    - i think so
+    - yes obv
+    - yea
+    - yesss
+    - yes!
+    - very often
+    - Perhaps
+    - So true
+    - I feel like this often
+    - Sure is!
+    - yes he is!
+    - yes ok
+    - ok
+    - OK
+    - I guess.
+    - Yep…
+    - I can try
+    - Sure !!
+    - Yeah soon
+    - yea kinda
+    - Oh yeah
+    - i guess
+    - yes. peak of my mood
+    - yes i really like it
+    - Uhhh Ok?
+    - Ok
+    - okk
+    - K
+    - i do
+    - Yes :)
+    - I will :$
+    - yes it happens multiple times every day
+    - yes a little bit
+    - i will!
+    - yes!!!
+    - uhh yeah?
+    - Yes he is
+    - I agree
+    - yup!
+    - yea?
+    - yea totally
+    - Yes I’d like to chat more
+    - Yeah they are
+    - Yeah if that’s okay.
+    - At some times, yes
+    - Yes please if that’s okay.
+    - sure why not
+    - i agree
+    - maybe
+    - yes please.
+    - yes.
+    - sure.
+    - yea.
+    - yeah.
+    - okay.
+    - yes absolutely
+    - yeah i guess
+    - Yeah maybe
+    - Yes very
+    - Definitely!
+    - Okay…
+    - Ok.
+    - Yes pls
+    - Yeah.
+    - I will
+    - Yes it has
+    - of course!
+    - Okay
+    - Yes they are
+    - It is
+    - Ofcourse yeah
+    - Yes alot
+    - Yes I am
+    - Yes,ok
+    - That  is true
+    - Hell yeah
+    - Yep,
+    - Yes I think so
+    - Yes I really do
+    - Kinda
+    - Ofcourse
+    - Alright
+    - Yes..
+    - Yes indeed sir
+    - Unfortunately yes
+    - yes :)
+    - Yeah probably
+    - Yes I can.
+    - Absolutely
+    - Ummm ok
+    - Yes it will
+    - Yes we were we are very close
+    - Yeah mhm.
+    - ohk
+    - OKAY
+    - yes they are
+    - normally yes
+    - Yes to be honest
+    - Yes, i see
+    - Ok!
+    - yeah I know
+    - very.
+    - Ummm okay
+    - Yes very.
+    - yeah i guess so
+    - definitely
+    - sure!
+    - yeah!
+    - Yes Fairly often
+    - Yeah Id love to
+    - Yes I want
+    - ahh ok
+    - yessssss!!!!!!
+    - yessss!!!!!!!!!
+    - yesssss!!!!!!!!
+    - yes it is
+    - Yes everyday
+    - Yeah I do
+    - Yes lucky
+    - Kkkkk okay
+    - Yes actually
+    - yes i think so
+    - Yea most of the time
+    - Yea I think I could
+    - yea I do
+    - yeah I suppose I could
+    - Ofc !
+    - Yeah too much
+    - Yeaaa
+    - Sure…..
+    - Yeah I think that's a good idea
+    - Yes definitely
+    - Of course
+    - Yep!
+    - Okay!
+    - Yes of course I need it
+    - Yeah sometimes they are
+    - haha yeah
+    - Yes,many times
+    - sometimes
+    - Yah
+    - Sure!
+    - Yeah, I do
+    - Yeah that is something fun!
+    - I do
+    - Yeah he does
+    - yes if I studied
+    - yes sometimes, but this time im feeling alot
+    - yes but they didn't help me
+    - yes you are right
+    - obvioo
+    - yes many times
+    - yeah totally
+    - yeah, that's exactly what I'm feeling right now
+    - Hm. I'm positive.
+    - yes I do.
+    - yes sometimes
+    - yes yes
+    - yes my father and mother had a terrible fight
+    - Yes, but they don't really want anything to do with me.
+    - yes but i dont think that will work
+    - yes i do sometimes
+    - exactly yes
+    - Ofc
+    - yes somewhat
+    - yes ofcourse everyone does
+    - yes lets talk
+    - yes I have this now a days
+    - yes might be
+    - okay I’ll try
+    - yes im taking rest
+    - yes i know
+    - yess
+    - yes maybe
+    - yeah i have
+    - yes i’ve played that one
+    - yes there are
+    - yeah right
+    - i will
+    - yeah I love her
+    - YAS
+    - yes it has
+    - yes I prepared alot
+    - yes but not oftenly
+    - Yeah he is
+    - DONE
+    - done
+    - Done
+    - I’m done
+    - yep, done
+    - im done..
+    - done..
+    - hey, im done!
+    - its done
+    - It's done
+    - im done!
+    - yup, doneee.
+    - yes, done!
+    - finished
+    - completed
+    - done, yes!
+    - hey, done.
+    - it is done
+    - ok, im done!
+    - all set, done
+    - done, i'm!
+    - i have done it
+    - completed it!
+    - done.
+    - I'm done
+    - fine
+    - I'm fine
+    - just fine
+    - I am fine
+    - Fine
+    - It's fine, not the best
+    - feeling fine
+    - I’m fine.
+    - I’m fine
+    - i’m okay
+    - I'm okay
+    - I am okay
+    - I'm ok
+    - i’m okay i suppose
+    - I think I'm okay
+    - i'm doing somewhat ok
+    - im doing ok
+    - I'm doing okay
+    - I'm doing ok
+    - I'm okay today
+    - I think I'm ok
+    - Decent I suppose.
+    - Decent
+    - I’m okay I guess
+    - I feel okay
+    - I'm doing fine
+    - I’m okay. I just got done with therapy
+    - I am Okayish
+    - i'm fine :) thanks!!
+    - I AM FINE
+    - i'm okay
+    - Doing okay. Played a lot of games earlier
+    - I'm doing okay. I'm at work and I need to fold some laundry but I don't wanna
+    - I feel ok
+    - I’m doing okay today.
+    - i am fine
+    - Im ok
+    - I’m fine thanks
+    - i am doing okay
+    - i’m fine
+    - i’m doing okay
+    - I’m ok
+    - I’m doing ok
+    - ahh i'm decent
+    - I am doing ok
+    - I’m okay
+    - Pretty okay
+    - It’s going okay
+    - It’s pretty ok
+    - I'm doing okay, working on my car because its broken
+    - I'm okay...
+    - Im okay
+    - I’m alright I guess.
+    - I feel fine
+    - i’m doing okay i guess
+    - im fine
+    - pretty okay right now
+    - i’m okay i guess
+    - i’m okay thanks :-]
+    - I’m okay.
+    - i’m ok
+    - I feel okay ig
+    - I feel okay at the moment
+    - Fine I guess
+    - everything is fine
+    - i’m ok !
+    - I am feeling ok
+    - I’m hanging in there
+    - i feel okay!
+    - i feel okay
+    - im ok I guess
+    - I’m feeling okay
+    - My feelings are neutral
+    - I’m okay..
+    - im ok
+    - l’m fine
+    - Eh, fine.
+    - Im doing decently. Today has been kinda downer on me though.
+    - i feel fine ig, a lot of dysphoria tho
+    - im okay
+    - I’m feeling fine right now.
+    - i’m ok.
+    - I’m fine atm
+    - Feeling meh
+    - meh
+    - I am ok
+    - Fine fine
+    - fine I guess
+    - doing okay
+    - I'm ok hehehee
+    - I feel decent not too bad or too good
+    - Fyn
+    - Ok I guess
+    - im okay right now
+    - Im fine
+    - I'm fine thank you
+    - IM OK
+    - im okay i think
+    - Im okay I guess
+    - am fine
+    - uhh.. fine
+    - I'm very ok
+    - Am fine
+    - Fine ig
+    - I'm feeling okay rn
+    - Am fine thank you
+    - ok for now
+    - Meh
+    - I’m okay right now :)
+    - im alright i guess
+    - I’m alright
+    - I'm alright
+    - alright, i guess
+    - I'm alright, could be better
+    - Im alright. Im getting ready for work.
+    - pretty alright
+    - im alright
+    - Alright I guess
+    - Quite alright
+    - I feel alright
+    - Im alright
+    - Eh im alright
+    - alright
+    - Uh I guess alright
+    - I'm doing alright
+    - I'm okay, mostly apathetic
+    - I'm okish
+    - i’m doing alright
+    - I’m ok..
+    - I just feel ok
+    - I m fine
+    - I'm okay, I've been better
+    - I’m doing alright I guess
+    - I’m doing okay
+    - just feeling okay
+    - i’m okay i guess.
+    - I feel fine right now
+    - I'm okay!
+    - I'm okay I guess
+    - I’m doing alright.
+    - i feel fine
+    - Doing okay
+    - I'm feeling normal feelings
+    - im okay ig
+    - I am ok.
+    - I'm doing alright.
+    - just fine everything
+    - im okish
+    - I'm feeling ok
+    - I didn't feel the best this morning but I am doing better at the moment
+    - I’m just ok
+    - im fine now
+    - im fine and ok
+    - okay I think
+    - im fine just ok
+    - It's ok
+    - Its ok
+    - It's okay
+    - Its okay
+    - it’s okay
+    - it's ok!
+    - It’s okay!!
+    - It’s okay
+    - it’s ok
+    - it is okkk,
+    - ok, lucky
+    - okks
+    - okayy
+    - oka
+    - ok.
+    - okay...
+    - it is ok
+    - ok bro
+    - alright, its ok
+    - IT IS OK
+    - ok!!
+    - okay!
+    - ok!
+- intent: bye
+  examples: |
+    - bye
+    - goodbye
+    - good bye
+    - see you around
+    - bye bye
+    - Bye
+    - Okay, goodbye!
+    - see you
+    - I gtg
+    - Goodbye
+    - I'll talk to you layer
+    - ok bye
+    - Goodbye.
+    - Thanks. Bye!
+    - Nevermind. I have to go now.
+    - I gotta go
+    - Sounds good! Ttyl
+    - ttyl
+    - Ttyl
+    - Goobye
+    - by
+    - okay by
+    - I’m gonna go bestie
+    - Byeeeeeeee
+    - No thanks, bye tommy
+    - OK I hope you have a great day too OK bye
+    - Bye good night I guess
+    - Gtg
+    - Ight bye
+    - I have to go nice talking to you bye
+    - I’m leaving
+    - bye for now
+    - Ending this conversation
+    - cancel conversation
+    - STOP
+    - stop
+    - shush
+    - be quiet
+    - Stop
+    - Bye nurd
+    - can I leave the convo?
+    - bye poor man
+    - Good bye!
+    - BYE.
+    - Bye bye
+    - i don’t want to talk anymore
+    - I think I'll be going now. Thank you for the talk.
+    - BYEEE
+    - goodbye i'm going to sleep
+    - Byeee
+    - goodbye chatboy.
+    - Bye!
+    - Good bye lucky
+    - Bye.
+    - I see. Bye.
+    - Alright, bye
+    - No bye
+    - Ok thanks bye
+    - Byeeee
+    - BYE
+    - adios
+    - Ok bye
+    - I got to go
+    - byeeee
+    - Good bye
+    - bye bye!
+    - I don’t want to chat anymore
+    - OK bye
+    - no bye
+    - bye bye handsome
+    - No goodbye
+    - bye got to go to school
+    - I’m going to go good bye
+    - I’m done talking
+    - Okay bye
+    - Bye ttyl
+    - I'm done chatting
+    - Bye lucky
+    - goodbye lucky
+    - im done chatting
+    - Okay good bye
+    - thanks. bye
+    - okay bye
+    - stop it i dont wanna talk
+    - How do I end this chat?
+    - I have to go
+    - Ok I gotta go
+    - I'm done talking
+- intent: chitchat_bot_challenge
+  examples: |
+    - but who are you
+    - who are you?
+    - Who you are?
+    - what are you
+    - What are you?
+    - So what are you?
+    - what are u?
+    - I need to know who are you?
+    - yeah so tell me who are u
+    - What are you used for?
+    - How do you work?
+    - What do you do?
+    - What do you do
+    - what can you do
+    - what else can you do
+    - What are you doing exactly
+    - What do you do bot ??
+    - Tell me about yourself!
+    - tell me about yourself
+    - tell me about you
+    - Tell me more about yourself
+    - let me know about yourself?
+    - So tell me about yourself
+    - tell me everything about you
+    - can you tell me something About you?
+    - Quit asking and tell me about yourself
+    - about yourself?
+    - Can you talk about yourself?
+    - Tell me more about you
+    - about you
+    - are you a bot or a human?!
+    - Tell me about you
+    - what is your job
+    - what services do you give
+    - what can you help me with?
+    - What can you help with?
+    - are youu boy or girl?
+    - Are you a boy or girl
+    - What is your purpose?
+    - Please describe your self
+    - I am ok. what can you help me with?
+    - who are you ?
+    - tell me about yourself?
+- intent: hope
+  examples: |
+    - I hope
+    - I hope so
+    - hope so
+    - lets hope
+    - I do hope so
+    - yes i hope so
+    - yea i hope so
+    - i hope so
+    - yess i hope
+    - yess i hope so
+    - yea i hope so
+    - i hope so
+    - hoping so
+    - hope so...
+    - im hoping so
+    - I'm hoping so
+    - hoping so...
+    - hopefully yes
+    - hopefully
+    - full of hope
+    - hopefully so..
+    - hopefully
+    - thanks i hope so
+- intent: mental_illness
+  examples: |
+    - I have a mental illness
+    - i have a mental illness
+    - I am suffering from a mental illness
+    - I am struggling with a mental illness
+    - im facing a mental illness
+    - severe mental illness
+    - severe mentally ill
+    - i have got a mental illness
+    - from past few days im suffering from mentall illness
+    - mental illnes diagnosed
+    - suffering from mental disorder
+    - I'm  suffering from mental disorder
+    - i have got a specific mental disorder
+    - its my mental disorder
+    - it is my mental illness for some time
+    - i have schizophrenia
+    - schizophrenia
+    - MENTALLY ILL
+    - i have crazy mental dysfunction
+    - im suffering from mental dysfunction
+    - im facing some mental distortion
+    - mental dysfunction im having
+    - mental illness im bearing
+- intent: positive_response  # good_anna, good_tommy
+  examples: |
+    - it went good
+    - it was good
+    - It went good
+    - It was good
+    - went good
+    - IT WENT GOOD
+    - GOOOD it went
+    - it was good..
+    - great, it went
+    - went great
+    - went really good
+    - it went really good
+    - it went really great
+    - GREAT!!!
+    - GOOD!
+    - it went awesome
+    - quite good
+    - quite great
+    - it went quite good
+    - it went quite great
+    - it went well
+    - well it went
+    - yay, it went well
+    - it felt good
+    - I felt good
+    - it felt really good
+    - I felt really good
+    - it felt so good
+    - I felt so good
+    - It felt good
+    - It felt really good
+    - It felt so good
+    - felt good
+    - felt really good
+    - it was good
+    - feeling good
+    - was really good
+    - it was good!
+    - really good it was!
+    - yeah, good one!
+    - awesome it was!
+    - it was GGOOODDD
+    - felt really good,man!
+    - i felt good this time
+    - i felt goodddd...
+    - SO good
+    - Doing pushups
+    - Doing practice
+    - Doing distractions
+    - Doing voice practice
+    - Doing bicycle kicks
+    - Doing my job
+    - Doing work
+    - Doing extra work
+    - Doing exercise
+    - Doing breathing
+    - Doing calming exercise
+    - Doing work balance
+    - Doing therapy
+    - Doing relief exercies
+    - Doing positive talks
+    - doing enthusiastic work
+    - doing meditation.
+    - doing yoga.
+    - Doing counselling.
+    - doing aerobics and running
+    - doing massage.
+    - doing counting.
+    - doing rest
+    - doing mental exercises
+    - talking and sharings.
+    - Doing focus
+    - doing deep breaths.
+    - panic relief exercises.
+    - im doing my job
+- intent: negative_response # bad_anna, bad_tommy
+  examples: |
+    - it went bad
+    - it was bad
+    - it went so bad
+    - It went bad
+    - It went so bad
+    - It was bad
+    - It went really bad
+    - It was very bad
+    - it went very badly
+    - it went badly
+    - It went very badly
+    - it was bad..
+    - went really bad.
+    - bad it was
+    - it went baddd...
+    - ugh, it went bad
+    - really bad,lucky
+    - it went bad really
+    - couldnt say, it went bad
+    - oh my god, it went bad
+    - was a bad one
+    - bad one
+    - it felt bad
+    - I felt bad
+    - it felt really bad
+    - I felt really bad
+    - it felt so bad
+    - I felt so bad
+    - It felt bad
+    - It felt really bad
+    - It felt so bad
+    - felt bad
+    - it feltt baddd
+    - bad again it felt
+    - it was bad feeling
+    - it was bad again
+    - felt bad again
+    - again bad one
+    - couldnt tell, it was bad one
+    - cant say, it was bad again
+    - hey, that was bad again :/
+    - bad obviously :(
+    - felt bad one
+    - bad one it was
+    - bad bro
+    - was bad
+
+- intent: chitchat
+  examples: |
+    - Can I ask you questions first?
+    - Can you make sandwiches?
+    - Can you please send me an uber
+    - The weather is good
+    - What do you prefer?
+    - how it compares to alexa
+    - how long have you been online?
+    - how long will the next version will launch?
+    - so, I'm helping right now to training you?
+    - someone call the police i think the bot died
+    - sorry, i cannot rephrase
+    - where is mexico?
+    - wheres the party?
+    - which city are you talking about?
+    - which email
+    - who let the dog out
+    - you can learn how to make a coffe
+    - you have children?
+    - you have job opening
+    - you lock sweety
+    - you should learn to count
+    - you will know it from the single red rose it carries between its teeth
+    - you're a woman
+    - let eat pizza, will you make one for me?
+    - make me sandwich
+    - do you want to go to park with me?
+    - So umm how's life
+    - how is everything?
+    - i have been robbed :(
+    - i might go to park, will you go with me
+    - right,  have you ever gone to vacations with them ?
+    - we went to turkey
+    - we visited many places ,including mosques, parks etc
+    - Whats the meaning of life?
+    - Is life a simulation?
+    - Is God real?
+    - What is an angel?
+    - Is the earth flat?
+    - How do humans evolve?
+    - Who is Albert French Cocktail?
+    - Who was Jesus Christ?
+    - Is Santa Clause real?
+    - i love mountains
+    - lets go to picnic
+    - I like jazz
+    - I like playing hockey more
+    - I like playing hockey
+    - I have a dog
+    - ok, what do you do when you’re sad
+    - I feel like I want to play
+    - So what are you eating tonight
+    - i love going to mountains
+    - What are your thoughts on world domination
+    - I love pasta
+    - what happens when someone dies?
+    - i lost my assignments
+    - im planning to visit park
+    - resting
+    - im going to do my homework
+    - Tell me a joke
+    - Please tell me a joke
+    - pride month
+    - i have 3 cats and 2 dogs
+    - murder mystery games
+    - thoughts on mexicans
+    - what are your thoughts on mexicans
+    - why do you know so much about mexico
+    - It might be because I stopped my medicine
+    - how can i become tiktok famous
+    - Confused I was dignosed with bipolar a while ago but I’ve been diagnosed with so many things I didn’t think it was accurate so I just threw out the paper
+    - what is depression
+    - i like winters all the time
+    - i feel hasty right now
+    - what is your favorite laptop?
+    - i look forward to hanging out with friends
+    - I like comedy
+    - sing a song
+    - Jesus is God!
+    - Do you know about Jesus?
+    - I just wanna be able to do the things I wanna do without money dictating my life
+    - Well I constantly try to figure out how I can become wealthy so I can afford the luxuries of life
+    - yoga is worshiping other gods.
+    - I lost my precious ring
+    - I am getting it I have the ceremony today I want to go into nursing
+    - How would you deal with your emotions if your dog passed away
+    - What’s 9 + 10
+    - Do you have taste buds?
+    - I feel like I wanna talk about cheese
+    - It is, but she was being mean to me and joking about wanting me to die so I think it's for the best
+    - She made me feel like a piece of crap
+    - Because she was supposed to be my best friend but she never talked to me, and joked about my life and wanting me to die
+    - I crochet blankets
+    - we both had an argue and went into a fight
+    - im in trouble
+    - i wanted to buy new jeans but couldnt
+    - I have exams
+    - I have upcoming exams
+    - I lost something important
+    - I have presentation today
+    - I'm heading home from the beach right now.
+    - I'm leaving the beach
+    - My favorite movie is IT, You know the one with the demon clown
+    - I have a cat
+    - That's nice I am from California
+    - I like the food, weather, and music here in california
+    - I like the food and weather here in California
+    - I'm from Turlock, a very small town in California
+    - I miss home.
+    - New Mexico. I'm from Texas.
+    - I'm folding the dishes.
+    - Have you folded your dishes today?
+    - movies
+    - movie
+    - Movie
+    - Movies
+    - I want to talk about movies
+    - family
+    - Family
+    - familyy!
+    - talk abt family!
+    - FAMILYY
+    - FAMILLYY ?
+    - I want to talk about my family
+    - discuss family
+    - familia
+    - discuss family...
+    - familia?
+    - familia...
+    - what about family?
+    - any family?
+    - family???
+    - whats up with family?
+    - chat about family?
+    - chat abt family..
+    - what about familia?
+    - converse abt family?
+    - family?
+    - what abt family?
+    - chat about family!
+    - sports
+    - sport
+    - Sport
+    - Sports
+    - I want to talk about my favourite sports
+    - food
+    - Food
+    - Food?
+    - talk abt food
+    - food!
+    - discuss food
+    - what about food
+    - foodstuffs
+    - lets talk abt food
+    - FFOOODD
+    - FOOD
+    - talk about FOOD
+    - discuss about FOOD
+    - what abt food?
+    - meal
+    - what food u eat?
+    - lucky, talk about food
+    - foodie?
+    - foodiee!
+    - meals and foods
+    - talk about food stuff!
+    - lets talk food items
+    - let's dicuss food...
+    - I want to talk about food
+    - I want to eat some food honestly
+    - music
+    - Music
+    - let's talk about music
+    - your fav music?
+    - what you say about music?
+    - like music?
+    - MUSIC?
+    - melody?
+    - musssic?
+    - talk about music?
+    - music?
+    - talk abt music?
+    - discuss music?
+    - talk over music
+    - lets talk music!
+    - speak about music?
+    - what would u say about music?
+    - would u say something about music?
+    - music????
+    - argue about music
+    - do u hear music?
+    - hear music?
+    - I want to talk about music

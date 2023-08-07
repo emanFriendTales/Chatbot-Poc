@@ -1,0 +1,131 @@
+version: "2.0"
+
+stories:
+
+- story: sad_1
+  steps:
+  - intent: sad_simon
+    entities:
+    - sad: I'm sad today
+  - action: utter_ask_sad_reason
+  - intent: sad_simon
+    entities:
+    - reason: My mom yelled at me
+  - action: tell_more_simon_form
+  - active_loop: tell_more_simon_form
+  - active_loop: null
+  - action: action_tell_more_simon
+  - action: why_happened_simon_form
+  - active_loop: why_happened_simon_form
+  - active_loop: null
+  - action: action_why_happened_simon
+  - action: more_details_simon_form
+  - active_loop: more_details_simon_form
+  - active_loop: null
+  - action: action_more_details_simon
+  - action: different_simon_form
+  - active_loop: different_simon_form
+  - active_loop: null
+  - action: action_different_simon
+  - action: going_to_do_simon_form
+  - active_loop: going_to_do_simon_form
+  - active_loop: null
+  - action: action_going_to_do_simon
+  - action: best_option_simon_form
+  - active_loop: best_option_simon_form
+  - active_loop: null
+  - action: action_best_option_simon
+  - action: utter_ask_more_chat
+  - intent: affirm
+  - action: utter_conversation_lucky
+
+- story: sad_2
+  steps:
+  - intent: sad_simon
+    entities:
+    - sad: I'm sad today
+  - action: utter_ask_sad_reason
+  - intent: sad_simon
+    entities:
+    - reason: My mom yelled at me
+  - action: tell_more_simon_form
+  - active_loop: tell_more_simon_form
+  - active_loop: null
+  - action: action_tell_more_simon
+  - action: why_happened_simon_form
+  - active_loop: why_happened_simon_form
+  - active_loop: null
+  - action: action_why_happened_simon
+  - action: more_details_simon_form
+  - active_loop: more_details_simon_form
+  - active_loop: null
+  - action: action_more_details_simon
+  - action: different_simon_form
+  - active_loop: different_simon_form
+  - active_loop: null
+  - action: action_different_simon
+  - action: going_to_do_simon_form
+  - active_loop: going_to_do_simon_form
+  - active_loop: null
+  - action: action_going_to_do_simon
+  - action: best_option_simon_form
+  - active_loop: best_option_simon_form
+  - active_loop: null
+  - action: action_best_option_simon
+  - action: utter_ask_more_chat
+  - intent: deny
+  - action: utter_goodbye
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_feedback
+
+
+- story: sad_3
+  steps:
+  - intent: sad_simon
+    entities:
+    - sad: I'm sad today
+  - action: utter_ask_sad_reason
+  - intent: deny
+  - action: have_you_talked_simon_form
+  - active_loop: have_you_talked_simon_form
+  - active_loop: null
+  - action: action_have_you_talked_simon
+  - action: utter_talk_to_me_simon
+  - intent: affirm
+  - action: more_details_simon_form
+  - active_loop: more_details_simon_form
+  - active_loop: null
+  - action: action_more_details_simon
+  - action: different_simon_form
+  - active_loop: different_simon_form
+  - active_loop: null
+  - action: action_different_simon
+  - action: going_to_do_simon_form
+  - active_loop: going_to_do_simon_form
+  - active_loop: null
+  - action: action_going_to_do_simon
+  - action: best_option_simon_form
+  - active_loop: best_option_simon_form
+  - active_loop: null
+  - action: action_best_option_simon
+  - action: utter_ask_more_chat
+  - intent: affirm
+  - action: utter_conversation_lucky
+
+- story: sad_4
+  steps:
+  - intent: sad_simon
+    entities:
+    - sad: I'm sad today
+  - action: utter_ask_sad_reason
+  - intent: deny
+  - action: have_you_talked_simon_form
+  - active_loop: have_you_talked_simon_form
+  - active_loop: null
+  - action: action_have_you_talked_simon
+  - action: utter_talk_to_me_simon
+  - intent: deny
+  - action: utter_chat_something_else
+  - action: utter_conversation_lucky

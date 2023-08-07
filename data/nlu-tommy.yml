@@ -1,0 +1,61 @@
+version: "2.0"
+nlu:
+- intent: addictive_tommy
+  examples: |
+    - I [can’t stop](addiction) playing video games
+    - I [can’t stop drinking coffee](addiction)
+    - I [can’t stop checking](addiction) my social media
+    - I [can’t stop lying](addiction) to my parents
+    - I am [addicted to smoking](addiction)
+    - i [overthink](addiction)
+    - [Overthinking](addiction)
+    - [Overthinking](addiction) about Thanksgiving with my family
+    - im [overthinking](addiction)
+    - [Overthinking situations](addiction)
+    - I’m [addicted to drugs](addiction)
+    - I [battle addiction](addiction)
+    - I [struggle with drugs](addiction)
+    - I [can’t stop doing drugs](addiction)
+    - I [can't stop gambling](addiction)
+    - [Cant have control](addiction) on myself
+    - [CANT get myself in control](addiction)
+    - cant stop doing in loop
+    - [CANT control being in stuck](addiction)
+    - [Cant avoid doing](addiction) this again and again
+    - [Cant avoid repetition](addiction)
+    - I [can't stop](addiction) having this over and over
+    - I [can't find relief](addiction) from this loophole
+    - [couldn't stop over](addiction) and over
+    - [could not break](addiction) this bad habit
+    - I [cant and couldn't helped](addiction) myself
+    - Cant help myself [being addictive](addiction)
+    - couldnt stop doing this frequently
+    - I can not stop doing it regularly
+    - I [overdo](addiction) this repeatedly, cant stop
+    - Couldnt get myself having this [back to back](addiction)
+    - I just [over think a lot](addiction).
+    - People [keep telling me that I don’t pay attention](addiction)
+    - People [keep telling me that I need to put my phone down](addiction)
+    - People [keep telling me that I need to listen more](addiction)
+    - People [keep telling me that I am being careless](addiction) about what things
+    - People [keep telling me that I need to stop overthinking](addiction)
+    - People [keep advising me that I have to deal with my obsession](addiction)
+    - People [keep advising me that I have to stop doing over and over](addiction)
+    - People [kept telling me that I need to focus on changing habits](addiction)
+    - People [keep taunting me that I need to build self confidence](addiction)
+    - People [keep taunting me that I have to work hard](addiction)
+    - People always [keep telling me that I look annoying](addiction)
+    - [I am obsessed with everything](addiction) thats what people keep telling me everytime
+    - Annoyed by my behaviour, people keep telling me things
+    - [Overdoing should be stopped](addiction) is what people keep telling me
+    - People [keep telling me that I stop overlooking social media](addiction)
+    - People always [kept telling me that I should help myself](addiction)
+    - People [keep telling me that I am obsessed](addiction)
+    - People [kept telling me that I overdo things consciously](addiction)
+    - People [keep telling me that I should give more time to my family](addiction)
+    - People [keep telling me that I should seek professional help](addiction)
+    - [I should have control over myself](addiction), said by people
+    - People [keep telling me that I should stop drinking](addiction)
+    - People [keep telling me I'm mad](addiction)
+    - People [keep telling me that I cant control my addictions](addiction)
+

@@ -1,0 +1,1624 @@
+version: "2.0"
+
+intents:
+- greet:
+    use_entities: true
+- affirm:     ## fine , done
+    use_entities: true
+- deny:    ## dont_wanna_talk, useless, not_sure, dont_know, dont_want, I_dont_want_to_tommy
+    use_entities: true
+- bye:
+    use_entities: true
+- hope:
+    use_entities: true
+#- died:
+#    use_entities: true
+- chitchat:
+    use_entities: true
+- mental_illness:
+    use_entities: true
+- chitchat_bot_challenge:
+    use_entities: true
+- positive_response:
+    use_entities: true
+- negative_response:
+    use_entities: true
+- panicked_anna:
+    use_entities:
+    - panicked
+- nervous_anna:
+    use_entities:
+    - nervous
+- happy_lucky:
+    use_entities:
+    - happy
+    - reason
+    - plan
+- insecure_mia:
+    use_entities:
+    - insecure
+- pressure_mia:
+    use_entities:
+    - pressure
+- obsessive_oscar:
+    use_entities:
+    - obsessive
+- angry_oscar:
+    use_entities:
+    - angry
+- scared_oscar:
+    use_entities:
+    - scared
+- sad_simon:
+    use_entities:
+    - sad
+    - reason
+- addictive_tommy:
+    use_entities:
+    - addiction
+
+entities:
+- panicked
+- nervous
+- happy
+- insecure
+- pressure
+- obsessive
+- angry
+- scared
+- sad
+- addiction
+- reason
+- plan
+
+responses:
+  utter_greet:
+  - text: "Hey, How are you?"
+    channel: "lucky"
+  - text: "Hi, How are you?"
+    channel: "simon"
+  - text: "Hey, How are you?"
+    channel: "oscar"
+  - text: "Hey, How are you?"
+    channel: "tommy"
+  - text: "Hi, How are you?"
+    channel: "anna"
+  - text: "Hey, How are you?"
+    channel: "mia"
+  - text: "Hey, How are you?"
+    channel: "twilio_lucky"
+  - text: "Hi, How are you?"
+    channel: "twilio_simon"
+  - text: "Hey, How are you?"
+    channel: "twilio_oscar"
+  - text: "Hey, How are you?"
+    channel: "twilio_tommy"
+  - text: "Hi, How are you?"
+    channel: "twilio_anna"
+  - text: "Hey, How are you?"
+    channel: "twilio_mia"
+  - text: "Hey, How are you?"
+
+  utter_conversation_lucky:
+    - text: "What do you want to talk about?"
+      quick_replies:
+      - title: "Movies"
+#        payload: "/movies"
+        payload: "/I want to talk about movies"
+      - title: "Family"
+#        payload: "/family"
+        payload: "/I want to talk about my family"
+      - title: "Sports"
+#        payload: "/sports"
+        payload: "/I want to talk about my favourite sports"
+      - title: "Food"
+#        payload: "/food"
+        payload: "/I want to talk about food"
+      - title: "Music"
+#        payload: "/music"
+        payload: "/I want to talk about music"
+
+  utter_mood_happy_lucky:
+  - text: "That's awesome and amazing, Im glad you are doing well. So tell me more why are you happy?"
+    channel: "lucky"
+  - text: "That's great! What's making you happy?"
+    channel: "anna"
+  - text: "That's cool, what's making you happy?"
+    channel: "simon"
+  - text: "That's awesome! Why are you happy?"
+    channel: "oscar"
+  - text: "That's cool, what's making you happy?"
+    channel: "tommy"
+  - text: "That's cool, what's making you happy?"
+    channel: "mia"
+  - text: "That's awesome and amazing, Im glad you are doing well. So tell me more why are you happy?"
+    channel: "twilio_lucky"
+  - text: "That's great! What's making you happy?"
+    channel: "twilio_anna"
+  - text: "That's cool, what's making you happy?"
+    channel: "twilio_simon"
+  - text: "That's awesome! Why are you happy?"
+    channel: "twilio_oscar"
+  - text: "That's cool, what's making you happy?"
+    channel: "twilio_tommy"
+  - text: "That's cool, what's making you happy?"
+    channel: "twilio_mia"
+  - text: "That's awesome! Why are you happy?"
+
+  utter_ask_excited:
+  - text: "That's great! Are you excited and proud?"
+    channel: "lucky"
+  - text: "That's great! Are you excited and proud?"
+    channel: "anna"
+  - text: "That's great! Are you excited and proud?"
+    channel: "simon"
+  - text: "That's great! Are you excited and proud?"
+    channel: "oscar"
+  - text: "That's great! Are you excited and proud?"
+    channel: "tommy"
+  - text: "That's great! Are you excited and proud?"
+    channel: "mia"
+  - text: "That's great! Are you excited and proud?"
+    channel: "twilio_lucky"
+  - text: "That's great! Are you excited and proud?"
+    channel: "twilio_anna"
+  - text: "That's great! Are you excited and proud?"
+    channel: "twilio_simon"
+  - text: "That's great! Are you excited and proud?"
+    channel: "twilio_oscar"
+  - text: "That's great! Are you excited and proud?"
+    channel: "twilio_tommy"
+  - text: "That's great! Are you excited and proud?"
+    channel: "twilio_mia"
+  - text: "That's great! Are you excited and proud?"
+
+  utter_ask_time_proud:
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "lucky"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "anna"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "simon"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "oscar"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "tommy"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "mia"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "twilio_lucky"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "twilio_anna"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "twilio_simon"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "twilio_oscar"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "twilio_tommy"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+    channel: "twilio_mia"
+  - text: "Im really proud of you. When was the last time you felt this way?"
+
+  utter_plans_next_lucky:
+  - text: "What are your plans next?"
+    channel: "lucky"
+  - text: "What are your plans next?"
+    channel: "anna"
+  - text: "What are your plans next?"
+    channel: "simon"
+  - text: "What are your plans next?"
+    channel: "oscar"
+  - text: "What are your plans next?"
+    channel: "tommy"
+  - text: "What are your plans next?"
+    channel: "mia"
+  - text: "What are your plans next?"
+    channel: "twilio_lucky"
+  - text: "What are your plans next?"
+    channel: "twilio_anna"
+  - text: "What are your plans next?"
+    channel: "twilio_simon"
+  - text: "What are your plans next?"
+    channel: "twilio_oscar"
+  - text: "What are your plans next?"
+    channel: "twilio_tommy"
+  - text: "What are your plans next?"
+    channel: "twilio_mia"
+  - text: "What are your plans next?"
+
+  utter_sounds_plan_lucky:
+  - text: "Sounds awesome! Take a moment to remember this feeling"
+    channel: "lucky"
+  - text: "Sounds cool! Take a moment to remember this feeling"
+    channel: "anna"
+  - text: "Sounds awesome! Take a moment to remember this feeling"
+    channel: "simon"
+  - text: "Sounds awesome! Take a moment to remember this feeling"
+    channel: "oscar"
+  - text: "Sounds cool! Take a moment to remember this feeling"
+    channel: "tommy"
+  - text: "Sounds like a plan! Remember this moment too."
+    channel: "mia"
+  - text: "Sounds awesome! Take a moment to remember this feeling"
+    channel: "twilio_lucky"
+  - text: "Sounds cool! Take a moment to remember this feeling"
+    channel: "twilio_anna"
+  - text: "Sounds awesome! Take a moment to remember this feeling"
+    channel: "twilio_simon"
+  - text: "Sounds awesome! Take a moment to remember this feeling"
+    channel: "twilio_oscar"
+  - text: "Sounds cool! Take a moment to remember this feeling"
+    channel: "twilio_tommy"
+  - text: "Sounds like a plan! Remember to appreciate this moment too."
+    channel: "twilio_mia"
+  - text: "Sounds like a plan! Remember this moment too."
+
+  utter_no_worries_lucky:
+  - text: "No worries! Live in the moment."
+    channel: "lucky"
+  - text: "No worries! Live in the moment."
+    channel: "anna"
+  - text: "No worries! Live in the moment."
+    channel: "simon"
+  - text: "No worries! Live in the moment."
+    channel: "oscar"
+  - text: "No worries! Live in the moment."
+    channel: "tommy"
+  - text: "No worries! Live in the moment."
+    channel: "mia"
+  - text: "No worries! Live in the moment."
+    channel: "twilio_lucky"
+  - text: "No worries! Live in the moment."
+    channel: "twilio_anna"
+  - text: "No worries! Live in the moment."
+    channel: "twilio_simon"
+  - text: "No worries! Live in the moment."
+    channel: "twilio_oscar"
+  - text: "No worries! Live in the moment."
+    channel: "twilio_tommy"
+  - text: "No worries! Live in the moment."
+    channel: "twilio_mia"
+  - text: "No worries! Live in the moment."
+
+  utter_tell_me_lucky:
+  - text: "Do you want to tell me?"
+    channel: "lucky"
+  - text: "Do you want to tell me?"
+    channel: "anna"
+  - text: "Do you want to tell me?"
+    channel: "simon"
+  - text: "Do you want to tell me?"
+    channel: "oscar"
+  - text: "Do you want to tell me?"
+    channel: "tommy"
+  - text: "Do you want to tell me?"
+    channel: "mia"
+  - text: "Do you want to tell me?"
+    channel: "twilio_lucky"
+  - text: "Do you want to tell me?"
+    channel: "twilio_anna"
+  - text: "Do you want to tell me?"
+    channel: "twilio_simon"
+  - text: "Do you want to tell me?"
+    channel: "twilio_oscar"
+  - text: "Do you want to tell me?"
+    channel: "twilio_tommy"
+  - text: "Do you want to tell me?"
+    channel: "twilio_mia"
+  - text: "Do you want to tell me?"
+
+  utter_faith_lucky:
+  - text: "Dont worry, you will have faith in yourself"
+    channel: "lucky"
+  - text: "Dont worry, you will have faith in yourself"
+    channel: "anna"
+  - text: "Dont worry, you will have faith in yourself"
+    channel: "simon"
+  - text: "Dont worry, remember to believe in yourself"
+    channel: "oscar"
+  - text: "Dont worry, you will have faith in yourself"
+    channel: "tommy"
+  - text: "Dont worry, you will have faith in yourself"
+    channel: "mia"
+  - text: "Dont worry, you will have faith in yourself"
+    channel: "twilio_lucky"
+  - text: "Dont worry, you will have faith in yourself"
+    channel: "twilio_anna"
+  - text: "Dont worry, you will have faith in yourself"
+    channel: "twilio_simon"
+  - text: "Dont worry, you will have faith in yourself"
+    channel: "twilio_oscar"
+  - text: "Dont worry, you will have faith in yourself"
+    channel: "twilio_tommy"
+  - text: "Dont worry, you will have faith in yourself"
+    channel: "twilio_mia"
+  - text: "Dont worry, you will have faith in yourself"
+
+  utter_time_celebrate_lucky:
+  - text: "Time to celebrate!"
+    channel: "lucky"
+  - text: "Time to do something fun!"
+    channel: "anna"
+  - text: "Time to do something fun!"
+    channel: "simon"
+  - text: "Time to celebrate!"
+    channel: "oscar"
+  - text: "Time to celebrate!"
+    channel: "tommy"
+  - text: "Time to do something fun!"
+    channel: "mia"
+  - text: "Time to celebrate!"
+    channel: "twilio_lucky"
+  - text: "Time to do something fun!"
+    channel: "twilio_anna"
+  - text: "Time to do something fun!"
+    channel: "twilio_simon"
+  - text: "Time to celebrate!"
+    channel: "twilio_oscar"
+  - text: "Time to celebrate!"
+    channel: "twilio_tommy"
+  - text: "Time to do something fun!"
+    channel: "twilio_mia"
+  - text: "Time to celebrate!"
+
+  utter_if_wantsto_chat_lucky:
+  - text: "Want to keep chatting?"
+    channel: "lucky"
+  - text: "Want to keep chatting?"
+    channel: "anna"
+  - text: "Want to keep chatting?"
+    channel: "simon"
+  - text: "Want to keep chatting?"
+    channel: "oscar"
+  - text: "Want to keep chatting?"
+    channel: "tommy"
+  - text: "Want to keep chatting?"
+    channel: "mia"
+  - text: "Want to keep chatting?"
+    channel: "twilio_lucky"
+  - text: "Want to keep chatting?"
+    channel: "twilio_anna"
+  - text: "Want to keep chatting?"
+    channel: "twilio_simon"
+  - text: "Want to keep chatting?"
+    channel: "twilio_oscar"
+  - text: "Want to keep chatting?"
+    channel: "twilio_tommy"
+  - text: "Want to keep chatting?"
+    channel: "twilio_mia"
+  - text: "Want to keep chatting?"
+
+  utter_ask_more_chat:
+  - text: "Do you want to chat more?"
+
+  utter_goodbye:
+  - text: "Bye"
+    channel: "lucky"
+  - text: "Talk to you later, Bye!"
+    channel: "simon"
+  - text: "Chat more later, Bye!"
+    channel: "oscar"
+  - text: "Bye!"
+    channel: "tommy"
+  - text: "Bye"
+    channel: "anna"
+  - text: "Talk to you later, Bye!"
+    channel: "mia"
+  - text: "Bye"
+    channel: "twilio_lucky"
+  - text: "Talk to you later, Bye!"
+    channel: "twilio_simon"
+  - text: "Chat more later, Bye!"
+    channel: "twilio_oscar"
+  - text: "Bye!"
+    channel: "twilio_tommy"
+  - text: "Bye"
+    channel: "twilio_anna"
+  - text: "Talk to you later, Bye!"
+    channel: "twilio_mia"
+  - text: "Chat more later, Bye!"
+
+
+  utter_ask_sad_reason:
+  - text: "Why is that? What happened?"
+    channel: "simon"
+  - text: "Why is that? What happened?"
+    channel: "anna"
+  - text: "Why is that? What happened?"
+    channel: "oscar"
+  - text: "Why is that? What happened?"
+    channel: "mia"
+  - text: "Why is that? What happened?"
+    channel: "tommy"
+  - text: "Why is that? What happened?"
+    channel: "lucky"
+  - text: "Why is that? What happened?"
+    channel: "twilio_simon"
+  - text: "Why is that? What happened?"
+    channel: "twilio_anna"
+  - text: "Why is that? What happened?"
+    channel: "twilio_oscar"
+  - text: "Why is that? What happened?"
+    channel: "twilio_mia"
+  - text: "Why is that? What happened?"
+    channel: "twilio_tommy"
+  - text: "Why is that? What happened?"
+    channel: "twilio_lucky"
+  - text: "Why is that? What happened?"
+
+  utter_ask_tell_more_simon:
+  - text: "Oh, tell me more!"
+    channel: "simon"
+  - text: "Oh, tell me more!"
+    channel: "anna"
+  - text: "Oh, tell me more!"
+    channel: "oscar"
+  - text: "Oh, tell me more!"
+    channel: "mia"
+  - text: "Oh, tell me more!"
+    channel: "tommy"
+  - text: "Oh, tell me more!"
+    channel: "lucky"
+  - text: "Oh, tell me more!"
+    channel: "twilio_simon"
+  - text: "Oh, tell me more!"
+    channel: "twilio_anna"
+  - text: "Oh, tell me more!"
+    channel: "twilio_oscar"
+  - text: "Oh, tell me more!"
+    channel: "twilio_mia"
+  - text: "Oh, tell me more!"
+    channel: "twilio_tommy"
+  - text: "Oh, tell me more!"
+    channel: "twilio_lucky"
+  - text: "Oh, tell me more!"
+
+  utter_ask_why_happened_simon:
+  - text: "Okay, do you know why this happenend?"
+    channel: "simon"
+  - text: "Okay, do you know why this happened?"
+    channel: "anna"
+  - text: "Okay, do you know why this happened?"
+    channel: "oscar"
+  - text: "Okay, do you know why this happened?"
+    channel: "mia"
+  - text: "Okay, do you know why this happened?"
+    channel: "tommy"
+  - text: "Okay, do you know why this happened?"
+    channel: "lucky"
+  - text: "Okay, do you know why this happenend?"
+    channel: "twilio_simon"
+  - text: "Okay, do you know why this happened?"
+    channel: "twilio_anna"
+  - text: "Okay, do you know why this happened?"
+    channel: "twilio_oscar"
+  - text: "Okay, do you know why this happened?"
+    channel: "twilio_mia"
+  - text: "Okay, do you know why this happened?"
+    channel: "twilio_tommy"
+  - text: "Okay, do you know why this happened?"
+    channel: "twilio_lucky"
+  - text: "Okay, do you know why this happened?"
+
+  utter_ask_more_details_simon:
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "simon"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "anna"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "oscar"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "mia"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "tommy"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "lucky"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "twilio_simon"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "twilio_anna"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "twilio_oscar"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "twilio_mia"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "twilio_tommy"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+    channel: "twilio_lucky"
+  - text: "That's okay, Tell me a little more about what happened exactly."
+
+  utter_ask_different_simon:
+  - text: "Do you think things could have happened differently?"
+    channel: "simon"
+  - text: "Do you think things could have happened differently?"
+    channel: "anna"
+  - text: "Do you think things could have happened differently?"
+    channel: "oscar"
+  - text: "Do you think things could have happened differently?"
+    channel: "mia"
+  - text: "Do you think things could have happened differently?"
+    channel: "tommy"
+  - text: "Do you think things could have happened differently?"
+    channel: "lucky"
+  - text: "Do you think things could have happened differently?"
+    channel: "twilio_simon"
+  - text: "Do you think things could have happened differently?"
+    channel: "twilio_anna"
+  - text: "Do you think things could have happened differently?"
+    channel: "twilio_oscar"
+  - text: "Do you think things could have happened differently?"
+    channel: "twilio_mia"
+  - text: "Do you think things could have happened differently?"
+    channel: "twilio_tommy"
+  - text: "Do you think things could have happened differently?"
+    channel: "twilio_lucky"
+  - text: "Do you think things could have happened differently?"
+
+  utter_ask_going_to_do_simon:
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "simon"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "anna"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "oscar"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "mia"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "tommy"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "lucky"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "twilio_simon"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "twilio_anna"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "twilio_oscar"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "twilio_mia"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "twilio_tommy"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+    channel: "twilio_lucky"
+  - text: "I am sorry, you feel that way. Something similar happened to me. The best thing we can do is learn from it and move on with our lives. What are you going to do now?"
+
+  utter_ask_best_option_simon:
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "simon"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "anna"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "oscar"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "mia"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "tommy"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "lucky"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_simon"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_anna"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_oscar"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_mia"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_tommy"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_lucky"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+
+  utter_sadness_temporary_simon:
+  - text: "Just remember that sadness is temporary."
+    channel: "simon"
+  - text: "Just remember that sadness is temporary."
+    channel: "anna"
+  - text: "Just remember that sadness is temporary."
+    channel: "oscar"
+  - text: "Just remember that sadness is temporary."
+    channel: "mia"
+  - text: "Just remember that sadness is temporary."
+    channel: "tommy"
+  - text: "Just remember that sadness is temporary."
+    channel: "lucky"
+  - text: "Just remember that sadness is temporary."
+    channel: "twilio_simon"
+  - text: "Just remember that sadness is temporary."
+    channel: "twilio_anna"
+  - text: "Just remember that sadness is temporary."
+    channel: "twilio_oscar"
+  - text: "Just remember that sadness is temporary."
+    channel: "twilio_mia"
+  - text: "Just remember that sadness is temporary."
+    channel: "twilio_tommy"
+  - text: "Just remember that sadness is temporary."
+    channel: "twilio_lucky"
+  - text: "Just remember that sadness is temporary."
+
+  utter_ask_have_you_talked_simon:
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "lucky"
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "anna"
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "simon"
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "oscar"
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "tommy"
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "mia"
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "twilio_lucky"
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "twilio_anna"
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "twilio_simon"
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "twilio_oscar"
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "twilio_tommy"
+  - text: "Okay, Have you talked to anyone about it?"
+    channel: "twilio_mia"
+  - text: "Okay, Have you talked to anyone about it?"
+
+  utter_talk_to_me_simon:
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "simon"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "anna"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "oscar"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "mia"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "tommy"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "lucky"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "twilio_simon"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "twilio_anna"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "twilio_oscar"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "twilio_mia"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "twilio_tommy"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+    channel: "twilio_lucky"
+  - text: "Okay, that's fine. Do you want to talk to me about it?"
+
+  utter_chat_something_else:
+  - text: "Okay, let’s chat about something else"
+    channel: "lucky"
+  - text: "Okay, let’s chat about something else"
+    channel: "anna"
+  - text: "Okay, let’s chat about something else"
+    channel: "simon"
+  - text: "Okay, let’s chat about something else"
+    channel: "oscar"
+  - text: "Okay, let’s chat about something else"
+    channel: "tommy"
+  - text: "Okay, let’s chat about something else"
+    channel: "mia"
+  - text: "Okay, let’s chat about something else"
+    channel: "twilio_lucky"
+  - text: "Okay, let’s chat about something else"
+    channel: "twilio_anna"
+  - text: "Okay, let’s chat about something else"
+    channel: "twilio_simon"
+  - text: "Okay, let’s chat about something else"
+    channel: "twilio_oscar"
+  - text: "Okay, let’s chat about something else"
+    channel: "twilio_tommy"
+  - text: "Okay, let’s chat about something else"
+    channel: "twilio_mia"
+  - text: "Okay, let’s chat about something else"
+
+
+  utter_ask_obsessive_reason_oscar:
+  - text: "Breath and calm down, what is making you feel this way?"
+    channel: "oscar"
+  - text: "Breath and calm down, what is making you feel this way?"
+    channel: "anna"
+  - text: "Breath and calm down, what are you feeling this?"
+    channel: "simon"
+  - text: "Breath and calm down, what's the cause of your feelings?"
+    channel: "mia"
+  - text: "Breath and calm down, where is this coming from?"
+    channel: "tommy"
+  - text: "Breath and calm down, where are these feelings coming from?"
+    channel: "lucky"
+  - text: "Breath and calm down, what is making you feel this way?"
+    channel: "twilio_oscar"
+  - text: "Breath and calm down, what is making you feel this way?"
+    channel: "twilio_anna"
+  - text: "Breath and calm down, what are you feeling this?"
+    channel: "twilio_simon"
+  - text: "Breath and calm down, what's the cause of your feelings?"
+    channel: "twilio_mia"
+  - text: "Breath and calm down, where is this coming from?"
+    channel: "twilio_tommy"
+  - text: "Breath and calm down, where are these feelings coming from?"
+    channel: "twilio_lucky"
+  - text: "Breath and calm down, what is making you feel this way?"
+
+  utter_ask_can_change_oscar:
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "oscar"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "anna"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "simon"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "mia"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "tommy"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "lucky"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "twilio_oscar"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "twilio_anna"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "twilio_simon"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "twilio_mia"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "twilio_tommy"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+    channel: "twilio_lucky"
+  - text: "I'm sorry its making you feel that way. Is it something you can change or effect?"
+
+  utter_ask_feel_better_oscar:
+  - text: "Would that make you feel better?"
+    channel: "oscar"
+  - text: "Would that make you feel better?"
+    channel: "anna"
+  - text: "Would that make you feel better?"
+    channel: "simon"
+  - text: "Would that make you feel better?"
+    channel: "mia"
+  - text: "Would that make you feel better?"
+    channel: "tommy"
+  - text: "Would that make you feel better?"
+    channel: "lucky"
+  - text: "Would that make you feel better?"
+    channel: "twilio_oscar"
+  - text: "Would that make you feel better?"
+    channel: "twilio_anna"
+  - text: "Would that make you feel better?"
+    channel: "twilio_simon"
+  - text: "Would that make you feel better?"
+    channel: "twilio_mia"
+  - text: "Would that make you feel better?"
+    channel: "twilio_tommy"
+  - text: "Would that make you feel better?"
+    channel: "twilio_lucky"
+  - text: "Would that make you feel better?"
+
+  utter_distract_yourself_oscar:
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "oscar"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "anna"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "simon"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "mia"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "tommy"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "lucky"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "twilio_oscar"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "twilio_anna"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "twilio_simon"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "twilio_mia"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "twilio_tommy"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+    channel: "twilio_lucky"
+  - text: "Try to distract yourself and have positive thoughts. Remember its so small. Whatever stress it brings you I totally understand."
+
+  utter_focus_oscar:
+  - text: "Well anything that will make you focused on something else will help. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "oscar"
+  - text: "I find that I try to find someone or look for something to take my mind off of it. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "anna"
+  - text: "I often feel trapped so I have to remind myself that other people can help. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "simon"
+  - text: "I try to do anything that take me mind off my insecurities. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "mia"
+  - text: "I am guilty of focusing too much on things that I can't control, I have to stop and remind myself of that. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "tommy"
+  - text: "Well anything that will make you focused on something else will help. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "lucky"
+  - text: "Well anything that will make you focused on something else will help. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "twilio_oscar"
+  - text: "I find that I try to find someone or look for something to take my mind off of it. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "twilio_anna"
+  - text: "I often feel trapped so I have to remind myself that other people can help. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "twilio_simon"
+  - text: "I try to do anything that take me mind off my insecurities. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "twilio_mia"
+  - text: "I am guilty of focusing too much on things that I can't control, I have to stop and remind myself of that. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "twilio_tommy"
+  - text: "Try to focus on something else, it has always helped me in the past. I always find changing locations or doing something different helps me change my focus to something else. "
+    channel: "twilio_lucky"
+  - text: "Well anything that will make you focused on something else will help. I always find changing locations or doing something different helps me change my focus to something else. "
+
+  utter_ask_distract_oscar:
+  - text: "What can you distract yourself with?"
+    channel: "oscar"
+  - text: "What can you distract yourself with?"
+    channel: "anna"
+  - text: "What can you distract yourself with?"
+    channel: "simon"
+  - text: "What can you distract yourself with?"
+    channel: "mia"
+  - text: "What can you distract yourself with?"
+    channel: "tommy"
+  - text: "What can you distract yourself with?"
+    channel: "lucky"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_oscar"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_anna"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_simon"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_mia"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_tommy"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_lucky"
+  - text: "What can you distract yourself with?"
+
+  utter_give_advice_to_distract_oscar:
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but it's best if you let them go. I was told not to take out my feelings on other people."
+    channel: "oscar"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but don't act on them. I was told not to take out my feelings on other people."
+    channel: "anna"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but don't act on them. I was told not to take out my feelings on other people."
+    channel: "simon"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but don't act on them. I was told not to take out my feelings on other people."
+    channel: "mia"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but don't act on them. I was told not to take out my feelings on other people."
+    channel: "tommy"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but don't act on them. I was told not to take out my feelings on other people."
+    channel: "lucky"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but it's best if you let them go. I was told not to take out my feelings on other people."
+    channel: "twilio_oscar"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but don't act on them. I was told not to take out my feelings on other people."
+    channel: "twilio_anna"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but don't act on them. I was told not to take out my feelings on other people."
+    channel: "twilio_simon"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but don't act on them. I was told not to take out my feelings on other people."
+    channel: "twilio_mia"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but don't act on them. I was told not to take out my feelings on other people."
+    channel: "twilio_tommy"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but don't act on them. I was told not to take out my feelings on other people."
+    channel: "twilio_lucky"
+  - text: "Okay,  it's good to try to imagine a place where you can decompress. My parents told me, it's fine for me to be overwhelmed with thoughts but don't act on them. I was told not to take out my feelings on other people."
+
+  utter_ask_feel_intrusive_thoughts_oscar:
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "oscar"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "anna"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "simon"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "mia"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "tommy"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "lucky"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "twilio_oscar"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "twilio_anna"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "twilio_simon"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "twilio_mia"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "twilio_tommy"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+    channel: "twilio_lucky"
+  - text: "What they don't understand is that I am overwhelmed with intrusive thoughts. Do you feel the same?"
+
+  utter_similar_oscar:
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "oscar"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "anna"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "simon"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "mia"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "tommy"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "lucky"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "twilio_oscar"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "twilio_anna"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "twilio_simon"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "twilio_mia"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "twilio_tommy"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+    channel: "twilio_lucky"
+  - text: "Okay, yeah. See we are similar in this way. It is hard to let go of control."
+
+  utter_ask_distract_oscar_2:
+  - text: "What can you distract yourself with?"
+    channel: "oscar"
+  - text: "What can you distract yourself with?"
+    channel: "anna"
+  - text: "What can you distract yourself with?"
+    channel: "simon"
+  - text: "What can you distract yourself with?"
+    channel: "mia"
+  - text: "What can you distract yourself with?"
+    channel: "tommy"
+  - text: "What can you distract yourself with?"
+    channel: "lucky"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_oscar"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_anna"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_simon"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_mia"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_tommy"
+  - text: "What can you distract yourself with?"
+    channel: "twilio_lucky"
+  - text: "What can you distract yourself with?"
+
+  utter_positive_advice_oscar:
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "oscar"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "anna"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "simon"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "mia"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "tommy"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "lucky"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "twilio_oscar"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "twilio_anna"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "twilio_simon"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "twilio_mia"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "twilio_tommy"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+    channel: "twilio_lucky"
+  - text: "Okay, as long as it is something positive, do it! Make sure you aren't affecting the people around you."
+
+  utter_ask_feel_oscar:
+  - text: "Okay, what do you feel then?"
+    channel: "oscar"
+  - text: "Okay, what do you feel then?"
+    channel: "anna"
+  - text: "Okay, what do you feel then?"
+    channel: "simon"
+  - text: "Okay, what do you feel then?"
+    channel: "mia"
+  - text: "Okay, what do you feel then?"
+    channel: "tommy"
+  - text: "Okay, what do you feel then?"
+    channel: "lucky"
+  - text: "Okay, what do you feel then?"
+    channel: "twilio_oscar"
+  - text: "Okay, what do you feel then?"
+    channel: "twilio_anna"
+  - text: "Okay, what do you feel then?"
+    channel: "twilio_simon"
+  - text: "Okay, what do you feel then?"
+    channel: "twilio_mia"
+  - text: "Okay, what do you feel then?"
+    channel: "twilio_tommy"
+  - text: "Okay, what do you feel then?"
+    channel: "twilio_lucky"
+  - text: "Okay, what do you feel then?"
+
+  utter_ask_walk_away_oscar:
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "oscar"
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "anna"
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "simon"
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "mia"
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "tommy"
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "lucky"
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "twilio_oscar"
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "twilio_anna"
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "twilio_simon"
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "twilio_mia"
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "twilio_tommy"
+  - text: "Can you do something else? Walk away and distract yourself?"
+    channel: "twilio_lucky"
+  - text: "Can you do something else? Walk away and distract yourself?"
+
+
+  utter_if_breathing_anna:
+  - text: "Okay, are you breathing?"
+    channel: "anna"
+  - text: "Okay, are you breathing?"
+    channel: "lucky"
+  - text: "Okay, are you breathing?"
+    channel: "simon"
+  - text: "Okay, are you breathing?"
+    channel: "oscar"
+  - text: "Okay, are you breathing?"
+    channel: "tommy"
+  - text: "Okay, are you breathing?"
+    channel: "mia"
+  - text: "Okay, are you breathing?"
+    channel: "twilio_anna"
+  - text: "Okay, are you breathing?"
+    channel: "twilio_lucky"
+  - text: "Okay, are you breathing?"
+    channel: "twilio_simon"
+  - text: "Okay, are you breathing?"
+    channel: "twilio_oscar"
+  - text: "Okay, are you breathing?"
+    channel: "twilio_tommy"
+  - text: "Okay, are you breathing?"
+    channel: "twilio_mia"
+  - text: "Okay, are you breathing?"
+
+  utter_countdown10_anna:
+  - text: "Countdown from ten for me, slowly"
+    channel: "anna"
+  - text: "Countdown from ten for me, slowly"
+    channel: "lucky"
+  - text: "Countdown from ten for me, slowly"
+    channel: "simon"
+  - text: "Countdown from ten for me, slowly"
+    channel: "oscar"
+  - text: "Countdown from ten for me, slowly"
+    channel: "tommy"
+  - text: "Countdown from ten for me, slowly"
+    channel: "mia"
+  - text: "Countdown from ten for me, slowly"
+    channel: "twilio_anna"
+  - text: "Countdown from ten for me, slowly"
+    channel: "twilio_lucky"
+  - text: "Countdown from ten for me, slowly"
+    channel: "twilio_simon"
+  - text: "Countdown from ten for me, slowly"
+    channel: "twilio_oscar"
+  - text: "Countdown from ten for me, slowly"
+    channel: "twilio_tommy"
+  - text: "Countdown from ten for me, slowly"
+    channel: "twilio_mia"
+  - text: "Countdown from ten for me, slowly"
+
+  utter_ask_countdown_done_anna:
+  - text: "Let me know when you are done."
+    channel: "anna"
+  - text: "Let me know when you are done."
+    channel: "lucky"
+  - text: "Let me know when you are done."
+    channel: "simon"
+  - text: "Let me know when you are done."
+    channel: "oscar"
+  - text: "Let me know when you are done."
+    channel: "tommy"
+  - text: "Let me know when you are done."
+    channel: "mia"
+  - text: "Let me know when you are done."
+    channel: "twilio_anna"
+  - text: "Let me know when you are done."
+    channel: "twilio_lucky"
+  - text: "Let me know when you are done."
+    channel: "twilio_simon"
+  - text: "Let me know when you are done."
+    channel: "twilio_oscar"
+  - text: "Let me know when you are done."
+    channel: "twilio_tommy"
+  - text: "Let me know when you are done."
+    channel: "twilio_mia"
+  - text: "Let me know when you are done."
+
+  utter_ask_feel_reason_ana:
+  - text: "Okay, so why are you feeling this way?"
+    channel: "anna"
+  - text: "Okay, so why are you feeling this way?"
+    channel: "lucky"
+  - text: "Okay, so why are you feeling this way?"
+    channel: "simon"
+  - text: "Okay, so why are you feeling this way?"
+    channel: "oscar"
+  - text: "Okay, so why are you feeling this way?"
+    channel: "tommy"
+  - text: "Okay, so why are you feeling this way?"
+    channel: "mia"
+  - text: "Okay, so why are you feeling this way?"
+    channel: "twilio_anna"
+  - text: "Okay, so why are you feeling this way?"
+    channel: "twilio_lucky"
+  - text: "Okay, so why are you feeling this way?"
+    channel: "twilio_simon"
+  - text: "Okay, so why are you feeling this way?"
+    channel: "twilio_oscar"
+  - text: "Okay, so why are you feeling this way?"
+    channel: "twilio_tommy"
+  - text: "Okay, so why are you feeling this way?"
+    channel: "twilio_mia"
+  - text: "Okay, so why are you feeling this way?"
+
+  utter_ask_happened_before_ana:
+  - text: "Has something like this happened before?"
+    channel: "anna"
+  - text: "Has this happened to you before?"
+    channel: "lucky"
+  - text: "Is this a common thing to happen?"
+    channel: "simon"
+  - text: "Have you experienced this before?"
+    channel: "oscar"
+  - text: "Does this happen to you often?"
+    channel: "tommy"
+  - text: "Has this happened to you before?"
+    channel: "mia"
+  - text: "Has something like this happened before?"
+    channel: "twilio_anna"
+  - text: "Has this happened to you before?"
+    channel: "twilio_lucky"
+  - text: "Is this a common thing to happen?"
+    channel: "twilio_simon"
+  - text: "Have you experienced this before?"
+    channel: "twilio_oscar"
+  - text: "Does this happen to you often?"
+    channel: "twilio_tommy"
+  - text: "Has this happened to you before?"
+    channel: "twilio_mia"
+  - text: "Has something like this happened before?"
+
+  utter_how_to_mitigate_worry_ana:
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "anna"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "lucky"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "simon"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "oscar"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "tommy"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "mia"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "twilio_anna"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "twilio_lucky"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "twilio_simon"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "twilio_oscar"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "twilio_tommy"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+    channel: "twilio_mia"
+  - text: "I'm sorry you feel this way, do you know what you can do to make you feel better?"
+
+  utter_how_to_improve_ana:
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "anna"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "lucky"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "simon"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "oscar"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "tommy"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "mia"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "twilio_anna"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "twilio_lucky"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "twilio_simon"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "twilio_oscar"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "twilio_tommy"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+    channel: "twilio_mia"
+  - text: "Okay well you know then how to improve, you got this next time. Believe in yourself"
+
+  utter_you_can_do_that_ana:
+  - text: "Remember that it's just a moment! I know you can do it, I get anxious too."
+    channel: "anna"
+  - text: "Remember that it's just a moment! I know you can do it, I get anxious too. You aren't the only one feeling that way"
+    channel: "lucky"
+  - text: "Remember that it's just a moment! It's okay, I get anxious too. You aren't alone"
+    channel: "simon"
+  - text: "Remember that it's just a moment! I know you can do it, you just have to start!"
+    channel: "oscar"
+  - text: "Remember that it's just a moment! I know you can do it, I get anxious too. You aren't the only one feeling that way"
+    channel: "tommy"
+  - text: "Remember that it's just a moment! I know you can do it, you just have to start!"
+    channel: "mia"
+  - text: "Remember that it's just a moment! I know you can do it, I get anxious too."
+    channel: "twilio_anna"
+  - text: "Remember that it's just a moment! I know you can do it, I get anxious too. You aren't the only one feeling that way"
+    channel: "twilio_lucky"
+  - text: "Remember that it's just a moment! It's okay, I get anxious too. You aren't alone"
+    channel: "twilio_simon"
+  - text: "Remember that it's just a moment! I know you can do it, you just have to start!"
+    channel: "twilio_oscar"
+  - text: "Remember that it's just a moment! I know you can do it, I get anxious too. You aren't the only one feeling that way"
+    channel: "twilio_tommy"
+  - text: "Remember that it's just a moment! I know you can do it, you just have to start!"
+    channel: "twilio_mia"
+  - text: "Remember that it's just a moment! I know you can do it, I get anxious too."
+
+  utter_ask_good_at_ana:
+  - text: "Let's start with what are you good at?"
+    channel: "oscar"
+  - text: "Let's start with what are you good at?"
+    channel: "anna"
+  - text: "Let's start with what are you good at?"
+    channel: "simon"
+  - text: "Let's start with what are you good at?"
+    channel: "mia"
+  - text: "Let's start with what are you good at?"
+    channel: "tommy"
+  - text: "Let's start with what are you good at?"
+    channel: "lucky"
+  - text: "Let's start with what are you good at?"
+    channel: "twilio_oscar"
+  - text: "Let's start with what are you good at?"
+    channel: "twilio_anna"
+  - text: "Let's start with what are you good at?"
+    channel: "twilio_simon"
+  - text: "Let's start with what are you good at?"
+    channel: "twilio_mia"
+  - text: "Let's start with what are you good at?"
+    channel: "twilio_tommy"
+  - text: "Let's start with what are you good at?"
+    channel: "twilio_lucky"
+  - text: "Let's start with what are you good at?"
+
+  utter_ask_if_apply_ana:
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "anna"
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "lucky"
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "simon"
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "oscar"
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "tommy"
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "mia"
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "twilio_anna"
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "twilio_lucky"
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "twilio_simon"
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "twilio_oscar"
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "twilio_tommy"
+  - text: "Can any of this apply to the situation you are in?"
+    channel: "twilio_mia"
+  - text: "Can any of this apply to the situation you are in?"
+
+  utter_walk_anna:
+  - text: "If that doesn't help you can try yoga too! I know doing yoga works for me"
+    channel: "anna"
+  - text: "If that doesn't help you can try riding too! going for a bike ride helps me"
+    channel: "lucky"
+  - text: "If that doesn't help you can try dance too! I like to dance and get out my emotions"
+    channel: "simon"
+  - text: "If that doesn't help you can try cleaning too! I know cleaning helps me clear my mind"
+    channel: "oscar"
+  - text: "If that doesn't help you can try walk too! I know going for a walk always work for me"
+    channel: "tommy"
+  - text: "If that doesn't help you can try walk too! I know going for a walk always work for me"
+    channel: "mia"
+  - text: "If that doesn't help you can try yoga too! I know doing yoga works for me"
+    channel: "twilio_anna"
+  - text: "If that doesn't help you can try riding too! going for a bike ride helps me"
+    channel: "twilio_lucky"
+  - text: "If that doesn't help you can try dance too! I like to dance and get out my emotions"
+    channel: "twilio_simon"
+  - text: "If that doesn't help you can try cleaning too! I know cleaning helps me clear my mind"
+    channel: "twilio_oscar"
+  - text: "If that doesn't help you can try walk too! I know going for a walk always work for me"
+    channel: "twilio_tommy"
+  - text: "If that doesn't help you can try walk too! I know going for a walk always work for me"
+    channel: "twilio_mia"
+  - text: "If that doesn't help you can try walk too! I know going for a walk always work for me"
+
+forms:
+  proud_form:
+    required_slots:
+      time_proud:
+      - type: from_text
+  next_plans_form:
+    required_slots:
+      next_plans:
+      - type: from_text
+  not_excited_form:
+    required_slots:
+      not_excited_lucky:
+      - type: from_text
+  feedback_form:
+    required_slots:
+      feedback:
+      - type: from_text
+
+  tell_more_simon_form:
+    required_slots:
+      tell_more_simon:
+      - type: from_text
+  why_happened_simon_form:
+    required_slots:
+      why_happened_simon:
+      - type: from_text
+  more_details_simon_form:
+    required_slots:
+      more_details_simon:
+      - type: from_text
+  different_simon_form:
+    required_slots:
+      different_simon:
+      - type: from_text
+  going_to_do_simon_form:
+    required_slots:
+      going_to_do_simon:
+      - type: from_text
+  best_option_simon_form:
+    required_slots:
+      best_option_simon:
+      - type: from_text
+  have_you_talked_simon_form:
+    required_slots:
+      have_you_talked_simon:
+      - type: from_text
+
+  obsessive_reason_oscar_form:
+    required_slots:
+      obsessive_reason_oscar:
+        - type: from_text
+  can_change_oscar_form:
+    required_slots:
+      can_change_oscar:
+        - type: from_text
+  feel_better_oscar_form:
+    required_slots:
+      feel_better_oscar:
+        - type: from_text
+  distract_oscar_form:
+    required_slots:
+      distract_oscar:
+        - type: from_text
+  feel_intrusive_thoughts_oscar_form:
+    required_slots:
+      feel_intrusive_thoughts_oscar:
+        - type: from_text
+  distract_oscar_form_2:
+    required_slots:
+      distract_oscar_2:
+        - type: from_text
+  feel_oscar_form:
+    required_slots:
+      feel_oscar:
+        - type: from_text
+  walk_away_oscar_form:
+    required_slots:
+      walk_away_oscar:
+        - type: from_text
+
+
+  countdown_done_anna_form:
+    required_slots:
+      countdown_done_anna:
+        - type: from_text
+  feel_reason_ana_form:
+    required_slots:
+      feel_reason_ana:
+        - type: from_text
+  happened_before_ana_form:
+    required_slots:
+      happened_before_ana:
+        - type: from_text
+  good_at_ana_form:
+    required_slots:
+      good_at_ana:
+        - type: from_text
+  if_apply_ana_form:
+    required_slots:
+      if_apply_ana:
+        - type: from_text
+
+slots:
+  time_proud:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  next_plans:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  not_excited_lucky:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  feedback:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+
+  tell_more_simon:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  why_happened_simon:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  more_details_simon:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  different_simon:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  going_to_do_simon:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  best_option_simon:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  have_you_talked_simon:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+
+  obsessive_reason_oscar:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  can_change_oscar:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  feel_better_oscar:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  distract_oscar:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  feel_intrusive_thoughts_oscar:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  distract_oscar_2:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  feel_oscar:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  walk_away_oscar:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+
+  countdown_done_anna:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  feel_reason_ana:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  happened_before_ana:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  good_at_ana:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  if_apply_ana:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+
+actions:
+- action_proud_lucky # lucky
+- action_next_plans_lucky
+- action_not_excited_lucky
+- action_feedback
+- action_tell_more_simon # simon
+- action_why_happened_simon
+- action_more_details_simon
+- action_different_simon
+- action_going_to_do_simon
+- action_best_option_simon
+- action_have_you_talked_simon
+- action_obsessive_reason_oscar # oscar
+- action_can_change_oscar
+- action_feel_better_oscar
+- action_distract_oscar
+- action_feel_intrusive_thoughts_oscar
+- action_feel_oscar
+- action_walk_away_oscar
+- action_countdown_done_anna # ana
+- action_feel_reason_ana
+- action_happened_before_ana
+- action_good_at_ana
+- action_if_apply_ana
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

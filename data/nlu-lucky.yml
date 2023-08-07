@@ -1,0 +1,534 @@
+version: "2.0"
+nlu:
+- intent: happy_lucky
+  examples: |
+    - [happy](happy)
+    - [im happy](happy)
+    - [happy iam](happy)
+    - [v happy](happy)
+    - [I'm happy](happy)
+    - [just happy](happy)
+    - I [am happy](happy)
+    - I [am happy](happy) thanks
+    - [Happy](happy)
+    - Yes, I [am happy](happy)
+    - [I'm happy](happy) because I don't work today
+    - I'm just very happy
+    - [I am happy](happy) because it is the weekend
+    - [feeling happy](happy)
+    - [I m very happy](happy)
+    - [i'm happy](happy)
+    - I’m [happy](happy)
+    - i am [happy](happy)
+    - Well I just bought to plants I'm now a plant parent and I'm [quite happy](happy)
+    - I’m [actually really happy](happy)
+    - [Very happy](happy) :)
+    - I’m [happy tho](happy)
+    - Cause I [feel content](happy)
+    - I [feel happy](happy), and accomplished
+    - i feel happy
+    - Im [happy rn](happy)
+    - I’m [feeling Happy](happy)
+    - [joyful](happy)
+    - I [feel incredibly happy](happy) today!
+    - I feel happy
+    - …[happy](happy)
+    - I [am happy today](happy)
+    - I'm happy.
+    - I [feel sa happy](happy)
+    - I feel so happy
+    - I'm happy today
+    - Am Happy
+    - I am [so happy](happy)
+    - I am actually [pretty happy](happy) today
+    - I’m [so happy](happy)
+    - im [happy rn](happy) in a great relationship
+    - I actually feel quite alright today. I'm [kinda happy](happy).
+    - I do [feel very happy](happy)
+    - I'm [feeling happy](happy)
+    - im happy
+    - I feel [happy and calm](happy)
+    - [great](happy)
+    - I'm [great](happy)
+    - [just great](happy)
+    - I [am great](happy)
+    - I am great thanks
+    - [Great](happy)
+    - I am [doing great](happy)!
+    - [Great](happy).
+    - Im great
+    - [Awesome](happy)
+    - [I’m great](happy)!
+    - great! about to have dinner
+    - well i have a [really nice](happy) job
+    - [im Great](happy)
+    - i [am great](happy)
+    - I am [feeling awesome](happy).
+    - my [day is great](happy)
+    - [Excellent](happy)
+    - I [feel great](happy)
+    - [Doing great](happy)!
+    - It’s [going great](happy)!
+    - It’s [going well](happy)
+    - I’m great, thqndk
+    - [perfect](happy)
+    - [awesome](happy)
+    - I [feel great](happy)!
+    - [doing great](happy)
+    - I’m doing great! It’s been an awesome morning!
+    - i’m great :))
+    - i [feel great](happy)
+    - i [feel so wonderful](happy)
+    - [Great](happy). I am just peachy
+    - [PEACHY](happy)
+    - I’m great
+    - My [feelings are great](happy) right now
+    - I'm [doing great](happy)
+    - [am great](happy) here
+    - I'm [doing greattttt](happy)
+    - Am [great](happy)
+    - im [feeling great](happy)
+    - im great
+    - great..
+    - Super, [super great](happy)
+    - [good](happy)
+    - [I'm good](happy)
+    - I'm [good today](happy)
+    - [wonderful](happy)
+    - [so good](happy)
+    - [extremely good](happy)
+    - [just good](happy)
+    - I [am good](happy)
+    - I [am good](happy) thanks
+    - [Good](happy)
+    - I am getting more in shape and it [feels good](happy)
+    - I [am good](happy), not great
+    - It's [going good](happy). No complaints
+    - [Good](happy)!
+    - [I’m good](happy)
+    - [i’m good](happy)
+    - I just woke up, and I’m [feeling refreshed](happy)
+    - [Im well](happy)
+    - Because I know Jesus [loves me](happy)
+    - I [feel pretty good](happy)
+    - I’m so so
+    - [Noice](happy)
+    - i [an good](happy)
+    - Im good
+    - Im good ^_^
+    - [I’m good](happy), just working
+    - I'm [doing good](happy)
+    - im [good](happy)
+    - I am in a [good mood](happy)
+    - [I'm good](happy)..
+    - [pretty good](happy)
+    - I'm in a [pretty good mood](happy).
+    - I’m doing [pretty good well](happy) thanks
+    - I’m [doing good](happy) thanks
+    - everything is [good](happy)
+    - everything [good](happy)
+    - gut
+    - I’m actually having a [very good day](happy) today
+    - I had a [good day though](happy)
+    - pretty great!
+    - Honestly [better than normal](happy)
+    - Today was very [relaxing](happy)
+    - I'm just hanging out [having a good time](happy)
+    - [absolutely normal](happy)
+    - [good Ig](happy)
+    - [chilling](happy)
+    - [Good thanks](happy).
+    - [Super good](happy)
+    - [So good](happy)
+    - I'm [doing good](happy).
+    - [Pretty good](happy) actually
+    - I feel [pretty swell](happy) rn
+    - I'm actually [feeling pretty good](happy)
+    - Hi, I'm [doing good](happy).
+    - I'm [mostly good](happy). I'm glad I'm talking to you
+    - I’m [good boiiiiii](happy)
+    - I’m [felling better](happy)
+    - I’m [felling better now](happy)
+    - I [feel good now](happy)
+    - I’m [doing good](happy)
+    - i was feeling bad then I started [feeling better](happy)
+    - I’m [doing better](happy)
+    - I'm [pretty good](happy)
+    - I’m [feeling good](happy) :)
+    - I’m [feel good](happy)
+    - I feel at [peace right now](happy).
+    - [feel good](happy)
+    - I [feel pretty swell](happy). I’m drinking tea and it tastes great
+    - Well [I feel good](happy)
+    - I [have good friends, a great family](happy)
+    - I'm just [having a good day](happy)
+    - I [mean Good](happy)
+    - Well, I was discharged from the hospital yesterday-- so I [feel good right now](happy).
+    - I [feel good right now](happy).
+    - [quite good](happy)
+    - am [good](happy)
+    - Well today [is a good day](happy) for me
+    - [I'm good](happy), thank you
+    - [allgoods](happy)
+    - [better now](happy)
+    - i wasnt to good but [I’m getting better](happy)
+    - [somewhat good](happy)
+    - i have been [feeling better](happy)
+    - I am [doing very well](happy)
+    - I [am very good](happy)
+    - [i am good](happy)
+    - I [FEEL GOOD](happy)
+    - [Good](happy) ^^
+    - Currently [very good](happy)!
+    - I [feel good](happy)
+    - [I’m well](happy), thank you
+    - im [good today](happy)!
+    - feeling [good today](happy)
+    - hi [I’m good](happy)
+    - hi [im good](happy)
+    - hi [im good](happy)!
+    - [good](happy)!
+    - it was the last day of school today!
+    - [good bro](happy)
+    - I’m [going good](happy)
+    - [Good](happy) thanks
+    - I [am good](happy).
+    - [Pretty good](happy).
+    - I’m [doing pretty good](happy).
+    - I’m swell
+    - good.
+    - I [feel normal](happy).
+    - [All good](happy).!
+    - Im [having a good day](happy)
+    - today [i honestly feel good](happy). i’ve been having a good day
+    - I'm good, thanks
+    - Well I feel [pretty good](happy) right now.
+    - My [condition is good](happy)...
+    - i feel [calm right now](happy)
+    - I'm good, just hanging out
+    - I'm [super good](happy) thanks friend
+    - Am good
+    - Lovely you?
+    - [Pretty well](happy)
+    - GOOOOOOOOOOOOOOOOOD
+    - I'm [feeling better](happy)
+    - Good I guess
+    - [Doing well](happy)
+    - I [feel better](happy)
+    - I'm [feeling like yasss](happy) queen
+    - I’m good!
+    - oh [lm good](happy)
+    - lm [very good](happy)
+    - I [had a good](happy) day
+    - [Normal](happy)
+    - I’m [well rested](happy)
+    - Well, today I feel good
+    - Am [feeling better](happy)
+    - i [feel good](happy).
+    - [Pretty good](happy)
+    - I'm [really good](happy)
+    - I'm good.
+    - I am [feeling better](happy)
+    - I am [feeling good now](happy)
+    - Actully my day has been [pretty good today](happy)
+    - [Content](happy)
+    - Am [feeling blessed](happy) today
+    - all is good
+    - very well
+    - I'm feeling good
+    - Am [feeling good](happy)
+    - Am [feeling good today](happy)
+    - i’m [doing well](happy)
+    - I’m good.
+    - Good.
+    - I’m [doing good](happy).
+    - I am good. I am at work
+    - [I'm good](happy) thanks
+    - [Am good](happy) thanks
+    - I'm [very good](happy)
+    - [Feeling better](happy)
+    - Felling better
+    - So I'm good
+    - good i guess
+    - [relieved](happy)
+    - [pretty good](happy) right now
+    - I'm [good today](happy)
+    - I'm [feeling good](happy) today
+    - I'm [doing good](happy) today
+    - I’m [calm right now](happy)
+    - [Normal](happy).
+    - today i [feel pretty good](happy)
+    - Not much my day [is going good](happy) today
+    - it's been a good day
+    - i’m doing good
+    - [Relaxed](happy)
+    - im going good
+    - I've [had a good day](happy) so far.
+    - [Pretty good](happy), Ive slept all day
+    - Hi [I'm good](happy)
+    - I [did my task on time](reason)
+    - I [did great in my english test](reason)
+    - I [did a fantastic job](reason) in dictation
+    - I [did my homework](reason) early
+    - I [did great job](reason) in my spelling test
+    - Did
+    - [i did](reason)
+    - [I did](reason)
+    - I [got to spend time](reason) with my family.
+    - Today is my birthday
+    - I [have been super productive](reason) and got my homework done
+    - [Just went to church](reason) at 10:30,then watched TV till now
+    - [I have a good grade in math](reason) and it’s me and my bfs anniversary
+    - I’m doing pretty good. It’s my birthday tomorrow
+    - [i won the game](reason) today!
+    - [Just had a very productive day](reason)
+    - I [passed my test](reason) I am so happy
+    - I [just got done with work](reason)!
+    - I [worked today](reason)
+    - I [did my assigned tasks](reason) before time
+    - I did [spend a very jolly timme](reason) with my friends
+    - I [spent a productive time](reason) in school
+    - I [did my things well](reason)
+    - I [did my work well](reason) today.
+    - I [did enjoy](reason).
+    - [playing basketball](reason)
+    - [was watching TV](reason)
+    - [had a great time](reason) with cousin
+    - did [enjoyed alot with friends](reason)
+    - [Did my task](reason) on task
+    - [Completed my task](reason) on time
+    - Have [completed my homework](reason)
+    - Had [done my assignments](reason)
+    - i [have done groceries](reason) and washing dishes
+    - im done with my homeworks
+    - [Have got back home from school](reason)
+    - passed a very tough exam
+    - [Have done chores](reason)
+    - Done
+    - Did alot of work
+    - [Worked alot](reason) and finished my job
+    - i [worked hard and finished](reason) my tasks.
+    - [Had a breakfast](reason)
+    - Have just got up
+    - [having lunch](reason) with friends
+    - [having work](reason)
+    - having chat with friends
+    - partyingg
+    - [spent good time partying](reason)
+    - had been to school , just came home
+    - been to office, got home now!
+    - [worked alot in school](reason)
+    - i was playing in garden
+    - [cleaning my clothes](reason).
+    - [doing dishes](reason)
+    - playing tennis
+    - [I am doing my homework](reason) and listening to music
+    - I [am doing my homework](reason)
+    - I am listening to music
+    - i [just woke up, about to make coffee](reason)
+    - i just got done with my college classes for today
+    - i [am sitting here](reason)
+    - Haha just watching TV
+    - i [just woke up](reason)
+    - [waiting for the results](reason) of my test
+    - Okay well I'm listening to Spotify
+    - Im [moving into a new apartment](reason)!
+    - I’m watching tv. It’s my sons birthday
+    - just [watching some pokemon](reason)
+    - I'm [watching TV](reason) I guess
+    - Just [watching some dumb show](reason)
+    - So I [decided to watch tv](reason)
+    - just woke up
+    - [I'm in school](reason)
+    - Just [hanging in my econ class](reason)
+    - Still [watching Bar Rescue](reason)
+    - [just workin](reason)’
+    - [watching a friend play video games](reason) right now!
+    - Nothing much, I’m [listening to music](reason)
+    - Just [woke up for school](reason)
+    - I’m watching tv
+    - Just laying in bed I just woke up
+    - Well I just woke up
+    - I [just woke up](reason)
+    - just laying in bed
+    - On my way home from work
+    - [Just chilling](reason)
+    - [Drawing](reason)
+    - Well, I just woke up
+    - i'm [making art](reason)
+    - [i'm drawing](reason)!
+    - [catching up with some tv](reason), just finished a Zoom call
+    - [just hanging around](reason). I like to help develop and test apps and games before release
+    - nothing just [watching tv](reason)
+    - Um idk watching tv
+    - Just [hanging out with my dog](reason)
+    - just [laying with my cat](reason)
+    - Im just..chillin..
+    - I am [watching TV](reason)
+    - I’m not doing much, just working on class work.
+    - Eating food
+    - i’m [watching some tv](reason)
+    - I am [happy because of my good grades](reason)
+    - I'm alright [just got home from work](reason)
+    - because I have [had a really fun day](reason) with my friends and family
+    - I'm actually [doing pretty good today](reason) so far. I graduated yesterday
+    - [I am going to draw](reason) my favorite scene
+    - I [am getting ready for going](reason) to school
+    - I [am going to play with my cousin](reason)
+    - I am [going to my friends](reason) house today
+    - I am [going to eat my breakfast](reason)
+    - I am going to my spelling test
+    - I am [going to my english test](reason)
+    - I am going to do my homework
+    - I am [going to complete](reason) my homework
+    - [Going to](reason)
+    - going to
+    - I am [going to disneyland](reason) for the first time
+    - I am [amazing](happy)
+    - I am [brilliant](happy)
+    - I am [creative](happy)
+    - I am [excited](happy)
+    - I am [optimistic](happy)
+    - I am [healthy](happy)
+    - I am [excited](happy)!
+    - I am [excited](happy)! Spotty is doing so well
+    - I am [grateful](happy)
+    - I am [excited](happy) for disneyland
+    - Very [excited](happy)!
+    - I am a little [excited](happy)
+    - [Excited](happy)
+    - [excited](happy)
+    - I’m [excited](happy) to see my friends
+    - I’m super [excited](happy)
+    - I am [confident](happy)
+    - I have [confidence](happy)
+    - I’m on [vacation](happy)
+    - Im [pregnant](happy)
+    - [excited](happy)
+    - happy and [excited](happy)
+    - I'm [excited](happy)
+    - I feel [grateful](happy)
+    - [Grateful](happy)
+    - okay but I'm v [excited](happy) today
+    - [Going to play](reason) some video games
+    - [I'm going on a hike](reason)
+    - Im [going to be working](reason)
+    - I'm [going to watch cartoons](reason)
+    - i’m [going to be going to bed](reason) soon
+    - i’m [going to hang out](reason) with my boyfriend
+    - I am [going to play](reason)
+    - I am [going to do homework](reason)
+    - [Going to bed](reason)
+    - we are [going to make a cake](reason)
+    - [going to my friends house](reason)
+    - i am [going to my friends](reason) house for the first time
+    - [I'm moving](reason)!
+    - I am [going to watch a movie](reason)
+    - I’m [gonna go to school](reason)
+    - [go to school and study](reason)
+    - [play a game](reason)
+    - I’m [going to a wedding](reason)
+    - [Moving out of my house](reason)
+    - I [can play a game](reason)
+    - i [dropped off my daughter at her dads house and i went to work](reason). i just got her back and came home now i’m just relaxing.
+    - i’m [spending the night at a friends house](reason)
+    - I'm just [sitting down and resting](reason). Not gunna go out today
+    - I [will go out with friends](reason)
+    - I [would go out with friends](reason)
+    - I [will go to the beach](reason)
+    - I [would go to the beach](reason)
+    - I [will watch a movie](reason)
+    - I [would watch](reason) a movie
+    - I [might go to the park](reason)
+    - I [am going to school](reason)
+    - [Play some video games](reason)
+    - [having fun](reason) with friends
+    - It's almost Christmas
+    - I am [going to watch](reason) tv now
+    - im [going to talk to a counselor](reason) about it
+    - [will go outside](reason) and have party
+    - [would go and watch a movie](reason)
+    - will [plan to hang out](reason)
+    - i am [going to chill](reason) by making a coffee
+    - [I'll sleep and just rest](reason), yay
+    - [will go to sleep](reason)
+    - [planning to play](reason)
+    - im [planning to visit park](reason)
+    - [will try to work](reason) and complete stuff
+    - i [will play soccer](reason)
+    - [would be sleeping](reason)
+    - i [would be hanging](reason) with friends
+    - I am [gonna watch TV](reason)
+    - Not much, but [I’ve got plans with friends after work](reason)
+    - i’m [about to make coffee](reason)
+    - [Go to school](reason)
+    - I'm [probably going to eat some pasta](reason) tonight.
+    - i am [going to school](reason)
+    - im [going on a world tour soon](reason) yay
+    - I'll [just watch netflix](reason)
+    - [may be reading](reason)
+    - Listen to music, read, and write!
+    - [Drive around](reason)
+    - im [going to grandma home](reason)
+    - [going to market](reason)
+    - We're [going to Florida](reason)
+    - just [going to market](reason)
+    - just [going to park](reason)
+    - I [have accomplished my work](reason) for today
+    - I [have done my job](reason) well
+    - I [have done my task](reason) on time
+    - I have [got my promotion](reason)
+    - I have [accomplished my goal](reason)
+    - I have [done my duty well](reason)
+    - I [have accomplished my long term goal](reason)
+    - I [got an award](reason) for the best show n tell
+    - [Accomplished](reason)
+    - I [kicked a goal in soccer](reason) and I'm so proud of myself
+    - I [accomplished a great award](reason)
+    - My [parents are proud of me](reason)
+    - my [parents are proud of me](reason)
+    - Me and my boyfriend are still together
+    - [I got my dream job](reason)
+    - [Got my own phone and I bough the service myself](reason)! Now I can text and call my friends whenever I want!
+    - I [feel accomplished](reason)!
+    - I [feel super expert after winning the match today](reason).
+    - I [have successfully passed my test](reason).
+    - I have [mastered my fears of presentations](reason).
+    - I have [accomplished my dream](reason).
+    - I have [got a noble prize](reason).
+    - I have [became adept at mastering exams](reason).
+    - I have [accomplished my mission](reason) very early
+    - I [have succeeded in exhibition today](reason).
+    - I've been [keeping up on my antidepressants](reason) and I've been working out. It's been keeping me a bit happier then usual. Also excited to go to college
+    - i [got a new job](reason)
+    - i got a new job.
+    - well [I was hired today](reason)
+    - my [interview went great](reason)
+    - I'm [doing ok at school](reason) and work and the semester is almost over!
+    - I just [got a good grade on my math test](reason)
+    - Well, I just finished high school yesterday! HOW COOL!
+    - I [finished high school](reason) yesterday!
+    - I feel good I’m [getting a scholarship today](reason)
+    - Well [I’m getting a scholarship](reason)
+    - I think I [will do my homework](plan)
+    - I think I would [do my homework](plan)
+    - I think I will [plan my day](plan)
+    - I think I would [plan my day](plan)
+    - I think I [will visit my friend](plan)
+    - I think I [would visit my friend](plan)
+    - I will [do my homework](plan)
+    - I think I will [do homework](plan)
+    - oh!! I [wanna visit](plan) Iceland
+    - Well my boyfriend is coming to visit me!! :D
+    - My boyfriend is coming to see me
+    - planning to [do my homework](plan)
+    - I am planning to [visit my friend](plan)
+    - I think [I will do party](plan)
+    - would probably [go to a party](plan)
+    - i [will go on vacation](plan)
+    - I [will like to play cricket](plan)
+    - I [plan to read books](plan)
+    - [will play a game](plan)
+    - i [want to do party](plan)
+    - [plan to go on a day trip](plan) with friends
+    - i would like to [sing a song](plan)

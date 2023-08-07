@@ -1,0 +1,157 @@
+version: "2.0"
+nlu:
+- intent: obsessive_oscar
+  examples: |
+    - I'm [being obsessive](obsessive)
+    - I'm [obsessed with cleanliness](obsessive)
+    - I'm [obsessed](obsessive)
+    - I am [being obsessive](obsessive)
+    - I [am obsessed](obsessive)
+    - everyone Everyone is running away from my obsession they don’t want to listen to trouble
+    - It's [not letting me go on it](obsessive)
+    - I have a [lot of urges](obsessive)
+    - ı [have obsession](obsessive)
+    - Ihave obsession
+    - I [have OCD](obsessive) and I need to wash my hands 26 times exactly
+    - I have [an obsession](obsessive)
+    - ı have an obsession
+    - I have ocd and am in the middle of [toxic thought patterns](obsessive)
+    - i have [repeated frustrating patterns](obsessive) of ocd.
+    - i have [complusions](obsessive) due to ocd
+    - i have a [compulsive nature](obsessive)
+    - im [compelling and obsessive](obsessive)
+    - [irresistible](obsessive)
+    - i have [frequent obsessive thoughts](obsessive)
+    - im having [unwanted and unpleasant thoughts repeatedly](obsessive)
+    - [recurring thoughts](obsessive)
+    - having [repetitive behaviour](obsessive)
+    - i have [uncontrollable aggressive or sexual thoughts](obsessive)
+    - [contamination or washing](obsessive)
+    - im doubtful and [check things again and again](obsessive)
+    - fear of [loved ones getting harm](obsessive)
+    - i [ask forgiveness again and again](obsessive)
+    - [fear of immorality and sin](obsessive)
+    - i want [order and symmetry everywhere](obsessive)
+    - [fear of losing control](obsessive)
+    - [Fear of contamination](obsessive) or dirt
+    - i have [difficulty tolerating uncertainty](obsessive)
+    - i always [demand reassurance](obsessive)
+    - Counting in [certain patterns](obsessive)
+    - i [count in certain patterns](obsessive)
+    - check things to make sure they are off
+    - [Orderliness](obsessive)
+    - [obsessed](obsessive)
+    - i have obsessions too
+    - i have obsessions
+    - [im obsessive](obsessive)
+    - im [obsessed with thougths](obsessive)
+    - im [feeling obsessive](obsessive)
+    - I [have ocd](obsessive)
+    - [ocd](obsessive)
+- intent: angry_oscar
+  examples: |
+    - [I'm angry](angry)
+    - angry
+    - This close to [losing my mind](angry)
+    - [frustrated](angry)
+    - [Angry](angry)
+    - [just frustrated](angry)
+    - [Someone pissed me](angry) off
+    - I can’t believe [someone lied to me](angry)
+    - I am [just so angryyy](angry)
+    - My parents [aren’t listening to me](angry)
+    - My grade are going down and it’s unfair
+    - My [dog keeps eating my homework](angry)
+    - My [life is getting all messed](angry) up by other people
+    - [Frustrated](angry)
+    - I am Frustrated
+    - I am [really Frustrated](angry)
+    - my [parents pissed me off](angry)
+    - I am [mad about my friends](angry)
+    - [very mad](angry).
+    - I am [short tempered](angry)
+    - I [am angry](angry)
+    - [Rage of Anger](angry) and guilt
+    - Why do i [feel so Angry](angry) right now
+    - my [parents are buttholes](angry)
+    - i [am mad](angry)
+    - I am fresturated
+    - angry😠
+    - I [feel so so mad](angry)
+    - [jealous](angry)
+    - not good I am mad
+    - mad
+    - I [was angry](angry) at her
+    - im mad
+    - I’m angry
+    - [feel angry](angry)
+    - I am mad
+    - Frustrating
+    - I’m sad but really it’s cuz [I’m pissed](angry)
+    - everyone [is always bossing me around](angry) and I just want to do what i want
+    - I [feel angry](angry)
+    - MAD
+    - pissed.
+    - mad.
+    - I’m very [irritated with everything](angry) right now
+    - I’m [irritated](angry)
+    - I'm mad
+    - im [angry](angry)
+    - I am a [little frustrated](angry)
+    - im pissed
+    - Mad.
+    - Irritated
+    - I [feel angry at myself](angry)
+    - Am So [Sad And Angry](angry)
+    - I feel [angry over cranky old men](angry)
+    - Im angry
+    - Im. Mad
+    - [Pissed off](angry)
+    - I [feel mad](angry)
+    - I am [losing my mind](angry)
+    - Right now I feel mad
+    - I FEEL MAD
+    - i feel mad
+    - Because [I'm very angry](angry) about the thing
+    - im [mad at my mum](angry)
+    - im pissed off
+    - i am [mad at myself](angry)
+- intent: scared_oscar
+  examples: |
+    - I'm [scared](scared)
+    - [I'm scared](scared) of...
+    - I'm scared of
+    - I’m [scared we might break up](scared)
+    - Scared
+    - I’m [scared](scared)
+    - I [don't want to move on im scared](scared) of change
+    - I'm [scared to move on](scared)
+    - just a [bit scared](scared)
+    - [afraid](scared)
+    - I'm [afraid](scared)
+    - I am [afraid](scared)
+    - I'm [afraid of](scared) ..
+    - I'm afraid of
+    - i am [scared](scared)
+    - I have to drive and [that's scary](scared)
+    - I have to drive and I'm scared
+    - [Pretty spooked](scared)
+    - I am [afraid](scared) I was unable to get a good score
+    - people [scare me](scared)
+    - I am [scared of](scared) what my brother will do
+    - I am [scared to take a test](scared)
+    - I'm [scared of a lot of things](scared) and I'm embarrassed about it
+    - I'll be taking the orders from customers, I'm scared I'll forget what to say
+    - There are too many people and I am [very scared of people](scared) and I could barely breathe
+    - I am [super scared](scared) and I can barely breathe
+    - I feel lost, [scared, and exhausted](scared).
+    - I [feel scared](scared)!
+    - i am [feeling scared](scared)
+    - i feel scared
+    - I'm not good at driving and I'm [scared something bad will happen](scared)
+    - i’m [just scared for treatment](scared) for my ED
+    - i’m [scared of my relationship](scared) becoming distant
+    - i’m [scared that the treatment won’t work](scared) for my eating disorder
+    - I keep [compulsively thinking about things](scared) I did wrong in the past
+    - [scared](scared)
+    - [sad and scard](scared)

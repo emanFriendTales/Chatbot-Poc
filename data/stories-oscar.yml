@@ -1,0 +1,203 @@
+version: "2.0"
+stories:
+- story: oscar_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - or:
+    - intent: obsessive_oscar
+      entities:
+      - obsessive:  I'm being obsessive
+    - intent: scared_oscar
+      entities:
+      - scared:  I'm scared
+    - intent: angry_oscar
+      entities:
+      - angry:  I'm angry
+  - action: obsessive_reason_oscar_form
+  - active_loop: obsessive_reason_oscar_form
+  - active_loop: null
+  - action: action_obsessive_reason_oscar
+  - action: can_change_oscar_form
+  - active_loop: can_change_oscar_form
+  - active_loop: null
+  - action: action_can_change_oscar
+  - action: feel_better_oscar_form
+  - active_loop: feel_better_oscar_form
+  - active_loop: null
+  - action: action_feel_better_oscar
+  - action: utter_focus_oscar
+  - action: distract_oscar_form
+  - active_loop: distract_oscar_form
+  - active_loop: null
+  - action: action_distract_oscar
+  - action: utter_give_advice_to_distract_oscar
+  - action: feel_intrusive_thoughts_oscar_form
+  - active_loop: feel_intrusive_thoughts_oscar_form
+  - active_loop: null
+  - action: action_feel_intrusive_thoughts_oscar
+  - intent: affirm
+  - action: utter_similar_oscar
+  - action: distract_oscar_form_2
+  - active_loop: distract_oscar_form_2
+  - active_loop: null
+  - action: action_distract_oscar_2
+  - action: utter_positive_advice_oscar
+  - action: utter_if_wantsto_chat_lucky
+  - intent: affirm
+  - action: utter_conversation_lucky
+
+- story: oscar_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - or:
+    - intent: obsessive_oscar
+      entities:
+      - obsessive:  I'm being obsessive
+    - intent: scared_oscar
+      entities:
+      - scared:  I'm scared
+    - intent: angry_oscar
+      entities:
+      - angry:  I'm angry
+  - action: obsessive_reason_oscar_form
+  - active_loop: obsessive_reason_oscar_form
+  - active_loop: null
+  - action: action_obsessive_reason_oscar
+  - action: can_change_oscar_form
+  - active_loop: can_change_oscar_form
+  - active_loop: null
+  - action: action_can_change_oscar
+  - action: feel_better_oscar_form
+  - active_loop: feel_better_oscar_form
+  - active_loop: null
+  - action: action_feel_better_oscar
+  - action: utter_focus_oscar
+  - action: distract_oscar_form
+  - active_loop: distract_oscar_form
+  - active_loop: null
+  - action: action_distract_oscar
+  - action: utter_give_advice_to_distract_oscar
+  - action: feel_intrusive_thoughts_oscar_form
+  - active_loop: feel_intrusive_thoughts_oscar_form
+  - active_loop: null
+  - action: action_feel_intrusive_thoughts_oscar
+  - intent: affirm
+  - action: utter_similar_oscar
+  - action: distract_oscar_form_2
+  - active_loop: distract_oscar_form_2
+  - active_loop: null
+  - action: action_distract_oscar_2
+  - action: utter_positive_advice_oscar
+  - action: utter_if_wantsto_chat_lucky
+  - intent: deny
+  - action: utter_goodbye
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_feedback
+
+- story: oscar_3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - or:
+    - intent: obsessive_oscar
+      entities:
+      - obsessive:  I'm being obsessive
+    - intent: scared_oscar
+      entities:
+      - scared:  I'm scared
+    - intent: angry_oscar
+      entities:
+      - angry:  I'm angry
+  - action: obsessive_reason_oscar_form
+  - active_loop: obsessive_reason_oscar_form
+  - active_loop: null
+  - action: action_obsessive_reason_oscar
+  - action: can_change_oscar_form
+  - active_loop: can_change_oscar_form
+  - active_loop: null
+  - action: action_can_change_oscar
+  - action: feel_better_oscar_form
+  - active_loop: feel_better_oscar_form
+  - active_loop: null
+  - action: action_feel_better_oscar
+  - action: utter_focus_oscar
+  - action: distract_oscar_form
+  - active_loop: distract_oscar_form
+  - active_loop: null
+  - action: action_distract_oscar
+  - action: utter_give_advice_to_distract_oscar
+  - action: feel_intrusive_thoughts_oscar_form
+  - active_loop: feel_intrusive_thoughts_oscar_form
+  - active_loop: null
+  - action: action_feel_intrusive_thoughts_oscar
+  - intent: deny
+  - action: feel_oscar_form
+  - active_loop: feel_oscar_form
+  - active_loop: null
+  - action: action_feel_oscar
+  - action: walk_away_oscar_form
+  - active_loop: walk_away_oscar_form
+  - active_loop: null
+  - action: action_walk_away_oscar
+  - action: utter_positive_advice_oscar
+  - action: utter_if_wantsto_chat_lucky
+  - intent: affirm
+  - action: utter_conversation_lucky
+
+- story: oscar_4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - or:
+    - intent: obsessive_oscar
+      entities:
+      - obsessive:  I'm being obsessive
+    - intent: scared_oscar
+      entities:
+      - scared:  I'm scared
+    - intent: angry_oscar
+      entities:
+      - angry:  I'm angry
+  - action: obsessive_reason_oscar_form
+  - active_loop: obsessive_reason_oscar_form
+  - active_loop: null
+  - action: action_obsessive_reason_oscar
+  - action: can_change_oscar_form
+  - active_loop: can_change_oscar_form
+  - active_loop: null
+  - action: action_can_change_oscar
+  - action: feel_better_oscar_form
+  - active_loop: feel_better_oscar_form
+  - active_loop: null
+  - action: action_feel_better_oscar
+  - action: utter_focus_oscar
+  - action: distract_oscar_form
+  - active_loop: distract_oscar_form
+  - active_loop: null
+  - action: action_distract_oscar
+  - action: utter_give_advice_to_distract_oscar
+  - action: feel_intrusive_thoughts_oscar_form
+  - active_loop: feel_intrusive_thoughts_oscar_form
+  - active_loop: null
+  - action: action_feel_intrusive_thoughts_oscar
+  - intent: deny
+  - action: feel_oscar_form
+  - active_loop: feel_oscar_form
+  - active_loop: null
+  - action: action_feel_oscar
+  - action: walk_away_oscar_form
+  - active_loop: walk_away_oscar_form
+  - active_loop: null
+  - action: action_walk_away_oscar
+  - action: utter_positive_advice_oscar
+  - action: utter_if_wantsto_chat_lucky
+  - intent: deny
+  - action: utter_goodbye
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_feedback
