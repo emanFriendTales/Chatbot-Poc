@@ -1366,6 +1366,357 @@ responses:
     channel: "twilio_mia"
   - text: "If that doesn't help you can try walk too! I know going for a walk always work for me"
 
+  utter_ask_pressure_happening_mia:  # mia
+  - text: "What's happening?"
+    channel: "mia"
+  - text: "What's going on?"
+    channel: "anna"
+  - text: "What's happening?"
+    channel: "simon"
+  - text: "What's going on?"
+    channel: "oscar"
+  - text: "What's going on?"
+    channel: "tommy"
+  - text: "What's happening?"
+    channel: "lucky"
+  - text: "What's happening?"
+    channel: "twilio_mia"
+  - text: "What's going on?"
+    channel: "twilio_anna"
+  - text: "What's happening?"
+    channel: "twilio_simon"
+  - text: "What's going on?"
+    channel: "twilio_oscar"
+  - text: "What's going on?"
+    channel: "twilio_tommy"
+  - text: "What's happening?"
+    channel: "twilio_lucky"
+  - text: "What's happening?"
+
+  utter_often_happen_mia:
+  - text: "Okay, do you feel this way often when this happens?"
+    channel: "mia"
+  - text: "Is this a common feeling when this happens?"
+    channel: "anna"
+  - text: "Is this a common feeling when this happens?"
+    channel: "simon"
+  - text: "Okay, do you feel this way often when this happens?"
+    channel: "oscar"
+  - text: "Is this a common feeling when this happens?"
+    channel: "tommy"
+  - text: "Is this a common feeling when this happens?"
+    channel: "lucky"
+  - text: "Okay, do you feel this way often when this happens?"
+    channel: "twilio_mia"
+  - text: "Is this a common feeling when this happens?"
+    channel: "twilio_anna"
+  - text: "Is this a common feeling when this happens?"
+    channel: "twilio_simon"
+  - text: "Okay, do you feel this way often when this happens?"
+    channel: "twilio_oscar"
+  - text: "Is this a common feeling when this happens?"
+    channel: "twilio_tommy"
+  - text: "Is this a common feeling when this happens?"
+    channel: "twilio_lucky"
+  - text: "Okay, do you feel this way often when this happens?"
+
+  utter_people_make_you_happy_mia:
+  - text: "Got it! Let's do this then, remember that people and events don't make you happy, you do! Be Yourself"
+    channel: "mia"
+  - text: "Got it! Let's do this then, remember that people and events don't make you happy, you do! Be Yourself"
+    channel: "anna"
+  - text: "Got it! Let's do this then, remember that people and events don't make you happy, you do! Be Yourself"
+    channel: "simon"
+  - text: "Got it! Let's do this then, remember that people and events don't make you happy, you do! Be Yourself"
+    channel: "oscar"
+  - text: "Got it! Let's do this then, remember that you can walk away from your thoughts! Be Yourself"
+    channel: "tommy"
+  - text: "Got it! Let's do this then, remember that people and events don't make you happy, you do! Be Yourself"
+    channel: "lucky"
+  - text: "Got it! Let's do this then, remember that people and events don't make you happy, you do! Be Yourself"
+    channel: "twilio_mia"
+  - text: "Got it! Let's do this then, remember that people and events don't make you happy, you do! Be Yourself"
+    channel: "twilio_anna"
+  - text: "Got it! Let's do this then, remember that people and events don't make you happy, you do Be Yourself!"
+    channel: "twilio_simon"
+  - text: "Got it! Let's do this then, remember that people and events don't make you happy, you do! Be Yourself"
+    channel: "twilio_oscar"
+  - text: "Got it! Let's do this then, remember that you can walk away from your thoughts! Be Yourself"
+    channel: "twilio_tommy"
+  - text: "Got it! Let's do this then, remember that people and events don't make you happy, you do! Be Yourself"
+    channel: "twilio_lucky"
+  - text: "Got it! Let's do this then, remember that people and events don't make you happy, you do! Be Yourself"
+
+  utter_ask_feeling_this_time_mia:
+  - text: "Why are you feeling it this time?"
+    channel: "mia"
+  - text: "Why are you feeling it this time?"
+    channel: "anna"
+  - text: "Why are you feeling it this time?"
+    channel: "simon"
+  - text: "Why are you feeling it this time?"
+    channel: "oscar"
+  - text: "Why are you feeling it this time?"
+    channel: "tommy"
+  - text: "Why are you feeling it this time?"
+    channel: "lucky"
+  - text: "Why are you feeling it this time?"
+    channel: "twilio_mia"
+  - text: "Why are you feeling it this time?"
+    channel: "twilio_anna"
+  - text: "Why are you feeling it this time?"
+    channel: "twilio_simon"
+  - text: "Why are you feeling it this time?"
+    channel: "twilio_oscar"
+  - text: "Why are you feeling it this time?"
+    channel: "twilio_tommy"
+  - text: "Why are you feeling it this time?"
+    channel: "twilio_lucky"
+  - text: "Why are you feeling it this time?"
+
+  utter_change_perspective_mia:
+  - text: "Sometimes you can't avoid these situations but sometimes it helps to change your perspective!"
+    channel: "mia"
+  - text: "Remember sometimes you can't avoid these situations but it can help to change your perspective"
+    channel: "anna"
+  - text: "Remember sometimes you can't avoid these situations but it can help to change your perspective"
+    channel: "simon"
+  - text: "Sometimes you can't avoid these situations but sometimes it helps to change your perspective!"
+    channel: "oscar"
+  - text: "Sometimes you can't avoid these situations but sometimes it helps to change your perspective!"
+    channel: "tommy"
+  - text: "Sometimes you can't avoid these situations but sometimes it helps to change your perspective!"
+    channel: "lucky"
+  - text: "Sometimes you can't avoid these situations but sometimes it helps to change your perspective!"
+    channel: "twilio_mia"
+  - text: "Remember sometimes you can't avoid these situations but it can help to change your perspective"
+    channel: "twilio_anna"
+  - text: "Remember sometimes you can't avoid these situations but it can help to change your perspective"
+    channel: "twilio_simon"
+  - text: "Sometimes you can't avoid these situations but sometimes it helps to change your perspective!"
+    channel: "twilio_oscar"
+  - text: "Sometimes you can't avoid these situations but sometimes it helps to change your perspective!"
+    channel: "twilio_tommy"
+  - text: "Sometimes you can't avoid these situations but sometimes it helps to change your perspective!"
+    channel: "twilio_lucky"
+  - text: "Sometimes you can't avoid these situations but sometimes it helps to change your perspective!"
+
+  utter_ask_three_things_mia:
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "mia"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "anna"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "simon"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "oscar"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "tommy"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "lucky"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "twilio_mia"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "twilio_anna"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "twilio_simon"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "twilio_oscar"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "twilio_tommy"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+    channel: "twilio_lucky"
+  - text: "Name 3 things you are really good at. Even if you don't know now, that's okay, remember that you are trying your best."
+
+  utter_enjoy_advice_mia:
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing."
+    channel: "mia"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing"
+    channel: "anna"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing"
+    channel: "simon"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing"
+    channel: "oscar"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing."
+    channel: "tommy"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing."
+    channel: "lucky"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing."
+    channel: "twilio_mia"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing."
+    channel: "twilio_anna"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing."
+    channel: "twilio_simon"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing."
+    channel: "twilio_oscar"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing."
+    channel: "twilio_tommy"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing."
+    channel: "twilio_lucky"
+  - text: "Okay what really helps me is to remind myself that I don't have to be perfect or even the best at something. I just need to enjoy what I like doing."
+
+  utter_ask_whats_next_mia:
+  - text: "What are you going to do next?"
+    channel: "simon"
+  - text: "What are you going to do next?"
+    channel: "anna"
+  - text: "What are you going to do next?"
+    channel: "oscar"
+  - text: "What are you going to do next?"
+    channel: "mia"
+  - text: "What are you going to do next?"
+    channel: "tommy"
+  - text: "What are you going to do next?"
+    channel: "lucky"
+  - text: "What are you going to do next?"
+    channel: "twilio_simon"
+  - text: "What are you going to do next?"
+    channel: "twilio_anna"
+  - text: "What are you going to do next?"
+    channel: "twilio_oscar"
+  - text: "What are you going to do next?"
+    channel: "twilio_mia"
+  - text: "What are you going to do next?"
+    channel: "twilio_tommy"
+  - text: "What are you going to do next?"
+    channel: "twilio_lucky"
+  - text: "What are you going to do next?"
+
+  utter_ask_feel_better_mia:
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "simon"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "anna"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "oscar"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "mia"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "tommy"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "lucky"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_simon"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_anna"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_oscar"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_mia"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_tommy"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+    channel: "twilio_lucky"
+  - text: "Will that make you feel better? Are you sure that's the best option?"
+
+  utter_i_get_it_mia:
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "mia"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "anna"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "simon"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "oscar"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "tommy"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "lucky"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "twilio_mia"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "twilio_anna"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "twilio_simon"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "twilio_oscar"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "twilio_tommy"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+    channel: "twilio_lucky"
+  - text: "I get it, even if its not making you feel better don't let it prevent you from doing what you want to do!"
+
+  utter_second_guess_mia:
+  - text: "I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "mia"
+  - text: "I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "anna"
+  - text: "It's okay, I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "simon"
+  - text: "It's okay, I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "oscar"
+  - text: "I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "tommy"
+  - text: "It's okay, I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "lucky"
+  - text: "I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "twilio_mia"
+  - text: "I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "twilio_anna"
+  - text: "It's okay, I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "twilio_simon"
+  - text: "It's okay, I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "twilio_oscar"
+  - text: "I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "twilio_tommy"
+  - text: "It's okay, I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+    channel: "twilio_lucky"
+  - text: "I second guess things all the time and I've realized that if I'm not hurting anyone, anything or myself, I should just do it!"
+
+  utter_ask_leap_mia:
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "mia"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "anna"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "simon"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "oscar"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "tommy"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "lucky"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "twilio_mia"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "twilio_anna"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "twilio_simon"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "twilio_oscar"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "twilio_tommy"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+    channel: "twilio_lucky"
+  - text: "I've been trying to take a leap of faith! Do you think you're ready for that?"
+
+  utter_give_yourself_time_mia:
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "mia"
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "anna"
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "simon"
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "oscar"
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "tommy"
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "lucky"
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "twilio_mia"
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "twilio_anna"
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "twilio_simon"
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "twilio_oscar"
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "twilio_tommy"
+  - text: "That's okay, give yourself time and rest will be ok!"
+    channel: "twilio_lucky"
+  - text: "That's okay, give yourself time and rest will be ok!"
+
 forms:
   proud_form:
     required_slots:
@@ -1467,6 +1818,32 @@ forms:
     required_slots:
       if_apply_ana:
         - type: from_text
+
+  pressure_happening_mia_form:  # mia
+    required_slots:
+      pressure_happening_mia:
+        - type: from_text
+  feeling_this_time_mia_form:  # mia
+    required_slots:
+      feeling_this_time_mia:
+        - type: from_text
+  three_things_mia_form:  # mia
+    required_slots:
+      three_things_mia:
+        - type: from_text
+  whats_next_mia_form:
+    required_slots:
+      whats_next_mia:
+        - type: from_text
+  feel_better_mia_form:
+    required_slots:
+      feel_better_mia:
+        - type: from_text
+  leap_mia_form:
+    required_slots:
+      leap_mia:
+        - type: from_text
+
 
 slots:
   time_proud:
@@ -1593,6 +1970,37 @@ slots:
     auto_fill: true
     influence_conversation: false
 
+  pressure_happening_mia:  # mia
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  feeling_this_time_mia:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  three_things_mia:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  whats_next_mia:  # mia
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  feel_better_mia:  # mia
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  leap_mia:  # mia
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+
 actions:
 - action_proud_lucky # lucky
 - action_next_plans_lucky
@@ -1617,6 +2025,12 @@ actions:
 - action_happened_before_ana
 - action_good_at_ana
 - action_if_apply_ana
+- action_pressure_happening_mia # mia
+- action_feeling_this_time_mia
+- action_three_things_mia
+- action_whats_next_mia
+- action_feel_better_mia
+- action_leap_mia
 
 
 session_config:

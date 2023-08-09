@@ -1,0 +1,169 @@
+version: "2.0"
+
+stories:
+
+- story: ana_affirm_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - or:
+    - intent: pressure_mia
+      entities:
+      - pressure: tension
+    - intent: insecure_mia
+      entities:
+        - insecure: I have low self esteem
+  - action: pressure_happening_mia_form
+  - active_loop: pressure_happening_mia_form
+  - active_loop: null
+  - action: action_pressure_happening_mia
+  - action: utter_often_happen_mia
+  - intent: affirm
+  - action: utter_people_make_you_happy_mia
+  - action: whats_next_mia_form
+  - active_loop: whats_next_mia_form
+  - active_loop: null
+  - action: action_whats_next_mia
+  - action: feel_better_mia_form
+  - active_loop: feel_better_mia_form
+  - active_loop: null
+  - action: action_feel_better_mia
+  - action: utter_second_guess_mia
+  - action: leap_mia_form
+  - active_loop: leap_mia_form
+  - active_loop: null
+  - action: action_leap_mia
+  - action: utter_if_wantsto_chat_lucky
+  - intent: affirm
+  - action: utter_conversation_lucky
+
+- story: ana_affirm_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - or:
+    - intent: pressure_mia
+      entities:
+      - pressure: tension
+    - intent: insecure_mia
+      entities:
+        - insecure: I have low self esteem
+  - action: pressure_happening_mia_form
+  - active_loop: pressure_happening_mia_form
+  - active_loop: null
+  - action: action_pressure_happening_mia
+  - action: utter_often_happen_mia
+  - intent: affirm
+  - action: utter_people_make_you_happy_mia
+  - action: whats_next_mia_form
+  - active_loop: whats_next_mia_form
+  - active_loop: null
+  - action: action_whats_next_mia
+  - action: feel_better_mia_form
+  - active_loop: feel_better_mia_form
+  - active_loop: null
+  - action: action_feel_better_mia
+  - action: utter_second_guess_mia
+  - action: leap_mia_form
+  - active_loop: leap_mia_form
+  - active_loop: null
+  - action: action_leap_mia
+  - action: utter_if_wantsto_chat_lucky
+  - intent: deny
+  - action: utter_goodbye
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_feedback
+
+
+- story: ana_deny_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - or:
+    - intent: pressure_mia
+      entities:
+      - pressure: tension
+    - intent: insecure_mia
+      entities:
+        - insecure: I have low self esteem
+  - action: pressure_happening_mia_form
+  - active_loop: pressure_happening_mia_form
+  - active_loop: null
+  - action: action_pressure_happening_mia
+  - action: utter_often_happen_mia
+  - intent: deny
+  - action: utter_people_make_you_happy_mia
+  - action: feeling_this_time_mia_form
+  - active_loop: feeling_this_time_mia_form
+  - active_loop: null
+  - action: action_feeling_this_time_mia
+  - action: three_things_mia_form
+  - active_loop: three_things_mia_form
+  - active_loop: null
+  - action: action_three_things_mia
+  - action: whats_next_mia_form
+  - active_loop: whats_next_mia_form
+  - active_loop: null
+  - action: action_whats_next_mia
+  - action: feel_better_mia_form
+  - active_loop: feel_better_mia_form
+  - active_loop: null
+  - action: action_feel_better_mia
+  - action: utter_second_guess_mia
+  - action: leap_mia_form
+  - active_loop: leap_mia_form
+  - active_loop: null
+  - action: action_leap_mia
+  - action: utter_if_wantsto_chat_lucky
+  - intent: affirm
+  - action: utter_conversation_lucky
+
+- story: ana_deny_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - or:
+    - intent: pressure_mia
+      entities:
+      - pressure: tension
+    - intent: insecure_mia
+      entities:
+        - insecure: I have low self esteem
+  - action: pressure_happening_mia_form
+  - active_loop: pressure_happening_mia_form
+  - active_loop: null
+  - action: action_pressure_happening_mia
+  - action: utter_often_happen_mia
+  - intent: deny
+  - action: utter_people_make_you_happy_mia
+  - action: feeling_this_time_mia_form
+  - active_loop: feeling_this_time_mia_form
+  - active_loop: null
+  - action: action_feeling_this_time_mia
+  - action: three_things_mia_form
+  - active_loop: three_things_mia_form
+  - active_loop: null
+  - action: action_three_things_mia
+  - action: whats_next_mia_form
+  - active_loop: whats_next_mia_form
+  - active_loop: null
+  - action: action_whats_next_mia
+  - action: feel_better_mia_form
+  - active_loop: feel_better_mia_form
+  - active_loop: null
+  - action: action_feel_better_mia
+  - action: utter_second_guess_mia
+  - action: leap_mia_form
+  - active_loop: leap_mia_form
+  - active_loop: null
+  - action: action_leap_mia
+  - action: utter_if_wantsto_chat_lucky
+  - intent: deny
+  - action: utter_goodbye
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_feedback
+
