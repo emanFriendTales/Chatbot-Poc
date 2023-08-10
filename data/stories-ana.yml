@@ -1,7 +1,7 @@
 version: "2.0"
 stories:
 
-- story: ana_1
+- story: ana_affirm_1
   steps:
   - intent: greet
   - action: utter_greet
@@ -34,7 +34,7 @@ stories:
   - intent: affirm
   - action: utter_conversation_lucky
 
-- story: ana_2
+- story: ana_affirm_2
   steps:
   - intent: greet
   - action: utter_greet
@@ -71,7 +71,7 @@ stories:
   - active_loop: null
   - action: action_feedback
 
-- story: ana_3
+- story: ana_deny_1
   steps:
   - intent: greet
   - action: utter_greet
@@ -106,5 +106,75 @@ stories:
   - active_loop: if_apply_ana_form
   - active_loop: null
   - action: action_if_apply_ana
+  - or:
+    - intent: affirm
+    - intent: deny
+  - action: utter_trial_and_error_anna
+  - action: utter_more_breathing_anna
+  - action: utter_countdown_again_anna
+  - intent: affirm
+  - action: utter_walk_ana
+  - action: utter_if_not_walking_ana
+  - action: utter_been_through_this_ana
+  - action: utter_ask_people_ana
+  - action: utter_if_wantsto_chat_lucky
+  - intent: affirm
+  - action: utter_conversation_lucky
+
+- story: ana_deny_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - or:
+    - intent: panicked_anna
+      entities:
+      - panicked:  I feel like I’m having a panic attack
+    - intent: nervous_anna
+      entities:
+      - nervous:  I'm feeling nervous
+  - action: utter_if_breathing_anna
+  - action: utter_countdown10_anna
+  - action: countdown_done_anna_form
+  - active_loop: countdown_done_anna_form
+  - active_loop: null
+  - action: action_countdown_done_anna
+  - action: feel_reason_ana_form
+  - active_loop: feel_reason_ana_form
+  - active_loop: null
+  - action: action_feel_reason_ana
+  - action: happened_before_ana_form
+  - active_loop: happened_before_ana_form
+  - active_loop: null
+  - action: action_happened_before_ana
+  - action: utter_how_to_mitigate_worry_ana
+  - intent: deny
+  - action: good_at_ana_form
+  - active_loop: good_at_ana_form
+  - active_loop: null
+  - action: action_good_at_ana
+  - action: if_apply_ana_form
+  - active_loop: if_apply_ana_form
+  - active_loop: null
+  - action: action_if_apply_ana
+  - or:
+    - intent: affirm
+    - intent: deny
+  - action: utter_trial_and_error_anna
+  - action: utter_more_breathing_anna
+  - action: utter_countdown_again_anna
+  - intent: affirm
+  - action: utter_walk_ana
+  - action: utter_if_not_walking_ana
+  - action: utter_been_through_this_ana
+  - action: utter_ask_people_ana
+  - action: utter_if_wantsto_chat_lucky
+  - intent: deny
+  - action: utter_goodbye
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_feedback
+
+
 
 

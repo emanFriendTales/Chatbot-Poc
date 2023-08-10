@@ -2,6 +2,9 @@ version: "2.0"
 nlu:
 - intent: insecure_mia
   examples: |
+    - im [insecure](insecure)
+    - Im [insecure](insecure)
+    - Iam [insecure](insecure)
     - [apprehensive](insecure)
     - [hesitant](insecure)
     - [shaky](insecure)

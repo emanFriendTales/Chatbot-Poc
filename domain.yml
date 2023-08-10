@@ -1339,7 +1339,7 @@ responses:
     channel: "twilio_mia"
   - text: "Can any of this apply to the situation you are in?"
 
-  utter_walk_anna:
+  utter_walk_ana:
   - text: "If that doesn't help you can try yoga too! I know doing yoga works for me"
     channel: "anna"
   - text: "If that doesn't help you can try riding too! going for a bike ride helps me"
@@ -1365,6 +1365,88 @@ responses:
   - text: "If that doesn't help you can try walk too! I know going for a walk always work for me"
     channel: "twilio_mia"
   - text: "If that doesn't help you can try walk too! I know going for a walk always work for me"
+
+
+  utter_if_not_walking_ana:
+  - text: "If yoga doesn't work, can you talk to someone about it?"
+    channel: "anna"
+  - text: "If a bike ride doesn't work, can you talk to someone about it?"
+    channel: "lucky"
+  - text: "If dancing doesn't work, can you talk to someone about it?"
+    channel: "simon"
+  - text: "If cleaning doesn't work, can you talk to someone about it?"
+    channel: "oscar"
+  - text: "If walking doesn't work, can you talk to someone about it?"
+    channel: "tommy"
+  - text: "If walking doesn't work, can you talk to someone about it?"
+    channel: "mia"
+  - text: "If yoga doesn't work, can you talk to someone about it?"
+    channel: "twilio_anna"
+  - text: "If a bike ride doesn't work, can you talk to someone about it?"
+    channel: "twilio_lucky"
+  - text: "If dancing doesn't work, can you talk to someone about it?"
+    channel: "twilio_simon"
+  - text: "If cleaning doesn't work, can you talk to someone about it?"
+    channel: "twilio_oscar"
+  - text: "If walking doesn't work, can you talk to someone about it?"
+    channel: "twilio_tommy"
+  - text: "If walking doesn't work, can you talk to someone about it?"
+    channel: "twilio_mia"
+  - text: "If walking doesn't work, can you talk to someone about it?"
+
+  utter_been_through_this_ana:
+  - text: "They might have been through the same situation as you! Just a thought!"
+    channel: "anna"
+  - text: "They might have been through the same situation as you! Just a thought!"
+    channel: "lucky"
+  - text: "They might have been through the same situation as you! You never know!"
+    channel: "simon"
+  - text: "They might have been through the same situation as you! You never know!"
+    channel: "oscar"
+  - text: "They might have been through the same situation as you! You never know!"
+    channel: "tommy"
+  - text: "They might have been through the same situation as you! You never know!"
+    channel: "mia"
+  - text: "They might have been through the same situation as you! Just a thought!"
+    channel: "twilio_anna"
+  - text: "They might have been through the same situation as you! Just a thought!"
+    channel: "twilio_lucky"
+  - text: "They might have been through the same situation as you! You never know!"
+    channel: "twilio_simon"
+  - text: "They might have been through the same situation as you! You never know!"
+    channel: "twilio_oscar"
+  - text: "They might have been through the same situation as you! You never know!"
+    channel: "twilio_tommy"
+  - text: "They might have been through the same situation as you! You never know!"
+    channel: "twilio_mia"
+  - text: "They might have been through the same situation as you! Just a thought!"
+
+  utter_ask_people_ana:
+  - text: "Also ask people! My friends give me tons of advice when I have troubles."
+    channel: "anna"
+  - text: "Maybe as a friend? My friends give me tons of advice when I have troubles."
+    channel: "lucky"
+  - text: "Maybe as a friend? My friends give me tons of advice when I have troubles."
+    channel: "simon"
+  - text: "Maybe as a friend? My friends give me tons of advice when I have troubles."
+    channel: "oscar"
+  - text: "Maybe as a friend? My friends give me tons of advice when I have troubles."
+    channel: "tommy"
+  - text: "Maybe as a friend? My friends give me tons of advice when I have troubles."
+    channel: "mia"
+  - text: "Also ask people! My friends give me tons of advice when I have troubles."
+    channel: "twilio_anna"
+  - text: "Maybe as a friend? My friends give me tons of advice when I have troubles."
+    channel: "twilio_lucky"
+  - text: "Maybe as a friend? My friends give me tons of advice when I have troubles."
+    channel: "twilio_simon"
+  - text: "Maybe as a friend? My friends give me tons of advice when I have troubles."
+    channel: "twilio_oscar"
+  - text: "Maybe as a friend? My friends give me tons of advice when I have troubles."
+    channel: "twilio_tommy"
+  - text: "Maybe as a friend? My friends give me tons of advice when I have troubles."
+    channel: "twilio_mia"
+  - text: "I try to ask my best friend! My friends give me tons of advice when I have troubles."
 
   utter_ask_pressure_happening_mia:  # mia
   - text: "What's happening?"
@@ -1717,6 +1799,520 @@ responses:
     channel: "twilio_lucky"
   - text: "That's okay, give yourself time and rest will be ok!"
 
+  utter_ask_self_control_tommy:
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "tommy"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "anna"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "oscar"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "mia"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "simon"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "lucky"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "twilio_tommy"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "twilio_anna"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "twilio_oscar"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "twilio_mia"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "twilio_simon"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+    channel: "twilio_lucky"
+  - text: "Self Control is hard, I'm sorry you're going through this. Why do you feel the need to?"
+
+  utter_if_feel_better_tommy:
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "tommy"
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "anna"
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "oscar"
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "mia"
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "simon"
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "lucky"
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "twilio_tommy"
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "twilio_anna"
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "twilio_oscar"
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "twilio_mia"
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "twilio_simon"
+  - text: "Okay, does it make you feel better doing it?"
+    channel: "twilio_lucky"
+  - text: "Okay, does it make you feel better doing it?"
+
+  utter_video_games_tommy:
+  - text: "I get that. I also feel good when I play video games. It's so hard to stop."
+    channel: "tommy"
+  - text: "Yeah, I can understand. It's so hard to stop"
+    channel: "anna"
+  - text: "Yeah, I can understand. It's so hard to stop"
+    channel: "oscar"
+  - text: "Yeah, I can understand. It's so hard to stop"
+    channel: "mia"
+  - text: "Yeah, I can understand. It's so hard to stop"
+    channel: "simon"
+  - text: "I get that. I also feel good when I play video games. It's so hard to stop."
+    channel: "lucky"
+  - text: "I get that. I also feel good when I play video games. It's so hard to stop."
+    channel: "twilio_tommy"
+  - text: "Yeah, I can understand. It's so hard to stop"
+    channel: "twilio_anna"
+  - text: "Yeah, I can understand. It's so hard to stop"
+    channel: "twilio_oscar"
+  - text: "Yeah, I can understand. It's so hard to stop"
+    channel: "twilio_mia"
+  - text: "Yeah, I can understand. It's so hard to stop"
+    channel: "twilio_simon"
+  - text: "I get that. I also feel good when I play video games. It's so hard to stop."
+    channel: "twilio_lucky"
+  - text: "I get that. I also feel good when I play video games. It's so hard to stop."
+
+  utter_ask_do_before_tommy:
+  - text: "What did you used to do before it?"
+    channel: "tommy"
+  - text: "What did you used to do before it?"
+    channel: "anna"
+  - text: "What did you used to do before it?"
+    channel: "oscar"
+  - text: "What did you used to do before it?"
+    channel: "mia"
+  - text: "What did you used to do before it?"
+    channel: "simon"
+  - text: "What did you used to do before it?"
+    channel: "lucky"
+  - text: "What did you used to do before it?"
+    channel: "twilio_tommy"
+  - text: "What did you used to do before it?"
+    channel: "twilio_anna"
+  - text: "What did you used to do before it?"
+    channel: "twilio_oscar"
+  - text: "What did you used to do before it?"
+    channel: "twilio_mia"
+  - text: "What did you used to do before it?"
+    channel: "twilio_simon"
+  - text: "What did you used to do before it?"
+    channel: "twilio_lucky"
+  - text: "What did you used to do before it?"
+
+  utter_ask_if_going_back_tommy:
+  - text: "Okay, have you tried going back to it?"
+    channel: "tommy"
+  - text: "Okay, have you tried going back to it?"
+    channel: "anna"
+  - text: "Okay, have you tried going back to it?"
+    channel: "oscar"
+  - text: "Okay, have you tried going back to it?"
+    channel: "mia"
+  - text: "Okay, have you tried going back to it?"
+    channel: "simon"
+  - text: "Okay, have you tried going back to it?"
+    channel: "lucky"
+  - text: "Okay, have you tried going back to it?"
+    channel: "twilio_tommy"
+  - text: "Okay, have you tried going back to it?"
+    channel: "twilio_anna"
+  - text: "Okay, have you tried going back to it?"
+    channel: "twilio_oscar"
+  - text: "Okay, have you tried going back to it?"
+    channel: "twilio_mia"
+  - text: "Okay, have you tried going back to it?"
+    channel: "twilio_simon"
+  - text: "Okay, have you tried going back to it?"
+    channel: "twilio_lucky"
+  - text: "Okay, have you tried going back to it?"
+
+  utter_ask_feel_doing_again_tommy:
+  - text: "Okay and how did you feel doing it again?"
+    channel: "tommy"
+  - text: "Okay and how did you feel doing it again?"
+    channel: "anna"
+  - text: "Nice and how did you feel doing it again?"
+    channel: "oscar"
+  - text: "Cool and how did you feel doing it again?"
+    channel: "mia"
+  - text: "Okay and how did you feel doing it again?"
+    channel: "simon"
+  - text: "Okay and how did you feel doing it again?"
+    channel: "lucky"
+  - text: "Okay and how did you feel doing it again?"
+    channel: "twilio_tommy"
+  - text: "Okay and how did you feel doing it again?"
+    channel: "twilio_anna"
+  - text: "Nice and how did you feel doing it again?"
+    channel: "twilio_oscar"
+  - text: "Cool and how did you feel doing it again?"
+    channel: "twilio_mia"
+  - text: "Okay and how did you feel doing it again?"
+    channel: "twilio_simon"
+  - text: "Okay and how did you feel doing it again?"
+    channel: "twilio_lucky"
+  - text: "Okay and how did you feel doing it again?"
+
+  utter_explore_things_tommy:
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by doing different things. It helps me feel like I'm not spending too much time to do anything."
+    channel: "tommy"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by doing different things. It helps me feel like I'm getting stuff done and time isn't wasted."
+    channel: "anna"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by doing different things so I am not overwhelmed with my thoughts"
+    channel: "oscar"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by changing up what I do. It helps me not be fixated on things that make me sad."
+    channel: "mia"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by changing up what I do. It helps me not be fixated on things that make me sad."
+    channel: "simon"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by doing different things. It helps me feel like I'm not spending too much time to do anything."
+    channel: "lucky"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by doing different things. It helps me feel like I'm not spending too much time to do anything."
+    channel: "twilio_tommy"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by doing different things. It helps me feel like I'm getting stuff done and time isn't wasted."
+    channel: "twilio_anna"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by doing different things so I am not overwhelmed with my thoughts"
+    channel: "twilio_oscar"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by changing up what I do. It helps me not be fixated on things that make me sad."
+    channel: "twilio_mia"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by changing up what I do. It helps me not be fixated on things that make me sad."
+    channel: "twilio_simon"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by doing different things. It helps me feel like I'm not spending too much time to do anything."
+    channel: "twilio_lucky"
+  - text: "Okay, maybe it's time to explore other things. I try to keep my mind busy by doing different things. It helps me feel like I'm not spending too much time to do anything."
+
+  utter_ask_joy_tommy:
+  - text: "What can you do that will bring you joy?"
+    channel: "tommy"
+  - text: "What can you do that will bring you joy?"
+    channel: "anna"
+  - text: "What can you do that will bring you joy?"
+    channel: "oscar"
+  - text: "What can you do that will bring you joy?"
+    channel: "mia"
+  - text: "What can you do that will bring you joy?"
+    channel: "simon"
+  - text: "What can you do that will bring you joy?"
+    channel: "lucky"
+  - text: "What can you do that will bring you joy?"
+    channel: "twilio_tommy"
+  - text: "What can you do that will bring you joy?"
+    channel: "twilio_anna"
+  - text: "What can you do that will bring you joy?"
+    channel: "twilio_oscar"
+  - text: "What can you do that will bring you joy?"
+    channel: "twilio_mia"
+  - text: "What can you do that will bring you joy?"
+    channel: "twilio_simon"
+  - text: "What can you do that will bring you joy?"
+    channel: "twilio_lucky"
+  - text: "What can you do that will bring you joy?"
+
+  utter_temporary_satisfaction_tommy:
+  - text: "Okay, find something else that makes you happy! My grandpa always reminds me that this satisfaction is only temporary."
+    channel: "tommy"
+  - text: "Okay - there might be other things that make you happy too! It might be worth exploring"
+    channel: "anna"
+  - text: "Okay - there might be other things that make you happy too! It might be worth exploring"
+    channel: "oscar"
+  - text: "Okay - there might be other things that make you happy too! It might be worth exploring"
+    channel: "mia"
+  - text: "Okay - there might be other things that make you happy too! It might be worth exploring"
+    channel: "simon"
+  - text: "Okay, find something else that makes you happy! This satisfaction is only temporary."
+    channel: "lucky"
+  - text: "Okay, find something else that makes you happy! My grandpa always reminds me that this satisfaction is only temporary."
+    channel: "twilio_tommy"
+  - text: "Okay - there might be other things that make you happy too! It might be worth exploring"
+    channel: "twilio_anna"
+  - text: "Okay - there might be other things that make you happy too! It might be worth exploring"
+    channel: "twilio_oscar"
+  - text: "Okay - there might be other things that make you happy too! It might be worth exploring"
+    channel: "twilio_mia"
+  - text: "Okay - there might be other things that make you happy too! It might be worth exploring"
+    channel: "twilio_simon"
+  - text: "Okay - there might be other things that make you happy too! It might be worth exploring"
+    channel: "twilio_lucky"
+  - text: "Okay, find something else that makes you happy! This satisfaction is only temporary."
+
+  utter_ask_missing_out_tommy:
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "tommy"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "anna"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "oscar"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "mia"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "simon"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "lucky"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "twilio_tommy"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "twilio_anna"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "twilio_oscar"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "twilio_mia"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "twilio_simon"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+    channel: "twilio_lucky"
+  - text: "If you feel you are missing out. It will be okay. What do you think?"
+
+  utter_I_hear_you_tommy:
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "tommy"
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "anna"
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "oscar"
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "mia"
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "simon"
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "lucky"
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "twilio_tommy"
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "twilio_anna"
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "twilio_oscar"
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "twilio_mia"
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "twilio_simon"
+  - text: "Okay, I hear you. Your feelings are valid."
+    channel: "twilio_lucky"
+  - text: "Okay, I hear you. Your feelings are valid."
+
+  utter_few_things_tommy:
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "tommy"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "anna"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "oscar"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "mia"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "simon"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "lucky"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "twilio_tommy"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "twilio_anna"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "twilio_oscar"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "twilio_mia"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "twilio_simon"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+    channel: "twilio_lucky"
+  - text: "It's hard. There are a few things for me that will give me that happiness."
+
+  utter_grandpa_tommy:
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "tommy"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "anna"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "oscar"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "mia"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "simon"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "lucky"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "twilio_tommy"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "twilio_anna"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "twilio_oscar"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "twilio_mia"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "twilio_simon"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+    channel: "twilio_lucky"
+  - text: "My grandpa told me something important, He said that video games are temporary, which is true. After a few days without the games, I kept trying to occupy my mind with something else."
+
+  utter_ask_occupy_mind_tommy:
+  - text: "What would you occupy your mind with?"
+    channel: "tommy"
+  - text: "What would you occupy your mind with?"
+    channel: "anna"
+  - text: "What would you occupy your mind with?"
+    channel: "oscar"
+  - text: "What would you occupy your mind with?"
+    channel: "mia"
+  - text: "What would you occupy your mind with?"
+    channel: "simon"
+  - text: "What would you occupy your mind with?"
+    channel: "lucky"
+  - text: "What would you occupy your mind with?"
+    channel: "twilio_tommy"
+  - text: "What would you occupy your mind with?"
+    channel: "twilio_anna"
+  - text: "What would you occupy your mind with?"
+    channel: "twilio_oscar"
+  - text: "What would you occupy your mind with?"
+    channel: "twilio_mia"
+  - text: "What would you occupy your mind with?"
+    channel: "twilio_simon"
+  - text: "What would you occupy your mind with?"
+    channel: "twilio_lucky"
+  - text: "What would you occupy your mind with?"
+
+  utter_try_that_tommy:
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "tommy"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "anna"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "oscar"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "mia"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "simon"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "lucky"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "twilio_tommy"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "twilio_anna"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "twilio_oscar"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "twilio_mia"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "twilio_simon"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+    channel: "twilio_lucky"
+  - text: "Okay, try that! It's not going to feel the same at first. It took me a little while to find a few things that brought me much joy. "
+
+  utter_mirror_anna:
+  - text: "I know it will take time. Sometimes there isn't a solution. It may seems dumb but telling yourself in the mirror I can do it, helps me! Sounds right?"
+    channel: "anna"
+  - text: "I know it will take time. If there is noting you can do, it's okay. I always put on my favorite outfit and it gives me confidence. Sounds right?"
+    channel: "lucky"
+  - text: "I know it will take time. Somtimes there is nothing you can do. I like to stand on something tall and it makes me feel less small. Sounds right?"
+    channel: "simon"
+  - text: "I know it will take time. It's okay, it will all work out. I like to go to a crowded area and look at other people to know I'm not alone. Sounds right?"
+    channel: "oscar"
+  - text: "I know it will take time. It's okay, sometimes there isn't a solution. I like to escape into my video games and realize that I can be who I want to be. Sounds right?"
+    channel: "tommy"
+  - text: "I know it will take time. Sometimes there isn't a solution. This may seem dumb but telling yourself in the mirror - I can do it! it helps me. Sounds right?"
+    channel: "mia"
+  - text: "I know it will take time. Sometimes there isn't a solution. It may seems dumb but telling yourself in the mirror I can do it, helps me! Sounds right?"
+    channel: "twilio_anna"
+  - text: "I know it will take time. If there is noting you can do, it's okay. I always put on my favorite outfit and it gives me confidence. Sounds right?"
+    channel: "twilio_lucky"
+  - text: "I know it will take time. Somtimes there is nothing you can do. I like to stand on something tall and it makes me feel less small. Sounds right?"
+    channel: "twilio_simon"
+  - text: "I know it will take time. It's okay, it will all work out. I like to go to a crowded area and look at other people to know I'm not alone. Sounds right?"
+    channel: "twilio_oscar"
+  - text: "I know it will take time. It's okay, sometimes there isn't a solution. I like to escape into my video games and realize that I can be who I want to be. Sounds right?"
+    channel: "twilio_tommy"
+  - text: "I know it will take time. Sometimes there isn't a solution. This may seem dumb but telling yourself in the mirror - I can do it! it helps me. Sounds right?"
+    channel: "twilio_mia"
+  - text: "I know it will take time. Sometimes there isn't a solution. It may seems dumb but telling yourself in the mirror I can do it, helps me!. Sounds right?"
+
+  utter_trial_and_error_anna:
+  - text: "Trial & error, try a different approach?"
+    channel: "anna"
+  - text: "Maybe try a different approach?"
+    channel: "lucky"
+  - text: "Maybe, try something different?"
+    channel: "simon"
+  - text: "Try a different way next time"
+    channel: "oscar"
+  - text: "Try a different way next time"
+    channel: "tommy"
+  - text: "Try a different way next time"
+    channel: "mia"
+  - text: "Trial & error, try a different approach?"
+    channel: "twilio_anna"
+  - text: "Maybe try a different approach?"
+    channel: "twilio_lucky"
+  - text: "Maybe, try something different?"
+    channel: "twilio_simon"
+  - text: "Try a different way next time"
+    channel: "twilio_oscar"
+  - text: "Try a different way next time"
+    channel: "twilio_tommy"
+  - text: "Try a different way next time"
+    channel: "twilio_mia"
+  - text: "Trial & error, try a different approach?"
+
+  utter_more_breathing_anna:
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "anna"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "lucky"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "simon"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "oscar"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "tommy"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "mia"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "twilio_anna"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "twilio_lucky"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "twilio_simon"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "twilio_oscar"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "twilio_tommy"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+    channel: "twilio_mia"
+  - text: "Doing pushups or exercise can also switch your mindset. Let's do more breathing"
+
+  utter_countdown_again_anna:
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "anna"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "lucky"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "simon"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "oscar"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "tommy"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "mia"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "twilio_anna"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "twilio_lucky"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "twilio_simon"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "twilio_oscar"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "twilio_tommy"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+    channel: "twilio_mia"
+  - text: "Can you countdown from 50 this time, spaces each breath with one number? Let me know when you are done"
+
+
 forms:
   proud_form:
     required_slots:
@@ -1797,7 +2393,6 @@ forms:
       walk_away_oscar:
         - type: from_text
 
-
   countdown_done_anna_form:
     required_slots:
       countdown_done_anna:
@@ -1844,6 +2439,34 @@ forms:
       leap_mia:
         - type: from_text
 
+  self_control_tommy_form:  # tommy
+    required_slots:
+      self_control_tommy:
+        - type: from_text
+  do_before_tommy_form:
+    required_slots:
+      do_before_tommy:
+        - type: from_text
+  if_going_back_tommy_form:
+    required_slots:
+      if_going_back_tommy:
+        - type: from_text
+  feel_doing_again_tommy_form:
+    required_slots:
+      feel_doing_again_tommy:
+        - type: from_text
+  joy_tommy_form:
+    required_slots:
+      joy_tommy:
+        - type: from_text
+  missing_out_tommy_form:
+    required_slots:
+      missing_out_tommy:
+        - type: from_text
+  occupy_mind_tommy_form:
+    required_slots:
+      occupy_mind_tommy:
+        - type: from_text
 
 slots:
   time_proud:
@@ -1985,17 +2608,53 @@ slots:
     initial_value: null
     auto_fill: true
     influence_conversation: false
-  whats_next_mia:  # mia
+  whats_next_mia:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
     influence_conversation: false
-  feel_better_mia:  # mia
+  feel_better_mia:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
     influence_conversation: false
-  leap_mia:  # mia
+  leap_mia:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+
+  self_control_tommy:  #tommy
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  do_before_tommy:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  if_going_back_tommy:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  feel_doing_again_tommy:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  joy_tommy:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  missing_out_tommy:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+  occupy_mind_tommy:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
@@ -2020,6 +2679,7 @@ actions:
 - action_feel_intrusive_thoughts_oscar
 - action_feel_oscar
 - action_walk_away_oscar
+- action_distract_oscar_2
 - action_countdown_done_anna # ana
 - action_feel_reason_ana
 - action_happened_before_ana
@@ -2031,6 +2691,13 @@ actions:
 - action_whats_next_mia
 - action_feel_better_mia
 - action_leap_mia
+- action_self_control_tommy # tommy
+- action_do_before_tommy
+- action_if_going_back_tommy
+- action_feel_doing_again_tommy
+- action_joy_tommy
+- action_missing_out_tommy
+- action_occupy_mind_tommy
 
 
 session_config:

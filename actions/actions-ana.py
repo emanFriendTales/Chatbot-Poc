@@ -94,4 +94,5 @@ class ActionIfApplyAnaForm(Action):
             domain: "DomainDict",
     ) -> List[Dict[Text, Any]]:
 
+        dispatcher.utter_message(template="utter_mirror_anna")
         return[]

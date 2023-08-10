@@ -1,0 +1,139 @@
+version: "2.0"
+
+stories:
+
+- story: tommy_affirm_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: addictive_tommy
+    entities:
+    - addiction: I can’t stop playing video games
+  - action: self_control_tommy_form
+  - active_loop: self_control_tommy_form
+  - active_loop: null
+  - action: action_self_control_tommy
+  - intent: affirm
+  - action: utter_video_games_tommy
+  - action: do_before_tommy_form
+  - active_loop: do_before_tommy_form
+  - active_loop: null
+  - action: action_do_before_tommy
+  - action: if_going_back_tommy_form
+  - active_loop: if_going_back_tommy_form
+  - active_loop: null
+  - action: action_if_going_back_tommy
+  - action: feel_doing_again_tommy_form
+  - active_loop: feel_doing_again_tommy_form
+  - active_loop: null
+  - action: action_feel_doing_again_tommy
+  - action: occupy_mind_tommy_form
+  - active_loop: occupy_mind_tommy_form
+  - active_loop: null
+  - action: action_occupy_mind_tommy
+  - action: utter_if_wantsto_chat_lucky
+  - intent: affirm
+  - action: utter_conversation_lucky
+
+
+- story: tommy_affirm_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: addictive_tommy
+    entities:
+    - addiction: I can’t stop playing video games
+  - action: self_control_tommy_form
+  - active_loop: self_control_tommy_form
+  - active_loop: null
+  - action: action_self_control_tommy
+  - intent: affirm
+  - action: utter_video_games_tommy
+  - action: do_before_tommy_form
+  - active_loop: do_before_tommy_form
+  - active_loop: null
+  - action: action_do_before_tommy
+  - action: if_going_back_tommy_form
+  - active_loop: if_going_back_tommy_form
+  - active_loop: null
+  - action: action_if_going_back_tommy
+  - action: feel_doing_again_tommy_form
+  - active_loop: feel_doing_again_tommy_form
+  - active_loop: null
+  - action: action_feel_doing_again_tommy
+  - action: occupy_mind_tommy_form
+  - active_loop: occupy_mind_tommy_form
+  - active_loop: null
+  - action: action_occupy_mind_tommy
+  - action: utter_if_wantsto_chat_lucky
+  - intent: deny
+  - action: utter_goodbye
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_feedback
+
+- story: tommy_deny_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: addictive_tommy
+    entities:
+    - addiction: I can’t stop playing video games
+  - action: self_control_tommy_form
+  - active_loop: self_control_tommy_form
+  - active_loop: null
+  - action: action_self_control_tommy
+  - intent: deny
+  - action: joy_tommy_form
+  - active_loop: joy_tommy_form
+  - active_loop: null
+  - action: action_joy_tommy
+  - action: missing_out_tommy_form
+  - active_loop: missing_out_tommy_form
+  - active_loop: null
+  - action: action_missing_out_tommy
+  - action: utter_few_things_tommy
+  - action: utter_grandpa_tommy
+  - action: occupy_mind_tommy_form
+  - active_loop: occupy_mind_tommy_form
+  - active_loop: null
+  - action: action_occupy_mind_tommy
+  - action: utter_if_wantsto_chat_lucky
+  - intent: affirm
+  - action: utter_conversation_lucky
+
+- story: tommy_deny_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: addictive_tommy
+    entities:
+    - addiction: I can’t stop playing video games
+  - action: self_control_tommy_form
+  - active_loop: self_control_tommy_form
+  - active_loop: null
+  - action: action_self_control_tommy
+  - intent: deny
+  - action: joy_tommy_form
+  - active_loop: joy_tommy_form
+  - active_loop: null
+  - action: action_joy_tommy
+  - action: missing_out_tommy_form
+  - active_loop: missing_out_tommy_form
+  - active_loop: null
+  - action: action_missing_out_tommy
+  - action: utter_few_things_tommy
+  - action: utter_grandpa_tommy
+  - action: occupy_mind_tommy_form
+  - active_loop: occupy_mind_tommy_form
+  - active_loop: null
+  - action: action_occupy_mind_tommy
+  - action: utter_if_wantsto_chat_lucky
+  - intent: deny
+  - action: utter_goodbye
+  - action: feedback_form
+  - active_loop: feedback_form
+  - active_loop: null
+  - action: action_feedback
+

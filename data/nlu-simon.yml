@@ -5,7 +5,9 @@ nlu:
     - I [am sad](sad)
     - [very bad](sad)
     - [bad](sad)
-    - kinda sad
+    - kinda [sad](sad)
+    - im [sad](sad)
+    - [sad](sad) today
     - [I’m sad](sad)
     - [im sad](sad)
     - [upset](sad)
