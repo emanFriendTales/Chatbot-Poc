@@ -2698,6 +2698,7 @@ actions:
 - action_joy_tommy
 - action_missing_out_tommy
 - action_occupy_mind_tommy
+- action_chat_gpt
 
 
 session_config:
